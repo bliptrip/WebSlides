@@ -242,14 +242,34 @@
 
   /* =========================================================== AUDIENCE MODE */
 
+  // WebSlides' Zoom plugin clones the entire deck into #webslides-zoomed at
+  // construction time to build its grid overview ("-" key). The clone carries
+  // copies of every <aside class="notes">, so hiding notes only under
+  // #webslides would put your speaker notes on the projector the moment anyone
+  // opens the overview. Both roots, everywhere notes are hidden.
+  var HIDE_NOTES_CSS =
+    '#webslides aside.notes, #webslides .notes,' +
+    '#webslides-zoomed aside.notes, #webslides-zoomed .notes' +
+    ' { display: none !important; }';
+
   function initAudience(ws) {
     var st = document.createElement('style');
     st.textContent =
-      '#webslides aside.notes, #webslides .notes { display: none !important; }' +
+      HIDE_NOTES_CSS +
       '#ws-blackout { position: fixed; inset: 0; background: #000; z-index: 2147483000;' +
       '  display: none; }' +
       '#ws-blackout.on { display: block; }';
     document.head.appendChild(st);
+
+    // The same clone duplicates the background <video> elements, keeping their
+    // autoplay attribute (the Video plugin only disarms the ones in the live
+    // deck). Left alone, opening the overview starts every video at once.
+    var zoomVideos = document.querySelectorAll('#webslides-zoomed video');
+    Array.prototype.forEach.call(zoomVideos, function (v) {
+      v.removeAttribute('autoplay');
+      v.muted = true;
+      try { v.pause(); } catch (e) {}
+    });
 
     var black = document.createElement('div');
     black.id = 'ws-blackout';
@@ -320,8 +340,9 @@
   function initMirror(ws) {
     var st = document.createElement('style');
     st.textContent =
-      '#webslides aside.notes, #webslides .notes { display: none !important; }' +
+      HIDE_NOTES_CSS +
       '#navigation, .navigation, #counter, .counter { display: none !important; }' +
+      '#webslides-zoomed { display: none !important; }' +   // no grid in a thumbnail
       'html, body { overflow: hidden !important; cursor: none; }' +
       // No transitions in the thumbnail. WebSlides only clears its `isMoving`
       // flag from the transition/animation callback, and goToSlide silently
