@@ -18,3 +18,16 @@ coverage
 ehthumbs.db
 Thumbs.db
 webslides.zip
+
+# Deck content when this checkout is used to build a presentation.
+# The seminar media alone is ~820 MB, far past GitHub's limits, and none of it
+# belongs in the library. Remove these lines if you are working on WebSlides
+# itself rather than on a deck.
+presentation/
+static/images/
+static/videos/
+static/configs/
+Scripts/
+README-GGRU.md
+presenter.v*.js
+presenter.build*.js
