@@ -689,11 +689,22 @@ https://github.com/daneden/animate.css */
         .fullscreen > .embed > video {
           left: -100%;
           width: 300%; } }
+      @supports ((-o-object-fit: contain) or (object-fit: contain)) {
+        .fullscreen > .embed .contain > iframe,
+        .fullscreen > .embed .contain > object,
+        .fullscreen > .embed .contain > embed,
+        .fullscreen > .embed .contain > video {
+          height: 100%;
+          left: 0;
+          -o-object-fit: contain;
+             object-fit: contain;
+          top: 0;
+          width: 100%; } }
       @supports ((-o-object-fit: cover) or (object-fit: cover)) {
-        .fullscreen > .embed > iframe,
-        .fullscreen > .embed > object,
-        .fullscreen > .embed > embed,
-        .fullscreen > .embed > video {
+        .fullscreen > .embed .cover > iframe,
+        .fullscreen > .embed .cover > object,
+        .fullscreen > .embed .cover > embed,
+        .fullscreen > .embed .cover > video {
           height: 100%;
           left: 0;
           -o-object-fit: cover;
@@ -741,6 +752,11 @@ Auto-fill & Equal height === */
       flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto; }
+
+.grid-m0 {
+  margin-left: 0;
+  margin-right: 0; }
+
   .grid:after {
     clear: both; }
   .grid:before {
@@ -1123,6 +1139,30 @@ h1 span {
   text-transform: uppercase;
   width: 12.8rem; }
 
+.text-label-wide {
+  display: inline-block;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 20.0rem; }
+
+.text-label-wide-wide {
+  display: inline-block;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 25.0rem; }
+
+.text-label-twide {
+  display: inline-block;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 30.0rem; }
+
+.text-label-qwide {
+  display: inline-block;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 40.0rem; }
+
 /* -- Magazine Two Columns -- */
 @media (min-width: 768px) {
   .text-cols {
@@ -1285,7 +1325,7 @@ footer,
 
 header p,
 footer p {
-  line-height: 4.8rem;
+  line-height: 1.2rem;
   margin-bottom: 0; }
 
 header[role='banner'] img,
@@ -1424,6 +1464,8 @@ section * {
 
 section .background,
 section .light,
+section .llight,
+section .ddark,
 section .dark {
   -webkit-animation-duration: 0s;
           animation-duration: 0s; }
@@ -1506,9 +1548,13 @@ form[class*='bg-'] {
       display: table; }
     [class*='content-']:after {
       clear: both; }
+  .content-left-wide {
+    float: left; }
   .content-left {
     float: left; }
   .content-right {
+    float: right; }
+  .content-right-wide {
     float: right; }
   [class*='content-'] + [class*='content-'] {
     margin-bottom: 4.8rem;
@@ -1528,6 +1574,12 @@ form[class*='bg-'] {
   top: 0; }
 
 /*=== BG Positions === */
+.background-contain {
+  background-position: right;
+  background-size: contain;
+  /*fullscreen video
+    <video class="background-video">
+  */ }
 .background {
   background-position: center;
   background-size: cover;
@@ -1567,13 +1619,25 @@ form[class*='bg-'] {
 
 /*=== bg image/video overlay === */
 /*-- [class*="bg-"] .background.dark, [class*="bg-"] .embed.dark...  -- */
+[class*='bg-'] .llight,
+[class*='bg-'] .llight {
+  opacity: .8; }
+
 [class*='bg-'] .light,
 [class*='bg-'] .light {
   opacity: .8; }
 
+[class*='bg-'] .hdark,
+[class*='bg-'] .hdark {
+  opacity: .3; }
+
 [class*='bg-'] .dark,
 [class*='bg-'] .dark {
   opacity: .2; }
+
+[class*='bg-'] .ddark,
+[class*='bg-'] .ddark {
+  opacity: .1; }
 
 [class*='bg-'] .background-video.dark {
   opacity: .5; }
@@ -1746,6 +1810,10 @@ footer .column h3 {
 .content-right .flexblock.features li,
 .content-left .flexblock.features li {
   width: 46%; }
+
+.content-right-wide li,
+.content-left-wide li {
+  width: 70%; }
 
 /*====================================================================
 6.1 Features <ul class="flexblock features">
@@ -2453,8 +2521,8 @@ CV / News
   .fullscreen [class*='card-'] figure iframe {
     height: 100%;
     left: 0;
-    -o-object-fit: cover;
-       object-fit: cover;
+    -o-object-fit: contain;
+       object-fit: contain;
     position: absolute;
     top: 0;
     width: 100%;
@@ -2486,10 +2554,18 @@ CV / News
   .card-50 blockquote,
   .card-50 .flex-content {
     width: 50%; }
+  .card-80 .flex-content,
+  .card-80 blockquote {
+    width: 20%; }
+  .card-20 figure {
+    width: 20%;
   .card-30 figure,
   .card-70 .flex-content,
   .card-70 blockquote {
     width: 30%; }
+  .card-75 .flex-content,
+  .card-75 blockquote {
+    width: 25%; }
   .card-40 figure,
   .card-60 .flex-content,
   .card-60 blockquote {
@@ -2502,6 +2578,10 @@ CV / News
   .card-30 .flex-content,
   .card-30 blockquote {
     width: 70%; }
+  .card-80 figure,
+  .card-20 .flex-content,
+  .card-20 blockquote {
+    width: 80%; }
   [class*='card']:nth-child(odd) figure {
     -webkit-box-ordinal-group: 1;
         -ms-flex-order: 0;
@@ -3789,3 +3869,4 @@ Slides Index
 
 .text-slide-number {
   color: #abc; }
+
