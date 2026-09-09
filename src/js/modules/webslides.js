@@ -13,6 +13,7 @@ const CLASSES = {
 const PLUGINS = {
   'autoslide': Plugins.AutoSlide,
   'clickNav': Plugins.ClickNav,
+  'dummy': Plugins.Dummy,
   'grid': Plugins.Grid,
   'hash': Plugins.Hash,
   'keyboard': Plugins.Keyboard,
