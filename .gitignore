@@ -19,15 +19,14 @@ ehthumbs.db
 Thumbs.db
 webslides.zip
 
-# Deck content when this checkout is used to build a presentation.
-# The seminar media alone is ~820 MB, far past GitHub's limits, and none of it
-# belongs in the library. Remove these lines if you are working on WebSlides
-# itself rather than on a deck.
-presentation/
+# Deck media. The seminar's images and videos come to ~826 MB, which does not
+# belong in a git repository -- clones would carry it forever and GitHub warns
+# above 50 MB per file (two of the videos are 66 MB and 49 MB). The deck sources
+# ARE tracked on this branch; the media lives alongside them on disk. Use Git LFS
+# if these ever need to travel with the repo.
 static/images/
 static/videos/
-static/configs/
-Scripts/
-README-GGRU.md
+
+# Staging copies of presenter.js from an editing session.
 presenter.v*.js
 presenter.build*.js
