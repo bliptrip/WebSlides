@@ -355,7 +355,158 @@
     send(state());
     window.wsPresenterOpen = openPresenter;
 
+    pinDeckScroll(ws);
     buildNav(ws);
+  }
+
+  /* ===================================================== DECK SCROLL / ZOOM STATE
+     Two WebSlides bugs that show up as "the slide is shifted up off the top of
+     the screen", "the last slide is blank white", and "it acts like it is still
+     in the grid".
+
+     1. #webslides is its own scroll container (`height:100vh; overflow-y:scroll`
+        in webslides.css) and several slides are taller than the viewport. A
+        wheel or trackpad scroll over one of those scrolls the deck internally —
+        and nothing ever resets it. WebSlides' transitionToSlide_ calls
+        scrollTo(0,0) on the *window*, not on the deck element, so the offset
+        survives every subsequent slide change and every later slide renders
+        shifted up by it. On a trackpad this is easy to trigger without meaning
+        to: scroll the grid to find a slide, click it, and macOS momentum
+        scrolling carries straight into the deck as the grid closes — which is
+        why it looks like a grid bug and why a bigger jump means a bigger offset.
+
+     2. The Zoom plugin tears down over a 400 ms timer. Interrupt it and the deck
+        can be left with .disabled (position:fixed, z-index:0 — the blank
+        screen) or <html> can keep .ws-ready-zoom while the grid is parked
+        off-screen.                                                            */
+
+  function pinDeckScroll(ws) {
+    var deck = ws.el;
+    var pinUntil = 0;
+
+    function inGrid() {
+      return document.documentElement.classList.contains('ws-ready-zoom');
+    }
+    // "in" alone is not proof: an interrupted teardown can leave the grid
+    // marked .in while it is parked off-screen by .disabled.
+    function gridShown() {
+      var z = document.getElementById('webslides-zoomed');
+      return !!z && z.classList.contains('in') && !z.classList.contains('disabled') &&
+        document.documentElement.classList.contains('ws-ready-zoom');
+    }
+
+    function snap() {
+      if (inGrid()) return;
+      // A slide taller than the viewport may legitimately be scrolled by hand,
+      // so only force it back during the settle window after a slide change or
+      // a grid close — that is where stray momentum lands.
+      var fits = deck.scrollHeight <= deck.clientHeight + 4;
+      if (deck.scrollTop !== 0 && (fits || Date.now() < pinUntil)) deck.scrollTop = 0;
+      if (window.scrollY !== 0) window.scrollTo(0, 0);
+    }
+
+    // Leftover zoom state: only ever "corrected" towards not-zoomed, and only
+    // when the grid is demonstrably not on screen, so this can't fight a real
+    // grid session.
+    function sanityCheckZoom() {
+      if (gridShown()) return;
+      var html = document.documentElement;
+      var zoomEl = document.getElementById('webslides-zoomed');
+      var fixed = false;
+      if (html.classList.contains('ws-ready-zoom')) { html.classList.remove('ws-ready-zoom'); fixed = true; }
+      if (deck.classList.contains('disabled')) { deck.classList.remove('disabled'); fixed = true; }
+      if (zoomEl && !zoomEl.classList.contains('disabled')) { zoomEl.classList.add('disabled'); fixed = true; }
+      if (zoomEl && zoomEl.classList.contains('in')) { zoomEl.classList.remove('in'); fixed = true; }
+      var zp = ws.plugins && ws.plugins.zoom;
+      if (zp && zp.isZoomed_) { zp.isZoomed_ = false; fixed = true; }
+      if (fixed) { deck.scrollTop = 0; window.scrollTo(0, 0); }
+      return fixed;
+    }
+
+    /* The teardown race, fixed at source.
+       Zoom.zoomIn() disables the deck on a 50 ms timer; Zoom.zoomOut() restores
+       everything on a 400 ms one. Toggle the grid twice inside that window and
+       the timers interleave: the older zoomOut's cleanup lands after the newer
+       zoomIn has started, then zoomIn's own timer re-disables the deck. What is
+       left is the deck .disabled (fixed, z-index 0) with the grid parked
+       off-screen but still flagged .in — a blank screen that still behaves as
+       though the grid were open.
+       Making the teardown synchronous removes the interleave entirely. The only
+       thing lost is a 400 ms fade nobody watches. */
+    (function patchZoomTeardown() {
+      var zp = ws.plugins && ws.plugins.zoom;
+      var zoomEl = document.getElementById('webslides-zoomed');
+      if (!zp || !zoomEl || typeof zp.zoomOut !== 'function') return;
+
+      var origIn = zp.zoomIn;
+
+      zp.zoomOut = function () {
+        zoomEl.classList.remove('in');
+        zoomEl.classList.add('disabled');
+        deck.classList.remove('disabled');
+        document.documentElement.classList.remove('ws-ready-zoom');
+        zp.isZoomed_ = false;
+        deck.scrollTop = 0;
+        window.scrollTo(0, 0);
+        pinUntil = Date.now() + 900;
+      };
+
+      zp.zoomIn = function () {
+        // Always open from a known-clean state.
+        if (!gridShown()) {
+          zoomEl.classList.remove('in');
+          zoomEl.classList.add('disabled');
+          deck.classList.remove('disabled');
+          document.documentElement.classList.remove('ws-ready-zoom');
+          zp.isZoomed_ = false;
+        }
+        return origIn.apply(zp, arguments);
+      };
+    })();
+
+    deck.addEventListener('scroll', snap, { passive: true });
+    window.addEventListener('scroll', snap, { passive: true });
+
+    ws.el.addEventListener('ws:slide-change', function () {
+      deck.scrollTop = 0;
+      if (!inGrid()) window.scrollTo(0, 0);
+      pinUntil = Date.now() + 900;      // absorb trackpad momentum
+      sanityCheckZoom();
+    });
+
+    // The grid's teardown runs on a 400 ms timer; check once it has had its go.
+    function afterGridSettle() {
+      pinUntil = Date.now() + 900;
+      setTimeout(function () { sanityCheckZoom(); snap(); }, 550);
+      setTimeout(function () { sanityCheckZoom(); snap(); }, 1000);
+    }
+    document.addEventListener('keydown', function (e) {
+      if (e.key === '-' || e.key === '+' || e.key === '=' || e.key === 'Escape') afterGridSettle();
+    }, true);
+    var zoomEl = document.getElementById('webslides-zoomed');
+    if (zoomEl) zoomEl.addEventListener('click', afterGridSettle, true);
+
+    // Slides taller than the viewport have content the room simply cannot see.
+    // Worth knowing before the talk, so make it one call away.
+    window.wsOverflowingSlides = function () {
+      var out = [];
+      var cur = deck.querySelector('section.current');
+      // Measure hidden slides the way the live one is laid out, not as blocks.
+      var display = cur ? getComputedStyle(cur).display : 'flex';
+      for (var i = 0; i < ws.slides.length; i++) {
+        var el = ws.slides[i].el;
+        var isCur = el === cur;
+        var was = el.style.display;
+        if (!isCur) el.style.display = display;
+        var h = el.scrollHeight;
+        if (!isCur) el.style.display = was;
+        if (h > deck.clientHeight + 4) {
+          out.push({ slide: i + 1, title: titleFor(i), contentHeight: h,
+                     viewport: deck.clientHeight, cutOff: h - deck.clientHeight });
+        }
+      }
+      return out;
+    };
   }
 
   /* ================================================== IN-DECK NAV + HEADER TOC
