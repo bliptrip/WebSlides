@@ -322,13 +322,31 @@
     st.textContent =
       '#webslides aside.notes, #webslides .notes { display: none !important; }' +
       '#navigation, .navigation, #counter, .counter { display: none !important; }' +
-      'html, body { overflow: hidden !important; cursor: none; }';
+      'html, body { overflow: hidden !important; cursor: none; }' +
+      // No transitions in the thumbnail. WebSlides only clears its `isMoving`
+      // flag from the transition/animation callback, and goToSlide silently
+      // no-ops while that flag is set — so a transition that never completes
+      // in this scaled-down, often-unfocused iframe would freeze the preview
+      // on whatever slide it was showing. Nothing here is watched closely
+      // enough to want animation anyway.
+      '#webslides, #webslides * { transition: none !important; animation: none !important; }';
     document.head.appendChild(st);
 
+    function goTo(i) {
+      i = Math.max(0, Math.min(ws.slides.length - 1, i | 0));
+      ws.isMoving = false;          // never let a stalled transition wedge us
+      ws.goToSlide(i);
+      return ws.currentSlideI_;
+    }
+
+    // Same-origin fast path: the presenter calls this directly, so the preview
+    // does not depend on message delivery at all.
+    window.wsPreviewGoTo = goTo;
+    window.wsPreviewAt = function () { return ws.currentSlideI_; };
+
+    // Cross-origin / file:// fallback.
     receive(function (msg) {
-      if (msg.type === 'preview') {
-        ws.goToSlide(Math.max(0, Math.min(ws.slides.length - 1, msg.i)));
-      }
+      if (msg.type === 'preview') goTo(msg.i);
     });
     send({ type: 'mirror-ready' });
   }
@@ -409,6 +427,8 @@
     '  font-size: 15px; line-height: 1.5; }',
     '#wsp-newsect { margin: 10px 0 0; font-size: 13px; font-weight: 700; color: #8fb8ff; }',
     '#wsp-newsect.hidden { display: none; }',
+    '#wsp-prevnote { margin: 8px 0 0; font-size: 12px; font-weight: 700; color: #ff9c9c; }',
+    '#wsp-prevnote.hidden { display: none; }',
     '#wsp-nextnotes { padding: 8px 18px 18px; overflow-y: auto; min-height: 0;',
     '  font-size: 15px; line-height: 1.55; color: #98a3ba; }',
     '#wsp-nextnotes p { margin: 0 0 .7em; }',
@@ -473,6 +493,7 @@
             '<p class="lbl">Next slide &mdash; <span id="wsp-nexttitle"></span></p>' +
             '<div id="wsp-stage"><div class="fallback">loading preview&hellip;</div></div>' +
             '<p id="wsp-newsect" class="hidden"></p>' +
+            '<p id="wsp-prevnote" class="hidden"></p>' +
           '</div>' +
           '<div id="wsp-nextnotes"></div>' +
         '</div>' +
@@ -541,9 +562,59 @@
       }, 6000);
     })();
 
+    /* Drive the preview, then confirm it actually landed and retry if not.
+       The mirror can miss a request while it is still booting, and a message
+       is not an acknowledgement, so this verifies rather than assumes. */
+    var previewWant = -1, previewTries = 0, previewTimer = null;
+
+    function mirrorAt() {
+      try {
+        var w = mirror && mirror.contentWindow;
+        return (w && w.wsPreviewAt) ? w.wsPreviewAt() : null;   // null = can't tell
+      } catch (e) { return null; }                              // cross-origin
+    }
+
     function pushPreview(i) {
-      if (!mirror || !mirror.contentWindow) return;
-      send({ type: 'preview', i: i }, mirror.contentWindow);
+      if (!mirror) return;
+      previewWant = i;
+      previewTries = 0;
+      clearTimeout(previewTimer);
+      attemptPreview();
+    }
+
+    function attemptPreview() {
+      var w = mirror && mirror.contentWindow;
+      if (!w) return;
+      var landed = false;
+      try {
+        if (w.wsPreviewGoTo) { w.wsPreviewGoTo(previewWant); landed = true; }
+      } catch (e) { /* cross-origin (file://) — fall through to postMessage */ }
+      if (!landed) send({ type: 'preview', i: previewWant }, w);
+
+      // Verify shortly after; back off a few times before giving up.
+      previewTries++;
+      clearTimeout(previewTimer);
+      if (previewTries <= 6) {
+        previewTimer = setTimeout(function () {
+          var at = mirrorAt();
+          if (at === null) { setPreviewNote(''); return; }   // can't verify; assume fine
+          if (at === previewWant) { setPreviewNote(''); return; }
+          attemptPreview();
+        }, 120 * previewTries);
+      } else {
+        var at2 = mirrorAt();
+        if (at2 !== null && at2 !== previewWant) {
+          setPreviewNote('preview stuck on slide ' + (at2 + 1) +
+                         ' (wanted ' + (previewWant + 1) + ')');
+        }
+      }
+    }
+
+    function setPreviewNote(text) {
+      var el = document.getElementById('wsp-prevnote');
+      if (!el) return;
+      el.textContent = text;
+      el.classList.toggle('hidden', !text);
     }
 
     /* ---- planned budget per slide ------------------------------------------
