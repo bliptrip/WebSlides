@@ -143,7 +143,25 @@
     })();
   }
 
+  /**
+   * The slides, in slide order.
+   *
+   * NOT the same as DOM order: WebSlides physically moves elements around
+   * inside #webslides as you navigate (transitionToSlide_ calls
+   * moveAfterLast() on the slide you are leaving and moveBeforeFirst() on the
+   * one you are entering). So reading deck.children gives an order that drifts
+   * the moment anyone changes slide, and anything indexed off it — notes,
+   * titles, budgets, section boundaries — silently points at the wrong slide.
+   *
+   * ws.slides is built once at init and keeps each Slide's true index, so use
+   * that whenever it exists. The DOM fallback is only for the flattening pass,
+   * which runs before WebSlides is constructed and therefore before any
+   * reordering can have happened.
+   */
   function sections() {
+    if (window.ws && window.ws.slides && window.ws.slides.length) {
+      return window.ws.slides.map(function (s) { return s.el; });
+    }
     var deck = document.getElementById('webslides');
     return deck ? Array.prototype.slice.call(deck.children).filter(function (el) {
       return el.tagName === 'SECTION';
@@ -167,10 +185,15 @@
       var t = hs[k].textContent.trim().replace(/\s+/g, ' ');
       if (t) return t.slice(0, 90);
     }
+    // Build steps and full-bleed image slides often carry no heading at all.
+    // This deck names nearly every slide, so fall back to that — "ch3-
+    // regression-cv-title" tells you far more in a jump list than "(no heading)".
+    var named = s.getAttribute('slide_name');
+    if (named) return named;
     var alt = s.querySelector('img[alt]');
     if (alt && alt.getAttribute('alt')) return '🖼 ' + alt.getAttribute('alt').slice(0, 80);
     if (s.querySelector('video')) return '▶ video slide';
-    return '(no heading)';
+    return '(untitled)';
   }
 
   function minutesFor(i) {
@@ -331,6 +354,179 @@
 
     send(state());
     window.wsPresenterOpen = openPresenter;
+
+    buildNav(ws);
+  }
+
+  /* ================================================== IN-DECK NAV + HEADER TOC
+     Replaces the d3 block that shipped with this deck (which never worked —
+     d3 was referenced but never loaded, so it threw on every page load).
+
+     Three link forms, all resolved to real slide indices at load:
+       <a class="slide-name" slide_name="ch3-title">   the deck's own convention
+       <a data-slide-to="24">                          by number
+       <a data-section-to="Ch. III">                   first slide of a section
+
+     Put them on an agenda slide and it becomes a clickable table of contents.  */
+
+  function buildNav(ws) {
+    var els = sections();
+    var SEC = buildSections();
+
+    var byName = {}, dupes = [];
+    els.forEach(function (s, i) {
+      var n = s.getAttribute('slide_name');
+      if (!n) return;
+      if (byName[n] === undefined) byName[n] = i; else dupes.push(n);
+    });
+    if (dupes.length) {
+      console.warn('[presenter.js] duplicate slide_name values (first wins): ' +
+        dupes.filter(function (v, i, a) { return a.indexOf(v) === i; }).join(', '));
+    }
+
+    function sectionStart(query) {
+      var q = String(query).toLowerCase();
+      for (var k = 0; k < SEC.runs.length; k++) {
+        if (SEC.runs[k].name.toLowerCase().indexOf(q) !== -1) return SEC.runs[k].start;
+      }
+      return -1;
+    }
+
+    function wire(a, index) {
+      if (index < 0 || index >= els.length) {
+        a.classList.add('ws-nav-unresolved');
+        return false;
+      }
+      a.setAttribute('href', '#slide=' + (index + 1));   // real link: copyable, focusable
+      a.addEventListener('click', function (e) {
+        e.preventDefault();
+        ws.goToSlide(index);
+      });
+      return true;
+    }
+
+    var unresolved = [];
+    Array.prototype.forEach.call(document.querySelectorAll('a.slide-name[slide_name]'), function (a) {
+      var n = a.getAttribute('slide_name');
+      if (!wire(a, byName[n] === undefined ? -1 : byName[n])) unresolved.push('slide_name=' + n);
+    });
+    Array.prototype.forEach.call(document.querySelectorAll('a[data-slide-to]'), function (a) {
+      if (!wire(a, parseInt(a.getAttribute('data-slide-to'), 10) - 1)) {
+        unresolved.push('data-slide-to=' + a.getAttribute('data-slide-to'));
+      }
+    });
+    Array.prototype.forEach.call(document.querySelectorAll('a[data-section-to]'), function (a) {
+      if (!wire(a, sectionStart(a.getAttribute('data-section-to')))) {
+        unresolved.push('data-section-to=' + a.getAttribute('data-section-to'));
+      }
+    });
+    if (unresolved.length) {
+      console.warn('[presenter.js] nav links that match no slide: ' + unresolved.join(', '));
+    }
+
+    buildHeader(ws, SEC, byName);
+  }
+
+  /**
+   * A header bar listing the deck's sections. Hidden by default — it slides in
+   * when the pointer nears the top of the screen, so it is there when you want
+   * it and off the projector when you don't.
+   * WS_PRESENTER.header: 'auto' (default) | 'always' | 'off'.
+   */
+  function buildHeader(ws, SEC, byName) {
+    var mode = CFG.header || 'auto';
+    if (mode === 'off') return;
+    if (!SEC.runs.length && byName.toc === undefined) return;   // nothing to list
+
+    var st = document.createElement('style');
+    st.textContent = [
+      // webslides.css ships `header[role=banner] { opacity: 0 }` (its own
+      // reveal-on-hover header). Ours is shown and hidden by transform, so the
+      // opacity has to be taken back or the bar is present, hoverable and
+      // completely invisible. Same for its padding and white background.
+      '#ws-toc { position: fixed; top: 0; left: 0; right: 0; z-index: 900;',
+      '  opacity: 1; margin: 0; padding: 0; min-height: 0;',
+      '  background: rgba(16,19,26,.94); border-bottom: 1px solid rgba(255,255,255,.12);',
+      '  font: 13px/1 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;',
+      '  transform: translateY(-102%); transition: transform .18s ease;',
+      '  -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); }',
+      '#ws-toc.on { transform: translateY(0); }',
+      '#ws-toc ul { display: flex; flex-wrap: wrap; align-items: center; gap: 2px;',
+      '  margin: 0; padding: 7px 14px; list-style: none; }',
+      '#ws-toc li { margin: 0; }',
+      '#ws-toc a { display: block; padding: 7px 13px; border-radius: 6px; text-decoration: none;',
+      '  color: #c3ccdd; white-space: nowrap; font-size: 13px; line-height: 1; }',
+      '#ws-toc a:hover { background: rgba(255,255,255,.10); color: #fff; }',
+      '#ws-toc a.here { background: rgba(91,141,239,.28); color: #fff; font-weight: 600; }',
+      '#ws-toc .ws-toc-home { color: #8f9bb3; font-size: 15px; }',
+      '#ws-toc .ws-toc-hint { margin-left: auto; color: #6f7b95; font-size: 11px;',
+      '  padding-right: 6px; }',
+      '#ws-toc-edge { position: fixed; top: 0; left: 0; right: 0; height: 8px; z-index: 899; }'
+    ].join('\n');
+    document.head.appendChild(st);
+
+    var header = document.createElement('header');
+    header.id = 'ws-toc';
+    header.setAttribute('role', 'banner');
+    var ul = document.createElement('ul');
+    header.appendChild(ul);
+
+    function add(label, index, cls) {
+      var li = document.createElement('li');
+      var a = document.createElement('a');
+      a.textContent = label;
+      if (cls) a.className = cls;
+      a.href = '#slide=' + (index + 1);
+      a.setAttribute('data-slide-index', index);
+      a.addEventListener('click', function (e) { e.preventDefault(); ws.goToSlide(index); });
+      li.appendChild(a);
+      ul.appendChild(li);
+      return a;
+    }
+
+    // The original header icon pointed at slide_name="toc". Use that slide if
+    // the deck has one, otherwise send it to the top.
+    add('⌂', byName.toc !== undefined ? byName.toc : 0, 'ws-toc-home');
+    SEC.runs.forEach(function (r) { add(r.name, r.start); });
+
+    var hint = document.createElement('span');
+    hint.className = 'ws-toc-hint';
+    hint.textContent = 'h to pin  ·  - for the slide grid';
+    ul.appendChild(hint);
+
+    document.body.insertBefore(header, document.body.firstChild);
+
+    // Highlight whichever section you are in.
+    function mark() {
+      var run = buildSections().of[ws.currentSlideI_];
+      Array.prototype.forEach.call(ul.querySelectorAll('a'), function (a) {
+        var idx = parseInt(a.getAttribute('data-slide-index'), 10);
+        a.classList.toggle('here', !!run && idx === run.start && !a.classList.contains('ws-toc-home'));
+      });
+    }
+    ws.el.addEventListener('ws:slide-change', mark);
+    mark();
+
+    if (mode === 'always') { header.classList.add('on'); return; }
+
+    var pinned = false;
+    function show() { header.classList.add('on'); }
+    function hide() { if (!pinned) header.classList.remove('on'); }
+
+    document.addEventListener('mousemove', function (e) {
+      if (e.clientY <= 6) show();
+      else if (e.clientY > header.offsetHeight + 40) hide();
+    });
+    header.addEventListener('mouseleave', hide);
+
+    document.addEventListener('keydown', function (e) {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      if (e.key === 'h' || e.key === 'H') {
+        e.preventDefault(); e.stopImmediatePropagation();
+        pinned = !pinned;
+        header.classList.toggle('on', pinned);
+      }
+    }, true);
   }
 
   /* ============================================================= MIRROR MODE
@@ -461,7 +657,40 @@
     '.wsp-jumpbox { position: fixed; left: 50%; top: 50%; transform: translate(-50%,-50%);',
     '  background: #1b1f29; border: 1px solid #3a4356; border-radius: 10px; padding: 18px 26px;',
     '  font-size: 34px; font-weight: 700; letter-spacing: 2px; color: #fff; display: none; }',
-    '.wsp-jumpbox.on { display: block; }'
+    '.wsp-jumpbox.on { display: block; }',
+
+    /* ---- outline / jump list ---- */
+    '#wsp-outline { position: fixed; inset: 0; background: rgba(11,13,18,.97); z-index: 50;',
+    '  display: none; grid-template-rows: auto 1fr auto; }',
+    '#wsp-outline.on { display: grid; }',
+    '#wsp-ol-head { padding: 18px 26px 12px; border-bottom: 1px solid #2b3140; }',
+    '#wsp-ol-search { width: 100%; box-sizing: border-box; background: #161a23; color: #fff;',
+    '  border: 1px solid #3a4356; border-radius: 8px; padding: 12px 16px; font-size: 20px;',
+    '  font-family: inherit; outline: none; }',
+    '#wsp-ol-search:focus { border-color: #5b8def; }',
+    '#wsp-ol-search::placeholder { color: #5c6884; }',
+    '#wsp-ol-list { overflow-y: auto; padding: 8px 0 16px; }',
+    '.wsp-ol-sect { position: sticky; top: 0; background: #0b0d12; padding: 14px 26px 6px;',
+    '  font-size: 11px; letter-spacing: .16em; text-transform: uppercase; font-weight: 700;',
+    '  color: #7d89a3; display: flex; gap: 10px; align-items: baseline; }',
+    '.wsp-ol-sect b { color: #cbd5e8; font-size: 13px; letter-spacing: .04em;',
+    '  text-transform: none; }',
+    '.wsp-ol-row { display: flex; gap: 14px; align-items: baseline; padding: 7px 26px;',
+    '  cursor: pointer; border-left: 3px solid transparent; }',
+    '.wsp-ol-row .n { color: #6f7b95; font-variant-numeric: tabular-nums; min-width: 30px;',
+    '  text-align: right; font-size: 14px; }',
+    '.wsp-ol-row .t { color: #d7deeb; font-size: 17px; flex: 1; overflow: hidden;',
+    '  text-overflow: ellipsis; white-space: nowrap; }',
+    '.wsp-ol-row .b { color: #6f7b95; font-size: 12px; font-variant-numeric: tabular-nums; }',
+    '.wsp-ol-row.sel { background: #1d2534; border-left-color: #5b8def; }',
+    '.wsp-ol-row.sel .t { color: #fff; }',
+    '.wsp-ol-row.here .n { color: #86e0a8; font-weight: 700; }',
+    '.wsp-ol-row.here .t { color: #86e0a8; }',
+    '.wsp-ol-row .dot { color: #4d5872; font-size: 11px; }',
+    '#wsp-ol-foot { padding: 10px 26px; border-top: 1px solid #2b3140; font-size: 12px;',
+    '  color: #6f7b95; display: flex; gap: 18px; }',
+    '#wsp-ol-foot b { color: #aab5cc; }',
+    '#wsp-ol-empty { padding: 40px 26px; color: #5c6884; font-style: italic; }'
   ].join('\n');
 
   function initPresenter(ws) {
@@ -527,8 +756,22 @@
         '<span><b>s</b> reset this slide</span>' +
         '<span><b>b</b> black screen</span>' +
         '<span><b>0-9 &crarr;</b> jump</span>' +
+        '<span><b>o</b> outline</span>' +
       '</div>' +
-      '<div class="wsp-jumpbox"></div>';
+      '<div class="wsp-jumpbox"></div>' +
+      '<div id="wsp-outline">' +
+        '<div id="wsp-ol-head">' +
+          '<input id="wsp-ol-search" type="text" autocomplete="off" spellcheck="false"' +
+          ' placeholder="Jump to a slide — type part of a title or section">' +
+        '</div>' +
+        '<div id="wsp-ol-list"></div>' +
+        '<div id="wsp-ol-foot">' +
+          '<span><b>&uarr; &darr;</b> choose</span>' +
+          '<span><b>&crarr;</b> go</span>' +
+          '<span><b>esc</b> close</span>' +
+          '<span id="wsp-ol-count"></span>' +
+        '</div>' +
+      '</div>';
     document.body.appendChild(root);
 
     var $ = function (sel) { return root.querySelector(sel); };
@@ -791,6 +1034,7 @@
       }
 
       if (hasNext) pushPreview(i + 1);
+      if (olOpen) renderOutline($olSearch.value);   // keep the "you are here" mark true
     }
 
     /* ---- input -------------------------------------------------------------
@@ -803,6 +1047,109 @@
     function navTo(i) {
       pending = Math.max(0, Math.min(total - 1, i));
       send({ type: 'goto', i: pending });
+    }
+
+    /* ---- outline / jump list ------------------------------------------------
+       Q&A is where this earns its place: someone asks about the LMI and you
+       need slide 24 without arrowing through twenty slides in front of them. */
+    var $outline = root.querySelector('#wsp-outline');
+    var $olSearch = root.querySelector('#wsp-ol-search');
+    var $olList = root.querySelector('#wsp-ol-list');
+    var $olCount = root.querySelector('#wsp-ol-count');
+    var olOpen = false, olRows = [], olSel = 0;
+
+    // One entry per slide, built once.
+    var olModel = (function () {
+      var m = [];
+      for (var i = 0; i < total; i++) {
+        var run = SEC.of[i];
+        m.push({
+          i: i,
+          title: titleFor(i),
+          section: run ? run.name : '',
+          hasNotes: !!notesFor(i),
+          hay: ((i + 1) + ' ' + titleFor(i) + ' ' + (run ? run.name : '')).toLowerCase()
+        });
+      }
+      return m;
+    })();
+
+    function renderOutline(query) {
+      var terms = (query || '').toLowerCase().split(/\s+/).filter(Boolean);
+      var matches = olModel.filter(function (r) {
+        return terms.every(function (t) { return r.hay.indexOf(t) !== -1; });
+      });
+
+      $olList.innerHTML = '';
+      olRows = [];
+      if (!matches.length) {
+        $olList.innerHTML = '<div id="wsp-ol-empty">Nothing matches that.</div>';
+        $olCount.textContent = '';
+        return;
+      }
+
+      var lastSection = null;
+      matches.forEach(function (r) {
+        if (r.section !== lastSection) {
+          lastSection = r.section;
+          var h = document.createElement('div');
+          h.className = 'wsp-ol-sect';
+          h.innerHTML = r.section
+            ? 'section &nbsp;<b>' + escapeHtml(r.section) + '</b>'
+            : '<b>ungrouped</b>';
+          $olList.appendChild(h);
+        }
+        var row = document.createElement('div');
+        row.className = 'wsp-ol-row' + (r.i === cur ? ' here' : '');
+        row.innerHTML =
+          '<span class="n">' + (r.i + 1) + '</span>' +
+          '<span class="t">' + escapeHtml(r.title) + '</span>' +
+          (r.hasNotes ? '<span class="dot" title="has speaker notes">&#9679;</span>' : '') +
+          '<span class="b">' + fmt(planned[r.i]) + '</span>';
+        row.addEventListener('click', function () { closeOutline(); navTo(r.i); });
+        $olList.appendChild(row);
+        olRows.push({ el: row, i: r.i });
+      });
+
+      $olCount.textContent = matches.length + ' of ' + total + ' slides';
+      // Start on the slide you are on when unfiltered, otherwise the first hit.
+      var startAt = 0;
+      if (!terms.length) {
+        olRows.forEach(function (r, k) { if (r.i === cur) startAt = k; });
+      }
+      setSel(startAt, true);
+    }
+
+    function setSel(k, jumpScroll) {
+      if (!olRows.length) return;
+      olSel = Math.max(0, Math.min(olRows.length - 1, k));
+      olRows.forEach(function (r, idx) { r.el.classList.toggle('sel', idx === olSel); });
+      var el = olRows[olSel].el;
+      if (el.scrollIntoView) {
+        el.scrollIntoView({ block: jumpScroll ? 'center' : 'nearest' });
+      }
+    }
+
+    function openOutline() {
+      olOpen = true;
+      $outline.classList.add('on');
+      $olSearch.value = '';
+      renderOutline('');
+      $olSearch.focus();
+    }
+
+    function closeOutline() {
+      olOpen = false;
+      $outline.classList.remove('on');
+      $olSearch.blur();
+    }
+
+    $olSearch.addEventListener('input', function () { renderOutline($olSearch.value); });
+
+    function escapeHtml(s) {
+      return String(s).replace(/[&<>"]/g, function (c) {
+        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+      });
     }
 
     var jumpBuf = '', jumpTimer = null;
@@ -818,9 +1165,35 @@
     document.addEventListener('keydown', function (e) {
       if (e.metaKey || e.ctrlKey || e.altKey) return;
       var k = e.key;
+
+      // While the outline is open it owns the keyboard, except for plain typing,
+      // which has to reach the search box.
+      if (olOpen) {
+        if (k === 'Escape' || k === 'o' && e.target !== $olSearch) {
+          e.preventDefault(); e.stopImmediatePropagation(); closeOutline();
+        } else if (k === 'ArrowDown') {
+          e.preventDefault(); e.stopImmediatePropagation(); setSel(olSel + 1);
+        } else if (k === 'ArrowUp') {
+          e.preventDefault(); e.stopImmediatePropagation(); setSel(olSel - 1);
+        } else if (k === 'PageDown') {
+          e.preventDefault(); e.stopImmediatePropagation(); setSel(olSel + 8);
+        } else if (k === 'PageUp') {
+          e.preventDefault(); e.stopImmediatePropagation(); setSel(olSel - 8);
+        } else if (k === 'Enter') {
+          e.preventDefault(); e.stopImmediatePropagation();
+          if (olRows.length) { var t = olRows[olSel].i; closeOutline(); navTo(t); }
+        } else {
+          // let the character reach the input, but keep WebSlides out of it
+          e.stopImmediatePropagation();
+        }
+        return;
+      }
+
       var handled = true;
 
-      if (k === 'ArrowRight' || k === 'ArrowDown' || k === ' ' || k === 'PageDown' || k === 'Enter') {
+      if (k === 'o' || k === 'O') {
+        openOutline();
+      } else if (k === 'ArrowRight' || k === 'ArrowDown' || k === ' ' || k === 'PageDown' || k === 'Enter') {
         if (k === 'Enter' && jumpBuf) {
           var target = parseInt(jumpBuf, 10) - 1;
           jumpBuf = ''; showJump();
