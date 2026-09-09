@@ -1,0 +1,74 @@
+[
+  {
+    "id": "vm1",
+    "label": "LG1",
+    "color": "rgb(20,20,20)",
+    "len": 114750
+  },
+  {
+    "id": "vm2",
+    "label": "LG2",
+    "color": "rgb(20,20,20)",
+    "len": 100750
+  },
+  {
+    "id": "vm3",
+    "label": "LG3",
+    "color": "rgb(20,20,20)",
+    "len": 92400
+  },
+  {
+    "id": "vm4",
+    "label": "LG4",
+    "color": "rgb(20,20,20)",
+    "len": 86300
+  },
+  {
+    "id": "vm5",
+    "label": "LG5",
+    "color": "rgb(20,20,20)",
+    "len": 93090
+  },
+  {
+    "id": "vm6",
+    "label": "LG6",
+    "color": "rgb(20,20,20)",
+    "len": 93770
+  },
+  {
+    "id": "vm7",
+    "label": "LG7",
+    "color": "rgb(20,20,20)",
+    "len": 97030
+  },
+  {
+    "id": "vm8",
+    "label": "LG8",
+    "color": "rgb(20,20,20)",
+    "len": 85200
+  },
+  {
+    "id": "vm9",
+    "label": "LG9",
+    "color": "rgb(20,20,20)",
+    "len": 89860
+  },
+  {
+    "id": "vm10",
+    "label": "LG10",
+    "color": "rgb(20,20,20)",
+    "len": 84110
+  },
+  {
+    "id": "vm11",
+    "label": "LG11",
+    "color": "rgb(20,20,20)",
+    "len": 95250
+  },
+  {
+    "id": "vm12",
+    "label": "LG12",
+    "color": "rgb(20,20,20)",
+    "len": 77560
+  }
+]

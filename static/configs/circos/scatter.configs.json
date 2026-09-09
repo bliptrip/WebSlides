@@ -1,0 +1,222 @@
+[
+  {
+    "innerRadius": 0.3,
+    "outerRadius": 0.4225,
+    "color": "rgb(0,0,0)",
+    "strokeColor": "black",
+    "strokeWidth": 1,
+    "shape": "circle",
+    "size": 14,
+    "min": 0,
+    "max": 5,
+    "opacity": 0.75,
+    "axes": [
+      {
+        "spacing": 1,
+        "start": 1,
+        "thickness": 1,
+        "color": "#333333",
+        "opacity": 1
+      },
+      {
+        "spacing": 1,
+        "start": 2,
+        "thickness": 1,
+        "color": "#434343",
+        "opacity": 1
+      },
+      {
+        "spacing": 1,
+        "start": 3,
+        "thickness": 1,
+        "color": "#535353",
+        "opacity": 1
+      },
+      {
+        "spacing": 1,
+        "start": 4,
+        "thickness": 1,
+        "color": "#636363",
+        "opacity": 1
+      }
+    ],
+    "backgrounds": [
+      {
+        "start": 0,
+        "end": 5,
+        "color": [
+          [18],
+          [18],
+          [18]
+        ],
+        "opacity": 1
+      }
+    ],
+    "tooltipContent": ""
+  },
+  {
+    "innerRadius": 0.475,
+    "outerRadius": 0.5975,
+    "color": "rgb(0,0,0)",
+    "strokeColor": "black",
+    "strokeWidth": 1,
+    "shape": "circle",
+    "size": 14,
+    "min": 0,
+    "max": 5,
+    "opacity": 0.75,
+    "axes": [
+      {
+        "spacing": 1,
+        "start": 1,
+        "thickness": 1,
+        "color": "#333333",
+        "opacity": 1
+      },
+      {
+        "spacing": 1,
+        "start": 2,
+        "thickness": 1,
+        "color": "#434343",
+        "opacity": 1
+      },
+      {
+        "spacing": 1,
+        "start": 3,
+        "thickness": 1,
+        "color": "#535353",
+        "opacity": 1
+      },
+      {
+        "spacing": 1,
+        "start": 4,
+        "thickness": 1,
+        "color": "#636363",
+        "opacity": 1
+      }
+    ],
+    "backgrounds": [
+      {
+        "start": 0,
+        "end": 5,
+        "color": [
+          [18],
+          [18],
+          [18]
+        ],
+        "opacity": 1
+      }
+    ],
+    "tooltipContent": ""
+  },
+  {
+    "innerRadius": 0.65,
+    "outerRadius": 0.7725,
+    "color": "rgb(0,0,0)",
+    "strokeColor": "black",
+    "strokeWidth": 1,
+    "shape": "circle",
+    "size": 14,
+    "min": 0,
+    "max": 5,
+    "opacity": 0.75,
+    "axes": [
+      {
+        "spacing": 1,
+        "start": 1,
+        "thickness": 1,
+        "color": "#333333",
+        "opacity": 1
+      },
+      {
+        "spacing": 1,
+        "start": 2,
+        "thickness": 1,
+        "color": "#434343",
+        "opacity": 1
+      },
+      {
+        "spacing": 1,
+        "start": 3,
+        "thickness": 1,
+        "color": "#535353",
+        "opacity": 1
+      },
+      {
+        "spacing": 1,
+        "start": 4,
+        "thickness": 1,
+        "color": "#636363",
+        "opacity": 1
+      }
+    ],
+    "backgrounds": [
+      {
+        "start": 0,
+        "end": 5,
+        "color": [
+          [18],
+          [18],
+          [18]
+        ],
+        "opacity": 1
+      }
+    ],
+    "tooltipContent": ""
+  },
+  {
+    "innerRadius": 0.825,
+    "outerRadius": 0.9475,
+    "color": "rgb(0,0,0)",
+    "strokeColor": "black",
+    "strokeWidth": 1,
+    "shape": "circle",
+    "size": 14,
+    "min": 0,
+    "max": 5,
+    "opacity": 0.75,
+    "axes": [
+      {
+        "spacing": 1,
+        "start": 1,
+        "thickness": 1,
+        "color": "#333333",
+        "opacity": 1
+      },
+      {
+        "spacing": 1,
+        "start": 2,
+        "thickness": 1,
+        "color": "#434343",
+        "opacity": 1
+      },
+      {
+        "spacing": 1,
+        "start": 3,
+        "thickness": 1,
+        "color": "#535353",
+        "opacity": 1
+      },
+      {
+        "spacing": 1,
+        "start": 4,
+        "thickness": 1,
+        "color": "#636363",
+        "opacity": 1
+      }
+    ],
+    "backgrounds": [
+      {
+        "start": 0,
+        "end": 5,
+        "color": [
+          [18],
+          [18],
+          [18]
+        ],
+        "opacity": 1
+      }
+    ],
+    "tooltipContent": ""
+  }
+]

@@ -1,0 +1,458 @@
+[
+  [
+    {
+      "innerRadius": 0.4325,
+      "outerRadius": 0.4406,
+      "min": 0,
+      "max": 1,
+      "color": "rgb(0,0,0)",
+      "strokeColor": "black",
+      "strokeWidth": 1,
+      "direction": "out",
+      "thickness": 20,
+      "radialMargin": 2,
+      "margin": 2,
+      "opacity": 0.75,
+      "logScale": false,
+      "backgrounds": [
+        {
+          "start": 0,
+          "end": 1,
+          "color": [
+            [18],
+            [18],
+            [18]
+          ],
+          "opacity": 1
+        }
+      ],
+      "tooltipContent": {}
+    },
+    {
+      "innerRadius": 0.4406,
+      "outerRadius": 0.4488,
+      "min": 0,
+      "max": 1,
+      "color": "rgb(0,0,0)",
+      "strokeColor": "black",
+      "strokeWidth": 1,
+      "direction": "out",
+      "thickness": 20,
+      "radialMargin": 2,
+      "margin": 2,
+      "opacity": 0.75,
+      "logScale": false,
+      "backgrounds": [
+        {
+          "start": 0,
+          "end": 1,
+          "color": [
+            [18],
+            [18],
+            [18]
+          ],
+          "opacity": 1
+        }
+      ],
+      "tooltipContent": {}
+    },
+    {
+      "innerRadius": 0.4488,
+      "outerRadius": 0.4569,
+      "min": 0,
+      "max": 1,
+      "color": "rgb(0,0,0)",
+      "strokeColor": "black",
+      "strokeWidth": 1,
+      "direction": "out",
+      "thickness": 20,
+      "radialMargin": 2,
+      "margin": 2,
+      "opacity": 0.75,
+      "logScale": false,
+      "backgrounds": [
+        {
+          "start": 0,
+          "end": 1,
+          "color": [
+            [18],
+            [18],
+            [18]
+          ],
+          "opacity": 1
+        }
+      ],
+      "tooltipContent": {}
+    },
+    {
+      "innerRadius": 0.4569,
+      "outerRadius": 0.465,
+      "min": 0,
+      "max": 1,
+      "color": "rgb(0,0,0)",
+      "strokeColor": "black",
+      "strokeWidth": 1,
+      "direction": "out",
+      "thickness": 20,
+      "radialMargin": 2,
+      "margin": 2,
+      "opacity": 0.75,
+      "logScale": false,
+      "backgrounds": [
+        {
+          "start": 0,
+          "end": 1,
+          "color": [
+            [18],
+            [18],
+            [18]
+          ],
+          "opacity": 1
+        }
+      ],
+      "tooltipContent": {}
+    }
+  ],
+  [
+    {
+      "innerRadius": 0.6075,
+      "outerRadius": 0.6156,
+      "min": 0,
+      "max": 1,
+      "color": "rgb(0,0,0)",
+      "strokeColor": "black",
+      "strokeWidth": 1,
+      "direction": "out",
+      "thickness": 20,
+      "radialMargin": 2,
+      "margin": 2,
+      "opacity": 0.75,
+      "logScale": false,
+      "backgrounds": [
+        {
+          "start": 0,
+          "end": 1,
+          "color": [
+            [18],
+            [18],
+            [18]
+          ],
+          "opacity": 1
+        }
+      ],
+      "tooltipContent": {}
+    },
+    {
+      "innerRadius": 0.6156,
+      "outerRadius": 0.6237,
+      "min": 0,
+      "max": 1,
+      "color": "rgb(0,0,0)",
+      "strokeColor": "black",
+      "strokeWidth": 1,
+      "direction": "out",
+      "thickness": 20,
+      "radialMargin": 2,
+      "margin": 2,
+      "opacity": 0.75,
+      "logScale": false,
+      "backgrounds": [
+        {
+          "start": 0,
+          "end": 1,
+          "color": [
+            [18],
+            [18],
+            [18]
+          ],
+          "opacity": 1
+        }
+      ],
+      "tooltipContent": {}
+    },
+    {
+      "innerRadius": 0.6237,
+      "outerRadius": 0.6319,
+      "min": 0,
+      "max": 1,
+      "color": "rgb(0,0,0)",
+      "strokeColor": "black",
+      "strokeWidth": 1,
+      "direction": "out",
+      "thickness": 20,
+      "radialMargin": 2,
+      "margin": 2,
+      "opacity": 0.75,
+      "logScale": false,
+      "backgrounds": [
+        {
+          "start": 0,
+          "end": 1,
+          "color": [
+            [18],
+            [18],
+            [18]
+          ],
+          "opacity": 1
+        }
+      ],
+      "tooltipContent": {}
+    },
+    {
+      "innerRadius": 0.6319,
+      "outerRadius": 0.64,
+      "min": 0,
+      "max": 1,
+      "color": "rgb(0,0,0)",
+      "strokeColor": "black",
+      "strokeWidth": 1,
+      "direction": "out",
+      "thickness": 20,
+      "radialMargin": 2,
+      "margin": 2,
+      "opacity": 0.75,
+      "logScale": false,
+      "backgrounds": [
+        {
+          "start": 0,
+          "end": 1,
+          "color": [
+            [18],
+            [18],
+            [18]
+          ],
+          "opacity": 1
+        }
+      ],
+      "tooltipContent": {}
+    }
+  ],
+  [
+    {
+      "innerRadius": 0.7825,
+      "outerRadius": 0.7906,
+      "min": 0,
+      "max": 1,
+      "color": "rgb(0,0,0)",
+      "strokeColor": "black",
+      "strokeWidth": 1,
+      "direction": "out",
+      "thickness": 20,
+      "radialMargin": 2,
+      "margin": 2,
+      "opacity": 0.75,
+      "logScale": false,
+      "backgrounds": [
+        {
+          "start": 0,
+          "end": 1,
+          "color": [
+            [18],
+            [18],
+            [18]
+          ],
+          "opacity": 1
+        }
+      ],
+      "tooltipContent": {}
+    },
+    {
+      "innerRadius": 0.7906,
+      "outerRadius": 0.7987,
+      "min": 0,
+      "max": 1,
+      "color": "rgb(0,0,0)",
+      "strokeColor": "black",
+      "strokeWidth": 1,
+      "direction": "out",
+      "thickness": 20,
+      "radialMargin": 2,
+      "margin": 2,
+      "opacity": 0.75,
+      "logScale": false,
+      "backgrounds": [
+        {
+          "start": 0,
+          "end": 1,
+          "color": [
+            [18],
+            [18],
+            [18]
+          ],
+          "opacity": 1
+        }
+      ],
+      "tooltipContent": {}
+    },
+    {
+      "innerRadius": 0.7987,
+      "outerRadius": 0.8069,
+      "min": 0,
+      "max": 1,
+      "color": "rgb(0,0,0)",
+      "strokeColor": "black",
+      "strokeWidth": 1,
+      "direction": "out",
+      "thickness": 20,
+      "radialMargin": 2,
+      "margin": 2,
+      "opacity": 0.75,
+      "logScale": false,
+      "backgrounds": [
+        {
+          "start": 0,
+          "end": 1,
+          "color": [
+            [18],
+            [18],
+            [18]
+          ],
+          "opacity": 1
+        }
+      ],
+      "tooltipContent": {}
+    },
+    {
+      "innerRadius": 0.8069,
+      "outerRadius": 0.815,
+      "min": 0,
+      "max": 1,
+      "color": "rgb(0,0,0)",
+      "strokeColor": "black",
+      "strokeWidth": 1,
+      "direction": "out",
+      "thickness": 20,
+      "radialMargin": 2,
+      "margin": 2,
+      "opacity": 0.75,
+      "logScale": false,
+      "backgrounds": [
+        {
+          "start": 0,
+          "end": 1,
+          "color": [
+            [18],
+            [18],
+            [18]
+          ],
+          "opacity": 1
+        }
+      ],
+      "tooltipContent": {}
+    }
+  ],
+  [
+    {
+      "innerRadius": 0.9575,
+      "outerRadius": 0.9656,
+      "min": 0,
+      "max": 1,
+      "color": "rgb(0,0,0)",
+      "strokeColor": "black",
+      "strokeWidth": 1,
+      "direction": "out",
+      "thickness": 20,
+      "radialMargin": 2,
+      "margin": 2,
+      "opacity": 0.75,
+      "logScale": false,
+      "backgrounds": [
+        {
+          "start": 0,
+          "end": 1,
+          "color": [
+            [18],
+            [18],
+            [18]
+          ],
+          "opacity": 1
+        }
+      ],
+      "tooltipContent": {}
+    },
+    {
+      "innerRadius": 0.9656,
+      "outerRadius": 0.9737,
+      "min": 0,
+      "max": 1,
+      "color": "rgb(0,0,0)",
+      "strokeColor": "black",
+      "strokeWidth": 1,
+      "direction": "out",
+      "thickness": 20,
+      "radialMargin": 2,
+      "margin": 2,
+      "opacity": 0.75,
+      "logScale": false,
+      "backgrounds": [
+        {
+          "start": 0,
+          "end": 1,
+          "color": [
+            [18],
+            [18],
+            [18]
+          ],
+          "opacity": 1
+        }
+      ],
+      "tooltipContent": {}
+    },
+    {
+      "innerRadius": 0.9737,
+      "outerRadius": 0.9819,
+      "min": 0,
+      "max": 1,
+      "color": "rgb(0,0,0)",
+      "strokeColor": "black",
+      "strokeWidth": 1,
+      "direction": "out",
+      "thickness": 20,
+      "radialMargin": 2,
+      "margin": 2,
+      "opacity": 0.75,
+      "logScale": false,
+      "backgrounds": [
+        {
+          "start": 0,
+          "end": 1,
+          "color": [
+            [18],
+            [18],
+            [18]
+          ],
+          "opacity": 1
+        }
+      ],
+      "tooltipContent": {}
+    },
+    {
+      "innerRadius": 0.9819,
+      "outerRadius": 0.99,
+      "min": 0,
+      "max": 1,
+      "color": "rgb(0,0,0)",
+      "strokeColor": "black",
+      "strokeWidth": 1,
+      "direction": "out",
+      "thickness": 20,
+      "radialMargin": 2,
+      "margin": 2,
+      "opacity": 0.75,
+      "logScale": false,
+      "backgrounds": [
+        {
+          "start": 0,
+          "end": 1,
+          "color": [
+            [18],
+            [18],
+            [18]
+          ],
+          "opacity": 1
+        }
+      ],
+      "tooltipContent": {}
+    }
+  ]
+]

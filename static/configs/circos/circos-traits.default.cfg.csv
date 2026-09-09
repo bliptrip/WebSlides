@@ -1,0 +1,7 @@
+mtraits,trait,trait_name,mask
+berry_length,berry_length,Berry Length,
+berry_width,berry_width,Berry Width,
+berry_weight,berry_weight,Berry Weight,
+num_seeds,num_seeds,Number Seeds,TRUE
+num_berries,num_berries,Number Berries,TRUE
+total_berry_weight,total_berry_weight,Total Berry Weight,

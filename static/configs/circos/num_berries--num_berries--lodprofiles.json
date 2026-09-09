@@ -1,0 +1,7447 @@
+{
+  "all-years": [
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 8.9,
+      "lod": 7.2628
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 18.41,
+      "lod": 7.2628
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 19.24,
+      "lod": 7.2628
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 21.65,
+      "lod": 7.2629
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 22.49,
+      "lod": 7.6398
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 22.62,
+      "lod": 7.6246
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 23.21,
+      "lod": 9.8603
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 24.28,
+      "lod": 9.0094
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 24.41,
+      "lod": 9.0094
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 25.01,
+      "lod": 9.0095
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 25.21,
+      "lod": 9.2322
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 25.47,
+      "lod": 9.5555
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 29.04,
+      "lod": 14.4501
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 29.7,
+      "lod": 12.0939
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 29.98,
+      "lod": 11.3543
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 30.27,
+      "lod": 11.4089
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 30.57,
+      "lod": 11.452
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 32.87,
+      "lod": 11.7544
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 33.47,
+      "lod": 12.5535
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 33.69,
+      "lod": 12.6038
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 34.06,
+      "lod": 12.6868
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 34.07,
+      "lod": 13.2477
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 35.26,
+      "lod": 14.1366
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 35.66,
+      "lod": 14.1789
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 35.96,
+      "lod": 14.2029
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 36.52,
+      "lod": 14.2279
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 39.76,
+      "lod": 13.3707
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 40.43,
+      "lod": 13.3974
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 40.72,
+      "lod": 13.3974
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 41.32,
+      "lod": 13.7571
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 44.33,
+      "lod": 14.3255
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 44.61,
+      "lod": 14.3991
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 45.78,
+      "lod": 14.5016
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 46.1,
+      "lod": 18.488
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 48.48,
+      "lod": 18.9219
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 49.91,
+      "lod": 22.2364
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 50.87,
+      "lod": 23.1911
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 52.06,
+      "lod": 23.0269
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 56.22,
+      "lod": 33.7962
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 58,
+      "lod": 33.5152
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 58.14,
+      "lod": 33.4967
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 58.28,
+      "lod": 33.4762
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 60.76,
+      "lod": 28.9307
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 62.75,
+      "lod": 27.9006
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 63.89,
+      "lod": 21.0958
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 64.25,
+      "lod": 20.9264
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 65.43,
+      "lod": 18.2622
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 67.24,
+      "lod": 17.9824
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 67.82,
+      "lod": 17.7454
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 68.75,
+      "lod": 17.4023
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 69.31,
+      "lod": 17.0159
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 70.8,
+      "lod": 15.7467
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 74,
+      "lod": 12.5326
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 74.28,
+      "lod": 12.3514
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 76.08,
+      "lod": 10.8579
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 76.17,
+      "lod": 10.859
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 76.43,
+      "lod": 10.887
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 77.27,
+      "lod": 10.7984
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 77.86,
+      "lod": 10.9747
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 78.6,
+      "lod": 10.2609
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 82.85,
+      "lod": 9.8711
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 83.77,
+      "lod": 9.7858
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 85.57,
+      "lod": 7.9285
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 88.55,
+      "lod": 12.1516
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 88.91,
+      "lod": 12.1057
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 89.4,
+      "lod": 11.4092
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 90.51,
+      "lod": 11.596
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 90.93,
+      "lod": 11.5254
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 92.18,
+      "lod": 11.8045
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 92.89,
+      "lod": 10.5967
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 92.95,
+      "lod": 10.5967
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 94.75,
+      "lod": 10.2349
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 95.35,
+      "lod": 10.4448
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 96.39,
+      "lod": 10.4448
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 97.96,
+      "lod": 10.436
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 100.35,
+      "lod": 9.6316
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 102.54,
+      "lod": 8.1242
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 102.73,
+      "lod": 8.0018
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 103.15,
+      "lod": 8.0343
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 105.72,
+      "lod": 8.4125
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 106.17,
+      "lod": 8.8388
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 106.91,
+      "lod": 9.6732
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 107.69,
+      "lod": 12.9223
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 108.1,
+      "lod": 14.0445
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 109.29,
+      "lod": 16.0391
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 110.2,
+      "lod": 15.7759
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 111.98,
+      "lod": 11.1048
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 112.82,
+      "lod": 9.6985
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 113.92,
+      "lod": 8.4685
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 114.75,
+      "lod": 8.4685
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 115.88,
+      "lod": 8.4685
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 0,
+      "lod": 9.1657
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 0.29,
+      "lod": 9.0874
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 4.17,
+      "lod": 8.1008
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 5.36,
+      "lod": 8.0119
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 8.58,
+      "lod": 9.1058
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 9.77,
+      "lod": 9.1749
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 12.51,
+      "lod": 9.3371
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 14.92,
+      "lod": 9.3371
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 15.21,
+      "lod": 9.3371
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 20.63,
+      "lod": 11.3374
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 23.41,
+      "lod": 12.1537
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 23.69,
+      "lod": 12.4276
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 23.96,
+      "lod": 12.5493
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 24.29,
+      "lod": 12.5198
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 25.19,
+      "lod": 13.2091
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 25.48,
+      "lod": 11.7184
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 26.36,
+      "lod": 11.7773
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 30.25,
+      "lod": 11.6862
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 31.09,
+      "lod": 11.9912
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 35.86,
+      "lod": 17.7808
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 38.15,
+      "lod": 18.0504
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 38.72,
+      "lod": 17.3022
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 38.83,
+      "lod": 17.3031
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 39.87,
+      "lod": 20.2364
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 41.75,
+      "lod": 25.5794
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 44.11,
+      "lod": 39.5355
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 44.74,
+      "lod": 41.6394
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 45.18,
+      "lod": 43.583
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 47.11,
+      "lod": 42.172
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 47.12,
+      "lod": 42.0279
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 47.71,
+      "lod": 34.601
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 47.72,
+      "lod": 33.898
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 48.31,
+      "lod": 33.8679
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 50.35,
+      "lod": 28.7921
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 50.69,
+      "lod": 28.5955
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 50.7,
+      "lod": 28.5902
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 51.23,
+      "lod": 28.0051
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 51.29,
+      "lod": 28.0051
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 51.89,
+      "lod": 28.005
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 52,
+      "lod": 28.0069
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 54.27,
+      "lod": 26.9965
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 56.14,
+      "lod": 23.6103
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 56.54,
+      "lod": 23.3442
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 57.21,
+      "lod": 18.8486
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 58.47,
+      "lod": 20.7285
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 61.25,
+      "lod": 23.9524
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 62.55,
+      "lod": 22.9372
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 63.17,
+      "lod": 21.8022
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 65.4,
+      "lod": 22.1399
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 67.62,
+      "lod": 25.1693
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 72.21,
+      "lod": 34.8873
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 72.75,
+      "lod": 34.459
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 73.72,
+      "lod": 33.4228
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 75.1,
+      "lod": 34.3692
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 75.11,
+      "lod": 34.3692
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 75.23,
+      "lod": 34.4905
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 75.97,
+      "lod": 34.9979
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 76.39,
+      "lod": 35.0643
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 77.9,
+      "lod": 26.1388
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 78.18,
+      "lod": 25.8631
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 78.19,
+      "lod": 25.8592
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 78.77,
+      "lod": 24.8708
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 80.56,
+      "lod": 23.3357
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 82.66,
+      "lod": 23.0419
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 83.54,
+      "lod": 18.1605
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 87.21,
+      "lod": 18.7601
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 88.31,
+      "lod": 18.1988
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 88.92,
+      "lod": 18.1988
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 89.53,
+      "lod": 18.1988
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 89.92,
+      "lod": 18.1988
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 92.48,
+      "lod": 15.3627
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 93.09,
+      "lod": 15.3626
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 0,
+      "lod": 1.8942
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 0.4,
+      "lod": 1.8942
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 0.9,
+      "lod": 1.7857
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 2.19,
+      "lod": 2.1112
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 2.78,
+      "lod": 2.5367
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 3.02,
+      "lod": 2.5367
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 3.38,
+      "lod": 2.5838
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 4.47,
+      "lod": 2.6796
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 5.17,
+      "lod": 3.0768
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 5.68,
+      "lod": 3.3449
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 5.77,
+      "lod": 3.3981
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 7.85,
+      "lod": 4.3955
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 11.05,
+      "lod": 3.7655
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 14.63,
+      "lod": 5.6722
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 15.88,
+      "lod": 6.705
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 16.85,
+      "lod": 6.7051
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 17.45,
+      "lod": 6.8918
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 18.04,
+      "lod": 7.0333
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 19.23,
+      "lod": 5.6563
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 19.74,
+      "lod": 4.9528
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 21.01,
+      "lod": 5.1744
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 21.61,
+      "lod": 5.1573
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 24.59,
+      "lod": 7.2066
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 24.85,
+      "lod": 7.2771
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 25.1,
+      "lod": 7.3453
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 26.59,
+      "lod": 7.3326
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 27.09,
+      "lod": 7.3759
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 28.08,
+      "lod": 7.7909
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 28.17,
+      "lod": 7.7909
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 28.21,
+      "lod": 7.8718
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 30.54,
+      "lod": 14.0116
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 30.58,
+      "lod": 14.0951
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 31.05,
+      "lod": 15.0472
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 31.91,
+      "lod": 16.0967
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 33.51,
+      "lod": 14.7005
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 34.12,
+      "lod": 14.7005
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 34.16,
+      "lod": 14.0663
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 35.78,
+      "lod": 13.6762
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 35.95,
+      "lod": 16.0849
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 37.28,
+      "lod": 15.4584
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 37.84,
+      "lod": 15.4867
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 38.9,
+      "lod": 14.8023
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 40.5,
+      "lod": 12.9739
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 42.96,
+      "lod": 10.31
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 42.97,
+      "lod": 10.2897
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 43.53,
+      "lod": 10.7081
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 43.61,
+      "lod": 10.7081
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 43.82,
+      "lod": 10.8041
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 44.1,
+      "lod": 10.9193
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 45.8,
+      "lod": 10.4005
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 45.88,
+      "lod": 10.3739
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 45.92,
+      "lod": 10.3739
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 45.96,
+      "lod": 10.3739
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 46.16,
+      "lod": 10.3739
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 46.94,
+      "lod": 10.7334
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 47.23,
+      "lod": 10.7334
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 47.71,
+      "lod": 10.0832
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 48.19,
+      "lod": 10.1455
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 48.3,
+      "lod": 10.091
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 48.9,
+      "lod": 9.772
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 49.5,
+      "lod": 9.4603
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 49.56,
+      "lod": 9.4603
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 49.7,
+      "lod": 9.4603
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 49.79,
+      "lod": 9.4603
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 51.28,
+      "lod": 10.1251
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 51.75,
+      "lod": 10.011
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 53.07,
+      "lod": 10.0525
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 53.27,
+      "lod": 10.2706
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 55.34,
+      "lod": 10.3915
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 55.5,
+      "lod": 10.874
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 56.4,
+      "lod": 10.8742
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 57.26,
+      "lod": 12.0135
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 58.66,
+      "lod": 13.095
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 59.63,
+      "lod": 9.8127
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 60.8,
+      "lod": 9.8643
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 60.98,
+      "lod": 9.8636
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 65.4,
+      "lod": 11.0566
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 66.12,
+      "lod": 10.9267
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 66.18,
+      "lod": 10.9267
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 66.77,
+      "lod": 11.1404
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 68.59,
+      "lod": 11.0884
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 69.16,
+      "lod": 10.9794
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 70.35,
+      "lod": 10.8357
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 73.28,
+      "lod": 10.3424
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 73.38,
+      "lod": 10.2892
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 74.47,
+      "lod": 9.7777
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 75.66,
+      "lod": 9.5529
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 76.68,
+      "lod": 9.5251
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 79.24,
+      "lod": 9.9459
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 79.54,
+      "lod": 9.8278
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 80.13,
+      "lod": 10.2276
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 80.15,
+      "lod": 10.2608
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 80.43,
+      "lod": 10.7729
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 80.73,
+      "lod": 10.7729
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 80.75,
+      "lod": 10.7729
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 81.93,
+      "lod": 13.4405
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 82.7,
+      "lod": 16.9126
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 83.12,
+      "lod": 18.2179
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 84.4,
+      "lod": 18.7212
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 84.48,
+      "lod": 18.6603
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 88.38,
+      "lod": 26.7453
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 88.57,
+      "lod": 26.7453
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 6,
+      "position": 90.09,
+      "lod": 26.7452
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 0,
+      "lod": 10.3889
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 1.13,
+      "lod": 10.3889
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 2.53,
+      "lod": 10.8609
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 3.37,
+      "lod": 10.861
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 4.56,
+      "lod": 11.1466
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 4.84,
+      "lod": 11.0945
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 6.82,
+      "lod": 11.0139
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 7.53,
+      "lod": 10.9004
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 8.81,
+      "lod": 10.7214
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 11.64,
+      "lod": 9.7665
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 13.31,
+      "lod": 13.0246
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 13.66,
+      "lod": 13.0247
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 13.93,
+      "lod": 13.0247
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 14.02,
+      "lod": 13.1151
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 18.86,
+      "lod": 21.6667
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 18.9,
+      "lod": 21.6289
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 21.73,
+      "lod": 29.4021
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 22.59,
+      "lod": 31.5941
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 24.97,
+      "lod": 33.4677
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 25.15,
+      "lod": 33.35
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 25.89,
+      "lod": 32.4796
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 26.53,
+      "lod": 31.6423
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 27.35,
+      "lod": 29.25
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 29.73,
+      "lod": 20.418
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 30.92,
+      "lod": 19.4601
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 31.08,
+      "lod": 17.2095
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 31.29,
+      "lod": 17.2092
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 32.8,
+      "lod": 17.3618
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 37.47,
+      "lod": 15.7969
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 38.06,
+      "lod": 12.1496
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 40.45,
+      "lod": 10.9945
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 41.63,
+      "lod": 10.7824
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 44.63,
+      "lod": 10.9801
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 47.77,
+      "lod": 6.7902
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 48.37,
+      "lod": 6.4345
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 49.29,
+      "lod": 6.7498
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 50.15,
+      "lod": 6.8684
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 52.54,
+      "lod": 7.6226
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 55.29,
+      "lod": 7.8775
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 56.29,
+      "lod": 7.7521
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 56.79,
+      "lod": 7.6434
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 57.07,
+      "lod": 7.3615
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 57.18,
+      "lod": 7.3705
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 58.28,
+      "lod": 7.9125
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 59.09,
+      "lod": 8.1611
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 59.17,
+      "lod": 8.0541
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 60.88,
+      "lod": 7.0892
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 60.96,
+      "lod": 7.0487
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 61.85,
+      "lod": 6.1418
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 62.74,
+      "lod": 5.7085
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 64.23,
+      "lod": 6.0975
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 65.72,
+      "lod": 5.3462
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 66.32,
+      "lod": 5.069
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 66.91,
+      "lod": 6.2155
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 68.05,
+      "lod": 6.2156
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 68.7,
+      "lod": 6.1526
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 70.5,
+      "lod": 5.9078
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 75.17,
+      "lod": 5.5917
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 75.26,
+      "lod": 5.5971
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 77.13,
+      "lod": 4.8937
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 77.14,
+      "lod": 4.8942
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 77.91,
+      "lod": 4.8591
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 80.04,
+      "lod": 3.6612
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 81.24,
+      "lod": 3.0437
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 84.22,
+      "lod": 4.1103
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 84.81,
+      "lod": 4.0853
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 85.4,
+      "lod": 4.1647
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 87.01,
+      "lod": 4.2197
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 87.09,
+      "lod": 4.1882
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 87.34,
+      "lod": 4.9492
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 87.94,
+      "lod": 5.2987
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 88.51,
+      "lod": 5.4522
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 9,
+      "position": 89.29,
+      "lod": 5.4522
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 2.76,
+      "lod": 7.6442
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 3.59,
+      "lod": 8.8924
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 4.18,
+      "lod": 9.7923
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 4.8,
+      "lod": 11.6052
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 9,
+      "lod": 12.0231
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 9.6,
+      "lod": 12.4885
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 12.58,
+      "lod": 15.7007
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 14.96,
+      "lod": 16.4605
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 15.56,
+      "lod": 17.328
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 16.15,
+      "lod": 16.718
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 16.73,
+      "lod": 16.717
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 18.53,
+      "lod": 19.1489
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 19.72,
+      "lod": 21.0848
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 20.92,
+      "lod": 23.8442
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 21.01,
+      "lod": 23.9735
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 21.21,
+      "lod": 24.7124
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 21.51,
+      "lod": 24.873
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 28.15,
+      "lod": 36.3435
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 28.27,
+      "lod": 36.3763
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 28.97,
+      "lod": 35.152
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 30.11,
+      "lod": 32.2571
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 31.25,
+      "lod": 28.9816
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 31.73,
+      "lod": 27.6217
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 31.85,
+      "lod": 27.6217
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 32.91,
+      "lod": 26.8055
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 33.96,
+      "lod": 24.8081
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 34.83,
+      "lod": 23.6803
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 34.87,
+      "lod": 23.69
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 35.42,
+      "lod": 23.5355
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 35.9,
+      "lod": 21.266
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 36.02,
+      "lod": 20.4574
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 36.61,
+      "lod": 19.3891
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 37.25,
+      "lod": 18.5479
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 38.4,
+      "lod": 18.7248
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 38.44,
+      "lod": 18.7313
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 38.73,
+      "lod": 18.5175
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 41.87,
+      "lod": 15.847
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 43.21,
+      "lod": 14.1497
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 43.79,
+      "lod": 13.4766
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 43.96,
+      "lod": 13.2034
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 44.99,
+      "lod": 11.6179
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 45.75,
+      "lod": 11.4629
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 46.35,
+      "lod": 11.0215
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 47.54,
+      "lod": 11.1568
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 48.94,
+      "lod": 11.6407
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 49.03,
+      "lod": 11.6594
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 50,
+      "lod": 12.8581
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 51.79,
+      "lod": 12.8143
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 52.8,
+      "lod": 13.1122
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 55.32,
+      "lod": 9.4282
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 55.96,
+      "lod": 9.1017
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 57.15,
+      "lod": 8.6608
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 58.43,
+      "lod": 8.4113
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 61.46,
+      "lod": 7.729
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 62.45,
+      "lod": 7.8272
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 63.19,
+      "lod": 7.9448
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 64.83,
+      "lod": 8.4216
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 66.9,
+      "lod": 7.661
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 69.64,
+      "lod": 5.885
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 70.47,
+      "lod": 5.885
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 70.8,
+      "lod": 5.885
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 71.39,
+      "lod": 5.7733
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 72.58,
+      "lod": 6.9308
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 74.37,
+      "lod": 8.5461
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 76.35,
+      "lod": 8.9567
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 77.28,
+      "lod": 8.1252
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 79.07,
+      "lod": 7.3898
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 79.75,
+      "lod": 7.3898
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 10,
+      "position": 84.11,
+      "lod": 7.3898
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 0,
+      "lod": 4.1858
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 1.19,
+      "lod": 4.1858
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 2.38,
+      "lod": 3.9949
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 4.39,
+      "lod": 3.2509
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 5.09,
+      "lod": 3.0109
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 5.99,
+      "lod": 2.5479
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 6.03,
+      "lod": 2.5479
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 6.87,
+      "lod": 2.9495
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 7.47,
+      "lod": 3.4501
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 8.3,
+      "lod": 3.7557
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 8.66,
+      "lod": 4.2866
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 9.57,
+      "lod": 5.7305
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 11.07,
+      "lod": 7.3172
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 14.62,
+      "lod": 8.0305
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 15.29,
+      "lod": 8.0674
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 16.42,
+      "lod": 8.0927
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 17.25,
+      "lod": 8.0481
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 20.18,
+      "lod": 11.9031
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 21.88,
+      "lod": 10.6458
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 23.01,
+      "lod": 12.3223
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 23.86,
+      "lod": 12.3225
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 24.4,
+      "lod": 14.7827
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 26.07,
+      "lod": 14.6503
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 26.67,
+      "lod": 16.8418
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 26.68,
+      "lod": 16.8749
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 27.29,
+      "lod": 18.9698
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 27.34,
+      "lod": 19.0641
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 27.52,
+      "lod": 19.0641
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 27.99,
+      "lod": 19.2532
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 28.38,
+      "lod": 19.4017
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 30.32,
+      "lod": 24.9282
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 31.23,
+      "lod": 28.1986
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 35.39,
+      "lod": 36.9245
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 36.65,
+      "lod": 37.0499
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 36.88,
+      "lod": 37.0499
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 36.93,
+      "lod": 37.0499
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 37.18,
+      "lod": 37.0499
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 37.2,
+      "lod": 37.05
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 37.21,
+      "lod": 36.4905
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 37.36,
+      "lod": 37.7742
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 37.5,
+      "lod": 38.5956
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 38.07,
+      "lod": 40.6921
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 38.69,
+      "lod": 51.0403
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 39.2,
+      "lod": 51.5335
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 39.89,
+      "lod": 51.5334
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 40.34,
+      "lod": 52.8243
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 41.67,
+      "lod": 56.2105
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 43.05,
+      "lod": 60.8929
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 43.47,
+      "lod": 60.823
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 46.9,
+      "lod": 45.9352
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 47.62,
+      "lod": 42.0867
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 50.06,
+      "lod": 41.7531
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 50.21,
+      "lod": 41.6934
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 50.63,
+      "lod": 41.6934
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 51.8,
+      "lod": 39.9435
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 51.94,
+      "lod": 39.571
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 53,
+      "lod": 36.5555
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 53.59,
+      "lod": 34.3682
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 54.19,
+      "lod": 30.2772
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 54.78,
+      "lod": 30.4568
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 55.97,
+      "lod": 30.4592
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 56.58,
+      "lod": 30.5644
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 57.47,
+      "lod": 30.1348
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 57.76,
+      "lod": 27.4863
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 58.35,
+      "lod": 29.1603
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 58.49,
+      "lod": 29.0708
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 59.18,
+      "lod": 28.3131
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 59.46,
+      "lod": 28.4566
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 60.3,
+      "lod": 28.0779
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 60.9,
+      "lod": 28.4704
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 62.59,
+      "lod": 28.2278
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 64.54,
+      "lod": 23.4518
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 65.66,
+      "lod": 23.312
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 65.96,
+      "lod": 23.3458
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 66.26,
+      "lod": 23.3821
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 67.45,
+      "lod": 25.0481
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 68.05,
+      "lod": 25.0065
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 69.83,
+      "lod": 23.3573
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 70.43,
+      "lod": 23.2907
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 71.37,
+      "lod": 23.2314
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 72.22,
+      "lod": 23.2315
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 73.11,
+      "lod": 22.7524
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 73.75,
+      "lod": 22.0979
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 75.07,
+      "lod": 20.697
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 75.64,
+      "lod": 19.9009
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 77.45,
+      "lod": 17.5891
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 77.76,
+      "lod": 17.4848
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 78.02,
+      "lod": 17.3569
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 79.33,
+      "lod": 13.0821
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 79.55,
+      "lod": 13.1055
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 81.02,
+      "lod": 9.6296
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 81.23,
+      "lod": 9.6296
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 81.33,
+      "lod": 9.6296
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 82.52,
+      "lod": 9.6389
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 83.71,
+      "lod": 9.0913
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 84.2,
+      "lod": 8.8994
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 84.31,
+      "lod": 9.4889
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 87.29,
+      "lod": 8.6632
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 88.98,
+      "lod": 7.917
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 92.67,
+      "lod": 5.5546
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 93.27,
+      "lod": 5.4385
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 94.68,
+      "lod": 5.4385
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 95.25,
+      "lod": 5.4385
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 2.84,
+      "lod": 4.4318
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 4.8,
+      "lod": 4.4319
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 5.4,
+      "lod": 6.8665
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 6.59,
+      "lod": 7.0571
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 7.18,
+      "lod": 9.0141
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 7.91,
+      "lod": 12.333
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 12.09,
+      "lod": 22.1118
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 12.21,
+      "lod": 22.106
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 14.59,
+      "lod": 20.8568
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 15.19,
+      "lod": 20.8281
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 19.07,
+      "lod": 19.419
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 20.86,
+      "lod": 18.131
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 25.05,
+      "lod": 14.8561
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 31.54,
+      "lod": 12.7941
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 33.28,
+      "lod": 12.9831
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 33.4,
+      "lod": 12.9831
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 38.11,
+      "lod": 13.1115
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 41.41,
+      "lod": 11.3811
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 41.69,
+      "lod": 11.2859
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 42.6,
+      "lod": 11.0123
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 42.81,
+      "lod": 11.0183
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 42.89,
+      "lod": 9.9899
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 42.91,
+      "lod": 9.9745
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 43.51,
+      "lod": 9.9174
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 46.3,
+      "lod": 5.6161
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 48.76,
+      "lod": 5.0375
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 48.81,
+      "lod": 5.028
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 49.4,
+      "lod": 4.9135
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 50.47,
+      "lod": 4.8803
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 53.77,
+      "lod": 5.4035
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 54.11,
+      "lod": 5.5726
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 54.39,
+      "lod": 5.7026
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 56.66,
+      "lod": 5.9137
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 57.23,
+      "lod": 4.8819
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 57.59,
+      "lod": 3.8574
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 58.93,
+      "lod": 4.3873
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 60.29,
+      "lod": 4.812
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 61.56,
+      "lod": 5.3857
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 62.07,
+      "lod": 5.7115
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 62.16,
+      "lod": 5.7681
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 62.75,
+      "lod": 6.0457
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 63.06,
+      "lod": 6.2871
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 64.38,
+      "lod": 7.4676
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 67.24,
+      "lod": 7.6469
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 67.75,
+      "lod": 7.6025
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 70.32,
+      "lod": 8.1614
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 70.73,
+      "lod": 8.2491
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 73.57,
+      "lod": 5.8462
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 74.93,
+      "lod": 5.7396
+    },
+    {
+      "method": "stepwiseqtl",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 12,
+      "position": 77.56,
+      "lod": 5.7145
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 8.9,
+      "lod": 3.7391
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 18.41,
+      "lod": 3.7391
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 19.24,
+      "lod": 3.7391
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 21.65,
+      "lod": 3.7391
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 22.49,
+      "lod": 3.4778
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 22.62,
+      "lod": 3.3947
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 23.21,
+      "lod": 3.3426
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 24.28,
+      "lod": 4.3809
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 24.41,
+      "lod": 4.3809
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 25.01,
+      "lod": 4.3809
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 25.21,
+      "lod": 4.3185
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 25.47,
+      "lod": 4.1805
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 29.04,
+      "lod": 3.6246
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 29.7,
+      "lod": 3.3455
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 29.98,
+      "lod": 4.381
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 30.27,
+      "lod": 4.3443
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 30.57,
+      "lod": 4.3305
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 32.87,
+      "lod": 3.7292
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 33.47,
+      "lod": 3.2861
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 33.69,
+      "lod": 3.2972
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 34.06,
+      "lod": 3.3158
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 34.07,
+      "lod": 3.3316
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 35.26,
+      "lod": 2.6639
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 35.66,
+      "lod": 2.6662
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 35.96,
+      "lod": 2.666
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 36.52,
+      "lod": 2.6609
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 39.76,
+      "lod": 2.5784
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 40.43,
+      "lod": 2.6559
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 40.72,
+      "lod": 2.656
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 41.32,
+      "lod": 2.7405
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 44.33,
+      "lod": 3.1205
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 44.61,
+      "lod": 3.1248
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 45.78,
+      "lod": 3.0789
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 46.1,
+      "lod": 4.2948
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 48.48,
+      "lod": 4.3009
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 49.91,
+      "lod": 3.6654
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 50.87,
+      "lod": 3.1465
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 52.06,
+      "lod": 2.5543
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 56.22,
+      "lod": 4.4107
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 58,
+      "lod": 4.0882
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 58.14,
+      "lod": 4.0984
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 58.28,
+      "lod": 4.1086
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 60.76,
+      "lod": 3.7853
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 62.75,
+      "lod": 3.9093
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 63.89,
+      "lod": 3.9221
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 64.25,
+      "lod": 3.9387
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 65.43,
+      "lod": 3.9531
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 67.24,
+      "lod": 4.0375
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 67.82,
+      "lod": 4.0241
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 68.75,
+      "lod": 3.9012
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 69.31,
+      "lod": 3.8325
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 70.8,
+      "lod": 3.6276
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 74,
+      "lod": 2.9418
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 74.28,
+      "lod": 2.9033
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 76.08,
+      "lod": 2.7216
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 76.17,
+      "lod": 2.7139
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 76.43,
+      "lod": 2.7108
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 77.27,
+      "lod": 2.6397
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 77.86,
+      "lod": 2.7831
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 78.6,
+      "lod": 2.3463
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 82.85,
+      "lod": 2.1707
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 83.77,
+      "lod": 2.0896
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 85.57,
+      "lod": 2.0251
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 88.55,
+      "lod": 2.2312
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 88.91,
+      "lod": 2.2336
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 89.4,
+      "lod": 2.4381
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 90.51,
+      "lod": 2.6715
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 90.93,
+      "lod": 2.6766
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 92.18,
+      "lod": 2.2883
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 92.89,
+      "lod": 2.3626
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 92.95,
+      "lod": 2.3626
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 94.75,
+      "lod": 2.1112
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 95.35,
+      "lod": 2.0078
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 96.39,
+      "lod": 2.0078
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 97.96,
+      "lod": 2.4277
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 100.35,
+      "lod": 1.8854
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 102.54,
+      "lod": 1.6172
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 102.73,
+      "lod": 1.5786
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 103.15,
+      "lod": 1.5195
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 105.72,
+      "lod": 1.1007
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 106.17,
+      "lod": 1.0936
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 106.91,
+      "lod": 1.0472
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 107.69,
+      "lod": 0.8893
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 108.1,
+      "lod": 1.1169
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 109.29,
+      "lod": 0.9708
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 110.2,
+      "lod": 0.9564
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 111.98,
+      "lod": 1.0438
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 112.82,
+      "lod": 0.9934
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 113.92,
+      "lod": 0.8942
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 114.75,
+      "lod": 0.8942
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 1,
+      "position": 115.88,
+      "lod": 0.8942
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 0,
+      "lod": 2.6204
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 0.29,
+      "lod": 2.6239
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 4.17,
+      "lod": 2.6149
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 5.36,
+      "lod": 2.596
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 8.58,
+      "lod": 3.128
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 9.77,
+      "lod": 3.0551
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 12.51,
+      "lod": 3.2418
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 14.92,
+      "lod": 3.2418
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 15.21,
+      "lod": 3.2418
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 20.63,
+      "lod": 2.9702
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 23.41,
+      "lod": 2.8417
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 23.69,
+      "lod": 3.0744
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 23.96,
+      "lod": 3.2676
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 24.29,
+      "lod": 3.2738
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 25.19,
+      "lod": 3.7115
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 25.48,
+      "lod": 3.7741
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 26.36,
+      "lod": 3.8492
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 30.25,
+      "lod": 3.8721
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 31.09,
+      "lod": 4.055
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 35.86,
+      "lod": 5.1733
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 38.15,
+      "lod": 5.677
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 38.72,
+      "lod": 4.5403
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 38.83,
+      "lod": 4.5403
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 39.87,
+      "lod": 5.0794
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 41.75,
+      "lod": 6.0336
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 44.11,
+      "lod": 7.7475
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 44.74,
+      "lod": 7.8381
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 45.18,
+      "lod": 7.9886
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 47.11,
+      "lod": 7.8798
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 47.12,
+      "lod": 8.0291
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 47.71,
+      "lod": 7.6306
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 47.72,
+      "lod": 7.7657
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 48.31,
+      "lod": 7.7511
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 50.35,
+      "lod": 7.679
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 50.69,
+      "lod": 7.7328
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 50.7,
+      "lod": 7.7343
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 51.23,
+      "lod": 7.8193
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 51.29,
+      "lod": 7.8193
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 51.89,
+      "lod": 7.8193
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 52,
+      "lod": 7.8118
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 54.27,
+      "lod": 8.4806
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 56.14,
+      "lod": 8.1724
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 56.54,
+      "lod": 8.1088
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 57.21,
+      "lod": 7.4004
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 58.47,
+      "lod": 7.3996
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 61.25,
+      "lod": 5.5829
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 62.55,
+      "lod": 5.4622
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 63.17,
+      "lod": 5.3406
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 65.4,
+      "lod": 5.3771
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 67.62,
+      "lod": 5.1263
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 72.21,
+      "lod": 3.2016
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 72.75,
+      "lod": 3.1558
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 73.72,
+      "lod": 3.0641
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 75.1,
+      "lod": 3.212
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 75.11,
+      "lod": 3.212
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 75.23,
+      "lod": 3.2309
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 75.97,
+      "lod": 3.2967
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 76.39,
+      "lod": 3.2916
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 77.9,
+      "lod": 2.426
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 78.18,
+      "lod": 2.5819
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 78.19,
+      "lod": 2.5789
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 78.77,
+      "lod": 2.3951
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 80.56,
+      "lod": 1.9814
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 82.66,
+      "lod": 1.2151
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 83.54,
+      "lod": 0.9275
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 87.21,
+      "lod": 0.7242
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 88.31,
+      "lod": 0.7188
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 88.92,
+      "lod": 0.7188
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 89.53,
+      "lod": 0.7188
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 89.92,
+      "lod": 0.7188
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 92.48,
+      "lod": 0.4625
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 5,
+      "position": 93.09,
+      "lod": 0.4625
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 0,
+      "lod": 2.6434
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 1.19,
+      "lod": 2.6434
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 2.38,
+      "lod": 2.3694
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 4.39,
+      "lod": 1.6617
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 5.09,
+      "lod": 1.1842
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 5.99,
+      "lod": 0.9376
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 6.03,
+      "lod": 0.9376
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 6.87,
+      "lod": 1.2487
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 7.47,
+      "lod": 1.5828
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 8.3,
+      "lod": 1.5831
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 8.66,
+      "lod": 1.7004
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 9.57,
+      "lod": 2.1201
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 11.07,
+      "lod": 2.8016
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 14.62,
+      "lod": 3.6022
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 15.29,
+      "lod": 3.7073
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 16.42,
+      "lod": 3.8367
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 17.25,
+      "lod": 3.8451
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 20.18,
+      "lod": 6.7609
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 21.88,
+      "lod": 6.5429
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 23.01,
+      "lod": 7.4727
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 23.86,
+      "lod": 7.4727
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 24.4,
+      "lod": 7.9362
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 26.07,
+      "lod": 7.9147
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 26.67,
+      "lod": 8.6734
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 26.68,
+      "lod": 8.7636
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 27.29,
+      "lod": 9.3125
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 27.34,
+      "lod": 9.3455
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 27.52,
+      "lod": 9.3455
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 27.99,
+      "lod": 9.3404
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 28.38,
+      "lod": 9.3361
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 30.32,
+      "lod": 10.3021
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 31.23,
+      "lod": 10.1756
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 35.39,
+      "lod": 13.1719
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 36.65,
+      "lod": 13.5094
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 36.88,
+      "lod": 13.5094
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 36.93,
+      "lod": 13.5094
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 37.18,
+      "lod": 13.5094
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 37.2,
+      "lod": 13.5094
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 37.21,
+      "lod": 13.5435
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 37.36,
+      "lod": 13.9059
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 37.5,
+      "lod": 14.1759
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 38.07,
+      "lod": 14.5443
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 38.69,
+      "lod": 15.1618
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 39.2,
+      "lod": 15.2329
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 39.89,
+      "lod": 15.2327
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 40.34,
+      "lod": 15.1809
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 41.67,
+      "lod": 15.0246
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 43.05,
+      "lod": 15.9266
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 43.47,
+      "lod": 16.1448
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 46.9,
+      "lod": 15.6336
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 47.62,
+      "lod": 14.9754
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 50.06,
+      "lod": 15.1915
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 50.21,
+      "lod": 15.1973
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 50.63,
+      "lod": 15.1973
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 51.8,
+      "lod": 14.9502
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 51.94,
+      "lod": 14.8534
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 53,
+      "lod": 13.6783
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 53.59,
+      "lod": 12.9639
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 54.19,
+      "lod": 11.6208
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 54.78,
+      "lod": 11.6117
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 55.97,
+      "lod": 11.919
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 56.58,
+      "lod": 11.903
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 57.47,
+      "lod": 11.9132
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 57.76,
+      "lod": 11.3254
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 58.35,
+      "lod": 11.3498
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 58.49,
+      "lod": 11.3761
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 59.18,
+      "lod": 11.2931
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 59.46,
+      "lod": 11.4003
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 60.3,
+      "lod": 11.0396
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 60.9,
+      "lod": 10.9707
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 62.59,
+      "lod": 10.3694
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 64.54,
+      "lod": 8.565
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 65.66,
+      "lod": 8.509
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 65.96,
+      "lod": 8.5107
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 66.26,
+      "lod": 8.5118
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 67.45,
+      "lod": 8.3029
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 68.05,
+      "lod": 8.0801
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 69.83,
+      "lod": 8.1361
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 70.43,
+      "lod": 8.1499
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 71.37,
+      "lod": 8.4493
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 72.22,
+      "lod": 8.4986
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 73.11,
+      "lod": 8.4645
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 73.75,
+      "lod": 8.6673
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 75.07,
+      "lod": 8.252
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 75.64,
+      "lod": 7.9828
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 77.45,
+      "lod": 6.8868
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 77.76,
+      "lod": 6.9158
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 78.02,
+      "lod": 6.8013
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 79.33,
+      "lod": 5.6273
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 79.55,
+      "lod": 5.6199
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 81.02,
+      "lod": 5.2147
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 81.23,
+      "lod": 5.2147
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 81.33,
+      "lod": 5.2147
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 82.52,
+      "lod": 5.7443
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 83.71,
+      "lod": 5.5087
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 84.2,
+      "lod": 5.471
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 84.31,
+      "lod": 6.3479
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 87.29,
+      "lod": 6.1039
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 88.98,
+      "lod": 6.1044
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 92.67,
+      "lod": 5.0357
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 93.27,
+      "lod": 4.8304
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 94.68,
+      "lod": 4.8304
+    },
+    {
+      "method": "scanone",
+      "model": "all-years",
+      "mtraits": "num_berries",
+      "trait": "num_berries",
+      "chr": 11,
+      "position": 95.25,
+      "lod": 4.8304
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+[
+  {
+    "innerRadius": 0.3,
+    "outerRadius": 0.4225,
+    "color": "rgb(0,0,0)",
+    "strokeColor": "black",
+    "strokeWidth": 0,
+    "direction": "out",
+    "fill": "false",
+    "fillColor": "white",
+    "maxGap": 1000000,
+    "opacity": 0.75,
+    "min": 0,
+    "max": 1,
+    "logScale": false,
+    "backgrounds": [
+      {
+        "start": 0,
+        "end": 1,
+        "color": "rgb(0,0,0)",
+        "opacity": 1
+      }
+    ],
+    "axes": [
+      {
+        "color": "white",
+        "thickness": 2,
+        "opacity": 0.75,
+        "spacing": 5
+      }
+    ],
+    "tooltipContent": {}
+  },
+  {
+    "innerRadius": 0.475,
+    "outerRadius": 0.5975,
+    "color": "rgb(0,0,0)",
+    "strokeColor": "black",
+    "strokeWidth": 0,
+    "direction": "out",
+    "fill": "false",
+    "fillColor": "white",
+    "maxGap": 1000000,
+    "opacity": 0.75,
+    "min": 0,
+    "max": 1,
+    "logScale": false,
+    "backgrounds": [
+      {
+        "start": 0,
+        "end": 1,
+        "color": "rgb(0,0,0)",
+        "opacity": 1
+      }
+    ],
+    "axes": [
+      {
+        "color": "white",
+        "thickness": 2,
+        "opacity": 0.75,
+        "spacing": 5
+      }
+    ],
+    "tooltipContent": {}
+  },
+  {
+    "innerRadius": 0.65,
+    "outerRadius": 0.7725,
+    "color": "rgb(0,0,0)",
+    "strokeColor": "black",
+    "strokeWidth": 0,
+    "direction": "out",
+    "fill": "false",
+    "fillColor": "white",
+    "maxGap": 1000000,
+    "opacity": 0.75,
+    "min": 0,
+    "max": 1,
+    "logScale": false,
+    "backgrounds": [
+      {
+        "start": 0,
+        "end": 1,
+        "color": "rgb(0,0,0)",
+        "opacity": 1
+      }
+    ],
+    "axes": [
+      {
+        "color": "white",
+        "thickness": 2,
+        "opacity": 0.75,
+        "spacing": 5
+      }
+    ],
+    "tooltipContent": {}
+  },
+  {
+    "innerRadius": 0.825,
+    "outerRadius": 0.9475,
+    "color": "rgb(0,0,0)",
+    "strokeColor": "black",
+    "strokeWidth": 0,
+    "direction": "out",
+    "fill": "false",
+    "fillColor": "white",
+    "maxGap": 1000000,
+    "opacity": 0.75,
+    "min": 0,
+    "max": 1,
+    "logScale": false,
+    "backgrounds": [
+      {
+        "start": 0,
+        "end": 1,
+        "color": "rgb(0,0,0)",
+        "opacity": 1
+      }
+    ],
+    "axes": [
+      {
+        "color": "white",
+        "thickness": 2,
+        "opacity": 0.75,
+        "spacing": 5
+      }
+    ],
+    "tooltipContent": {}
+  }
+]

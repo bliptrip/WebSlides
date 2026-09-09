@@ -1,0 +1,28 @@
+{
+    "innerRadius": 0.50,
+    "outerRadius": 0.75,
+    "color": "rgb(0,0,0)",
+    "strokeColor": "black",
+    "strokeWidth": 1,
+    "shape": "circle",
+    "size": 14,
+    "min": 0,
+    "max": 5,
+    "opacity": 0.75,
+    "axes": [
+    {
+        "spacing": 1,
+        "start": 1,
+        "thickness": 1,
+        "color": "rgb(0,0,0)",
+        "opacity": 1
+    }],
+    "backgrounds": [
+    {
+        "start": 0,
+        "end": 5,
+        "color": "rgb(0,0,0)",
+        "opacity": 0.75
+    }],
+    "tooltipContent": ""
+}
