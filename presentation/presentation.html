@@ -15,7 +15,7 @@
     -->
 
     <!-- SEO -->
-    <title>GGRU Seminar — From Bogs to Vineyards</title>
+    <title>From Bogs to Vineyards — GGRU Research Geneticist seminar</title>
     <meta name="description" content="USDA-ARS GGRU Research Geneticist seminar — Andrew F. Maule, September 2026.">
 
     <!-- URL CANONICAL -->
@@ -24,7 +24,6 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
     <!-- Mermaid CSS-->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
 
     <!-- CSS Base -->
@@ -35,24 +34,6 @@
     <!-- Optional - CSS SVG Icons (Font Awesome) -->
     <link rel="stylesheet" type="text/css" media="all" href="../static/css/svg-icons.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!-- SOCIAL CARDS (ADD YOUR INFO) -->
-
-    <!-- FACEBOOK -->
-    <meta property="og:url" content="http://your-url.com/permalink"> <!-- EDIT -->
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="WebSlides is the easiest way to create a portfolio website. It is free, fast, and fun"> <!-- EDIT -->
-    <meta property="og:description" content="The easiest way to create a portfolio website. It is free, fast, and fun."> <!-- EDIT -->
-    <meta property="og:updated_time" content="2018-03-03T17:26:50"> <!-- EDIT -->
-    <meta property="og:image" content="../static/images/share-webslides.jpg" > <!-- EDIT -->
-
-    <!-- TWITTER -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@webslides"> <!-- EDIT -->
-    <meta name="twitter:creator" content="@jlantunez"> <!-- EDIT -->
-    <meta name="twitter:title" content="Create your portfolio with WebSlides"> <!-- EDIT -->
-    <meta name="twitter:description" content="WebSlides is the easiest way to create a portfolio website. 120+ slides ready to use."> <!-- EDIT -->
-    <meta name="twitter:image" content="../static/images/share-webslides.jpg"> <!-- EDIT -->
 
     <!-- FAVICONS -->
     <link rel="shortcut icon" sizes="16x16" href="../static/images/favicons/favicon.png">
@@ -66,6 +47,85 @@
     <!-- Android -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#333333">
+
+    <!-- Deck-specific styles for the GGRU seminar (new scaffold slides) -->
+    <style>
+      /* small helpers used by the new slides */
+      .fit-img { display: block; margin: 0 auto; max-height: 58vh; width: auto; max-width: 100%; object-fit: contain; }
+      .grid .fit-img { max-height: 50vh; }
+      .cite { opacity: .75; font-weight: 300; margin-top: 1.2rem; }
+      .kicker { text-transform: uppercase; letter-spacing: .12em; font-weight: 600; opacity: .8; margin-bottom: .4rem; }
+      .chip { display: inline-block; font-size: 1.6rem; font-weight: 600; letter-spacing: .04em; padding: .1rem .8rem; margin-right: .6rem; border-radius: 1rem; background: rgba(255,255,255,.14); border: 1px solid rgba(255,255,255,.35); vertical-align: middle; }
+      .card-dark { background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.18); border-radius: 1rem; padding: 2rem 2.4rem; margin: 0 .8rem; }
+      .card-dark h5 { opacity: .9; font-size: 2.7rem; line-height: 3.7rem; font-weight: 300; }
+      .card-dark h4 { margin-bottom: .6rem; }
+      /* map slide */
+      .map-table { width: 100%; border-collapse: collapse; margin-top: 1.5rem; }
+      .map-table th { font-size: 2.2rem; text-transform: uppercase; letter-spacing: .06em; opacity: .8; padding: .8rem 1.2rem; border-bottom: 2px solid rgba(255,255,255,.35); text-align: left; }
+      .map-table td { font-size: 2.6rem; line-height: 3.6rem; padding: 1.1rem 1.2rem; border-bottom: 1px solid rgba(255,255,255,.18); vertical-align: top; }
+      /* backup comparison table (denser) */
+      .cmp-table td { font-size: 2.2rem; line-height: 3rem; padding: .8rem 1.2rem; }
+      .cmp-table td:first-child { opacity: .85; text-transform: uppercase; letter-spacing: .05em; font-size: 1.9rem; }
+      .lmi-table td, .lmi-table th { font-size: 2rem; line-height: 2.5rem; padding: .3rem .9rem; text-align: left; }
+      .lmi-table td:first-child { opacity: 1; text-transform: none; letter-spacing: 0; font-size: 2rem; }
+      /* path slide */
+      .path-grid .column { padding: 0 1.2rem; }
+      .path-grid h5 { opacity: .8; }
+      /* big numbers */
+      .numbers h1 { font-size: 7.2rem; line-height: 8rem; margin-bottom: .4rem; }
+      .numbers h4 small { font-size: 1.9rem; opacity: .8; }
+      .numbers-inline { justify-content: center; gap: 4rem; margin-top: 1.5rem; }
+      .numbers-inline h3 { margin: 0 2rem; }
+      .numbers-inline small { font-size: 2rem; font-weight: 300; }
+      /* unit map (vision) */
+      .unit-map { display: grid; grid-template-columns: repeat(3, 1fr); grid-auto-rows: minmax(21vh, auto); gap: 1.4rem; margin-top: 1.6rem; }
+      .unit-map .cell { background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.2); border-radius: 1rem; padding: 1.2rem 1.6rem; }
+      .unit-map .cell h5 { margin-bottom: .6rem; text-transform: uppercase; letter-spacing: .06em; font-size: 2.3rem; }
+      .unit-map .cell p { font-size: 2.3rem; line-height: 3.2rem; margin: 0; }
+      .unit-map .cell.me { background: rgba(126,211,126,.18); border: 2px solid rgba(126,211,126,.7); }
+      .unit-map .cell.me p { font-size: 2.4rem; line-height: 3.3rem; }
+      .unit-map .cell.me h4 { font-size: 2.8rem; line-height: 3.6rem; }
+      /* deliverables */
+      .deliverables { list-style: none; margin-left: 0; }
+      .deliverables li { margin: 1rem 0; }
+      .deliverables .num { display: inline-block; width: 4.4rem; height: 4.4rem; line-height: 4.4rem; text-align: center; border-radius: 50%; background: rgba(126,211,126,.25); border: 1px solid rgba(126,211,126,.7); margin-right: 1.2rem; font-weight: 600; }
+      .summary-grid .column { text-align: center; }
+      .lmi-svg { width: 100%; height: auto; display: block; }
+      /* figures keep a white ground on the dark theme (plots were made for white) */
+      .figure-white { background: #fff; padding: 1.2rem; border-radius: .8rem; box-shadow: 0 .6rem 2.4rem rgba(0,0,0,.35); }
+      .figure-white.fit-img { max-height: 58vh; }
+      .grid .figure-white.fit-img { max-height: 50vh; }
+      /* let the video / photo backgrounds show through a little more than WebSlides' defaults
+         (WebSlides: .dark = .2, .ddark = .1 opacity on the media element) */
+      [class*='bg-'] .embed.background.ddark { opacity: .3; }
+      [class*='bg-'] .embed.background.dark  { opacity: .4; }
+      [class*='bg-'] .background.ddark { opacity: .2; }   /* cover photos only; figure-based dividers keep the default */
+      [class*='bg-'] .background.dark  { opacity: .32; }
+      /* --- three trait panels (slide `plot-traits-pics`) ------------------
+         Two photographs (crop freely) + one schematic (must not be cropped).
+         One shared box height keeps the panels aligned and keeps the slide
+         inside 100vh at every zoom level. */
+      .trait-panels > .column { padding: 0 1.2rem; }
+      .trait-panels .panel-head { padding: 0 0 1.2rem 0; }
+      .trait-panels .panel-head h3 { margin: 0; }
+      .trait-panels .figbox {
+        padding: 0;
+        height: calc(100vh - 33rem);   /* 24rem slide padding + header + slack */
+        max-height: 68vh;
+        min-height: 24rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        border-radius: .8rem; }
+      .trait-panels .figbox img { display: block; width: 100%; height: 100%; object-fit: cover; }
+      /* the schematic carries labels at both edges - contain it, never cover */
+      .trait-panels .figbox.schematic { padding: 1rem; }
+      .trait-panels .figbox.schematic img {
+        width: auto; height: 100%; max-width: 100%; max-height: 100%; object-fit: contain; }
+      /* white slides: tone down helper contrast */
+      .bg-white .cite { color: #555; }
+    </style>
   </head>
   <body>
     <!--
@@ -87,46 +147,108 @@
     <main role="main">
       <article id="webslides">
 
-        <!-- Quick Guide
-          - Each parent <section> in the <article id="webslides"> element is an individual slide.
-          - Vertical sliding = <article id="webslides" class="vertical">
-          - <div class="wrap"> = container 90% / <div class="wrap size-50"> = 45%;
-        -->
-
-        <!-- SLIDE: Title -->
-        <section class="bg-apple slide-name aligncenter" slide_name="title-new" data-minutes="2.0" data-section="Opening (sample)" data-section-minutes="3">
+        <!-- ================= A. Opening (3 min) ================= -->
+<ws-section name="A. Opening" minutes="3">
+<section data-minutes="1" class="bg-apple slide-name aligncenter" slide_name="title-new">
           <div class="embed cover background ddark"> 
-              <video autoplay loop>
+              <video autoplay loop muted playsinline>
                   <source src="../static/videos/GRYG Original and Semantic.slow.mp4">
               </video>
           </div>
           <div class="wrap">
 						<h2><i class="fa-solid fa-wind fa-rotate-270 fa-sm"></i></h2>
-            <h1 class="text-landing aligncenter"><strong>Waders to Wings</strong><h1></h1>
-            <h2 class="aligncenter">Evolving Phenotyping from Field to Flight in the <br>
-              American Cranberry (<i>Vaccinium macrocarpon</i> Ait.)<br>
-              to Accelerate Genetic Mapping
+            <h1 class="text-landing aligncenter"><strong>From Bogs to Vineyards</strong></h1>
+            <h2 class="aligncenter">Phenomics-Driven Genetics of Growth and Phenology<br>
+              in a Perennial Fruit Crop
             </h2>
 						<h2><i class="fa-solid fa-wind fa-rotate-90 fa-sm"></i></h2>
           </div>
           <footer>
             <div class="content-right" style="text-align:right">
                 <span>
-                    <h4><em>Andrew Maule</em></h4>
-                    <h4>Cranberry Genetics and Genomics Lab</h4>
-                    <h4>USDA-ARS</h4>
+                    <h4><em>Andrew F. Maule, Ph.D.</em></h4>
+                    <h4>Research Associate &middot; UW&ndash;Madison</h4>
+                    <h4>Zalapa Lab &middot; USDA-ARS Vegetable Crops Research Unit</h4>
+                    <h5>GGRU Research Geneticist seminar &middot; Geneva, NY &middot; September 2026</h5>
                 </span>
             </div>
           </footer>
          </div>
          <!-- .end .card-50 -->
-        
-              <aside class="notes"><p><strong>Sample note &mdash; delete me.</strong> Open with the frost problem, not with cranberry taxonomy. A grower-relevant risk hooks Brown, Londo and Kirubakaran in the first 90 seconds.</p><ul><li>Name people by their work, not by flattery.</li><li><em>Let the video run. Do not read the title.</em></li></ul></aside>
-            </section>
+            
+          <aside class="notes"><p>"First, I want to say that I am greatly humbled by this opportunity to present my research and offer my vision of what I would contribute as a research geneticist to the Grape Genetics Research Unit."</p>Open with the frost problem, not with cranberry taxonomy: "I work on a cranberry, a long-lived, clonally propagated, frost-vulnerable woody perennial with a 6&ndash;8 year evaluation cycle."</p><ul><li>Cranberry is the <strong>case study</strong>, not the identity. Say so in the first minute.</li><li><em>Do not read the title.</em></li></ul></aside>
+        </section>
 
-        <section class="bg-apple slide-name" slide_name="background" data-minutes="1.0">
+        <section class="bg-apple slide-name" slide_name="path" data-minutes="1">
+          <div class="wrap">
+            <h2 class="aligncenter"><strong>My path</strong></h2>
+            <div class="grid path-grid">
+              <div class="column aligncenter">
+                <p><i class="fa-solid fa-microchip fa-3x"></i></p>
+                <h4><strong>B.S. Computer Engineering</strong></h4>
+                <h5>Georgia Tech</h5>
+              </div>
+              <div class="column aligncenter">
+                <p><i class="fa-solid fa-plane fa-3x"></i></p>
+                <h4><strong>~10 years embedded &amp; avionics software</strong></h4>
+                <h5>real-time systems, sensors, certification</h5>
+              </div>
+              <div class="column aligncenter">
+                <p><i class="fa-solid fa-dna fa-3x"></i></p>
+                <h4><strong>Ph.D. Plant Breeding &amp; Plant Genetics</strong></h4>
+                <h5>UW&ndash;Madison &middot; Zalapa lab / USDA-ARS VCRU &middot; Dec 2025</h5>
+              </div>
+              <div class="column aligncenter">
+                <p><i class="fa-solid fa-seedling fa-3x"></i></p>
+                <h4><strong>Research Associate</strong></h4>
+                <h5>Digman + Zalapa labs &middot; UAV phenomics; spring-greening papers under review / in preparation</h5>
+              </div>
+            </div>
+          </div>
+          <aside class="notes"><p>"I started my education and career with a focus on engineering. I received a B.S. in computer engineering from Georgia Tech,
+                            followed by around 10 years of work in embedded systems and avionics."<p>
+                              <p>However, my passion for plants drove me to seek out a PhD and a career in Plant Breeding and Genetics.</p>
+                            </p><em>This background allows me to think of phenotyping as an engineering problem, while plant breeding provides my purpose to find an accurate and efficient solution."</em></p>
+                            </aside>
+        </section>
+
+        <section class="bg-apple slide-name" slide_name="map" data-minutes="1">
+          <div class="wrap">
+            <h2 class="aligncenter"><strong>The map for this talk</strong></h2>
+            <h4 class="aligncenter">Four objectives of the position &rarr; where I have already done each one</h4>
+            <table class="map-table">
+              <thead>
+                <tr><th style="width:44%">Posting objective</th><th>Where I&rsquo;ve done it</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>1.</strong> Identify key traits affecting vine growth/development, production efficiency, fruit quality</td>
+                  <td><span class="chip">Meta-QTL &middot; published</span> 29 primary + 11 derived yield &amp; quality traits<br><span class="chip">UAV phenomics &middot; under review</span> spring dormancy-exit timing as a new, selectable trait (LMI)</td>
+                </tr>
+                <tr>
+                  <td><strong>2.</strong> Elucidate genetic / molecular / physiological control; underlying QTL and genes</td>
+                  <td><span class="chip">Meta-QTL &middot; published</span> 22 stable meta-QTL<br><span class="chip">LMI genetics &middot; in prep</span> 11 LMI QTL, h&sup2; = 0.74, dormancy-regulator candidate genes</td>
+                </tr>
+                <tr>
+                  <td><strong>3.</strong> Develop tools to measure, quantify and integrate traits into germplasm</td>
+                  <td><span class="chip">UAV phenomics &middot; under review</span> UAV RGB &rarr; random forest anthocyanin (R&sup2; = 0.95) &rarr; per-genotype decay curves &rarr; LMI selection index; GBLUP mapping</td>
+                </tr>
+                <tr>
+                  <td><strong>4.</strong> Transfer germplasm, information and tools to breeders</td>
+                  <td><span class="chip">Genotyping platform &middot; published</span> meta-QTL loci &amp; SNPs on the cranberry Flex-Seq panel (Clare et al., <em>The Plant Genome</em> 19:e70153, 2026); markers to VacCAP / vaccinium.org; open code; grower talks</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <aside class="notes"><p>"Blocks C, D, E are three papers &mdash; one published, one under review, one in preparation &mdash; plus a fourth I contributed to; block F is how they become a grape program."</p><p>The four rows are the posting's four objectives, verbatim in spirit. Zhong and Cadle-Davidson wrote them. Say the publication status of each once, here, so the rest of the talk can use short names: <strong>meta-QTL paper</strong> (Maule et al. 2024, Front. Plant Sci.), <strong>spring-greening paper</strong> (under review, Smart Agricultural Technology), <strong>LMI-genetics paper</strong> (in preparation for G3), <strong>genotyping platform</strong> S.J. Clare et al., The Plant Genome. 19, e70153 (2026).</p><ul><li>Do not read the right-hand column &mdash; point at it and move on. ~60 s.</li></ul></aside>
+        </section>
+</ws-section>
+
+        <!-- ================= B. Cranberry as a model system (4 min) ================= -->
+<ws-section name="B. Cranberry as a model system" minutes="4">
+<section data-minutes="1" class="bg-apple slide-name" slide_name="background">
           <!--.wrap = container (width: 95%) -->
-          <h1 class="text-landing aligncenter"><strong>Background</strong></h1>
+          <h1 class="text-landing aligncenter"><strong>The crop</strong></h1>
           <div class="card-50 bg-white">
               <figure>
                 <img class="bg-white" src="../static/images/cranberry_bog_habitat.png" alt="Cranberry native habitat">
@@ -141,50 +263,127 @@
                   <li><h4><strong class="text-label-wide">Origin</strong>Eastern North America</h4></li>
                   <li><h4><strong class="text-label-wide">Life History</strong>Perennial</h4></li>
                   <li><h4><strong class="text-label-wide">Other</strong>Biennial-bearing; 3-5 years to establish beds</h4></li>
+                  <li><h4><strong class="text-label-wide">Breeding</strong>Clonally propagated; 6&ndash;8 year evaluation cycles</h4></li>
                 </ul>
               </div>
               <!-- end .flex-content-->
             </div>
             <!-- .end .card50 -->
           <!-- .end .wrap -->
-        
-              <aside class="notes"><p><strong>Sample note.</strong> Georgia Tech &rarr; 10 years avionics &rarr; UW&ndash;Madison. One line: &ldquo;I think about phenotyping as an engineering problem and about breeding as the reason to solve it.&rdquo;</p><p><em>~45 seconds. Do not narrate the CV.</em></p></aside>
-            </section>
-
-        <section class="bg-apple slide-name slide-top" slide_name="history-past" data-minutes="1.5">
-          <span class="background llight" style="background-image:url('../static/images/history/history_nantucket_harvest.png')"></span>
-            <div class="wrap">
-              <h1 class="text-landing alignright" style="text-align:right;vertical-align:center"><strong>History</strong></h1>
-            </div>
-            <footer>
-                <h5 class="alignright"><em>The Cranberry Harvest, Island of Nantucket</em><br>Eastman Johnson - 1880</h5>
-            </footer>
-        
-              <aside class="notes"><p><strong>Sample note.</strong> This slide <em>is</em> the structure of the talk. Say so out loud.</p></aside>
-            </section>
-
-        <!-- AMNOTE: cranberry genetic improvement has lagged behind its blueberry brethren for various reasons including: the lack of con- tinued breeding efforts, 
-        the limited number of breeding programs in existence, the long breeding cycle due to lengthy establishment periods (2–4 yr) followed by long evaluation periods 
-        (4–5 yr) required to measure biennial bearing. 
-        - a lack of adop- tion of molecular-assisted breeding strategies which could increase the rate of domestication and genetic gain in cranberry -->
-
-        <!-- sample grouping - delete the two ws-section tags to remove it -->
-<ws-section name="Chapter II — Meta-QTL (sample)" minutes="9">
-<section class="bg-apple slide-name slide-bottom" slide_name="history-current" data-minutes="3.0">
-          <span class="background" style="background-image:url('../static/images/history/harvest.jpg')"></span>
+            
+          <aside class="notes"><p>One breath of taxonomy, then straight to the breeding constraints: clonal, slow, evergreen, biennial. Each of those has a grape analogue &mdash; say the grape word as you say the cranberry word.</p><ul><li>"Cranberry genetic improvement has lagged: few programs, 2&ndash;4 yr establishment + 4&ndash;5 yr evaluation, and late adoption of marker-assisted strategies."</li></ul></aside>
         </section>
 
-        <section class="bg-apple slide-name" slide_name="ch2-title">
+        <section class="bg-apple slide-name" slide_name="why-grape" data-minutes="1">
+          <div class="wrap">
+            <h2 class="aligncenter"><strong>Why a grape audience should care</strong></h2>
+            <div class="grid">
+              <div class="column">
+                <h3><strong>Shared problems</strong></h3>
+                <ul class="oldschool">
+                  <li><h4>Long-lived woody perennials, clonally propagated</h4></li>
+                  <li><h4>Slow generation and evaluation cycles</h4></li>
+                  <li><h4>Dormancy and cold hardiness set the range</h4></li>
+                  <li><h4>Spring frost is a top yield risk</h4></li>
+                  <li><h4>Small public breeding communities that lean on ARS</h4></li>
+                </ul>
+              </div>
+              <div class="column">
+                <h3><strong>A shared climate signal</strong></h3>
+                <h4>Budbreak advances ~5.8 days per &deg;C of dormant-season warming &mdash; and in cool climates it runs into a <em>phenology&ndash;temperature mismatch</em>: a bump in freeze-damage risk where budbreak moves earlier faster than late-frost risk falls.</h4>
+                <h5 class="cite">Campos-Arguedas, Kirchhof, North, Londo, Bates &hellip; Kovaleski, <em>New Phytol.</em> 250:2203&ndash;2220 (2026) &middot; NYUS.1 cold-hardiness model: Kovaleski, North, Martinson &amp; Londo (2023)</h5>
+                <hr>
+                <h4><strong>Cranberry in Wisconsin is already living in that zone.</strong> The question is whether genetics can get a crop out of it.</h4>
+              </div>
+            </div>
+          </div>
+          <aside class="notes"><p><strong>This is the bridge slide.</strong> Say "vine" and "grape" here as much as "cranberry".</p><p>Name Jason Londo by his work, not by flattery: "Jason's NYUS.1 model predicts budbreak from cold-hardiness dynamics; what I bring is the genetic variance component across a segregating population."</p><ul><li><em>Verified against the PDF (10 Sep):</em> Campos-Arguedas et al. 2026, <em>New Phytologist</em> 250:2203&ndash;2220, doi 10.1111/nph.71074. First author and corresponding author (Al Kovaleski) are in Plant &amp; Agroecosystem Sciences at UW&ndash;Madison &mdash; your own department; Londo (Cornell AgriTech) and Terry Bates are co-authors. NYUS.1 itself is Kovaleski, North, Martinson &amp; Londo 2023 (<em>Agric. For. Meteorol.</em> 331:109324), so "Jason's model" is fair &mdash; but say "Al Kovaleski's group and Jason" for the 2026 paper.</li><li>Numbers: the model was untrained on budbreak yet predicted it with RMSE 7.3 d (n = 329; 7.2 d after correcting for estimated freeze damage), for Cabernet-Sauvignon, Riesling and Concord across 8 sites (FR, DE, US, CA), 68 seasons. Sensitivity of budbreak to mean dormant-season temperature (MDST, 1 Nov&ndash;30 Apr): &minus;5.8 d/&deg;C overall (Concord 6.0, C-S 5.7, Riesling 5.5); non-linear &mdash; 6.3 d/&deg;C at 3&ndash;10&deg;C MDST, but a <em>delay</em> of +3.8 d/&deg;C once MDST exceeds 10&deg;C (warm sites lose chilling). Freeze risk generally falls with warming but shows a "bump" at MDST &asymp; 3&ndash;8&deg;C: the phenology&ndash;temperature mismatch, worst for Concord (fast deacclimator). The paper says "mismatch", not "temperature mismatch zone" &mdash; the slide wording is now the paper's.</li><li>Wisconsin cranberry country sits in that 3&ndash;8&deg;C MDST band &mdash; that is the "already living in it" line.</li></ul></aside>
+        </section>
+
+        <section class="bg-apple slide-name" slide_name="frost" data-minutes="1">
+          <span class="background ddark" style="background-image:url('../static/images/ch4/sprinkler.JPG')"></span>
+          <div class="wrap">
+            <div class="content-left">
+              <h2><strong>The frost problem, in grower terms</strong></h2>
+              <ul>
+                <li><h4>Buds are hardy in winter, vulnerable once they swell in spring</h4></li>
+                <li><h4>Growers flood or use sprinklers when frost damage risk is high</h4></li>
+                <li><h4>Every frost night costs water, energy, labor and sleep</h4></li>
+                <li><h4><strong>Genetics could shorten the window, or shift it.</strong></h4></li>
+              </ul>
+            </div>
+          </div>
+          <aside class="notes"><p><strong>Stakeholder slide &mdash; Donnell Brown (NGRA) will notice this one.</strong> Use the Cranberry School framing: this is what growers actually pay for.</p><p>Bridge to grape: sprinkler and wind-machine frost protection in vineyards are the same economics.</p><ul><li><em>TODO:</em> if you have a number (frost nights/yr, acre-feet of water, or $ per frost event) from Cranberry School, put one here. One number only.</li></ul></aside>
+        </section>
+
+</ws-section>
+
+        <!-- ================= C. Meta-QTL synthesis — Maule et al. 2024 + Clare et al. 2026 (9 min) ================= -->
+<ws-section name="C. Meta-QTL synthesis — Maule et al. 2024 + Clare et al. 2026" minutes="9">
+<section data-minutes="0.25" class="bg-apple slide-name" slide_name="ch2-title">
           <span class="background-contain background-center ddark" style="background-image:url('../static/images/ch2/budsNbits.png')"></span>
           <div class="wrap aligncenter">
             <h2><strong>Of buds and bits:</strong></h2>
             <h3><strong>A meta-QTL study identifies stable QTL <br>
                 for berry quality and yield traits<br>
                 in cranberry mapping populations (<em>Vaccinium macrocarpon</em> Ait.)</strong></h3>
+            <h5 class="cite">Maule et al. 2024 &middot; <em>Frontiers in Plant Science</em> 15:1294570</h5>
           </div>
+        
+          <aside class="notes"><p>Section divider. One sentence: "This is my most polished work and the least grape-specific &mdash; so I'll sell the <strong>method</strong>, not the loci."</p></aside>
+        </section>
+        
+<section data-minutes="0.75" class="bg-apple aligncenter slide-name" slide_name="populations-map">
+          <span class="background ddark" style="background-image:url('../static/images/qtl/g3-composite-marker-map-square.png')"></span>
+          <div class="wrap">
+            <div class="grid">
+              <div class="column content-left">
+                <div class="flex-content">
+                    <h3 class="text-landing"><strong>Populations</strong></h3>
+                </div>
+                <div class="flex-content">
+                      <ul class="description">
+                        <li><h4><strong class="text-label-wide">Name</strong>CNJ02</h4></li>
+                        <li><h4><strong class="text-label-wide">Parents</strong>MQ x CQ</h4></li>
+                        <li><h4><strong class="text-label-wide">Size</strong>168</h4></li>
+                        <li><h4><strong class="text-label-wide">Years</strong>2011-2013</h4></li>
+                      </ul>
+                </div>
+                <div class="flex-content">
+                      <ul class="description">
+                        <li><h4><strong class="text-label-wide">Name</strong>CNJ04</h4></li>
+                        <li><h4><strong class="text-label-wide">Parents</strong>MQ x ST</h4></li>
+                        <li><h4><strong class="text-label-wide">Size</strong>67</h4></li>
+                        <li><h4><strong class="text-label-wide">Years</strong>2011-2012,2014</h4></li>
+                      </ul>
+                </div>
+                <!-- .end .flex-content -->
+              </div>
+              <!-- .end .column -->
+              <div class="column content-left">
+                <div class="flex-content">
+                    <h3 class="text-landing"><strong>Genetic Map</strong></h3>
+                </div>
+                <div class="flex-content">
+                    <ul class="description">
+                    <li><h4><strong class="text-label-wide">Map Type</strong>Composite Linkage Map</h4></li>
+                    <li><h4><strong class="text-label-wide">Marker Types</strong>SNPs and SSRs</h4></li>
+                    <li><h4><strong class="text-label-wide">No. LGs</strong>12</h4></li>
+                    <li><h4><strong class="text-label-wide">No. Bins</strong>1560</h4></li>
+                    </ul>
+                </div>
+                <!-- .end .flex-content -->
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end grid -->
+          </div>
+          <!-- .end .wrap -->
+        
+          <aside class="notes"><p><strong>45 seconds, no more.</strong> CNJ02 (MQ&times;CQ, n=168), CNJ04 (MQ&times;ST, n=67); GRYG is the third population in the spring-greening work. Composite map: 12 LGs, 1,560 bins (meta-QTL paper); the LMI-genetics work uses the 6,073 SNP+SSR map &mdash; label which map on which slide.</p><ul><li>Grape translation: "These are the equivalent of VitisGen bi-parental families, at a tenth of the marker density you have with rhAmpSeq."</li></ul></aside>
         </section>
 
-        <section class="bg-apple slide-center slide-name" slide_name="ch2-objectives">
+<section data-minutes="1" class="bg-apple slide-center slide-name" slide_name="ch2-objectives">
           <span class="background-contain background-right dark" style="background-image:url('../static/images/qtl/circos_qtl_background.svg')"></span>
           <div class="wrap aligncenter">
             <div class="alignleft content-left">
@@ -197,9 +396,11 @@
               </ul>
             </div>
           </div>
+        
+          <aside class="notes"><p>Four objectives, four seconds each. The third one &mdash; connecting conventional upright metrics to image phenotyping &mdash; is the one that pays off later on the "why this matters" slide.</p></aside>
         </section>
 
-        <section class="bg-apple aligncenter slide-name" slide_name="ch2-workflow">
+<section data-minutes="1" class="bg-apple aligncenter slide-name" slide_name="ch2-workflow">
           <div class="wrap" style="width:100%">
             <h1 class="text-landing aligncenter"><strong>Workflow</strong></h1>
             <div class="aligncenter bg-white mermaid">
@@ -251,102 +452,708 @@
                 class meta mq
             </div>
           </div>
+        
+          <aside class="notes"><p><strong>Shown once, not four times.</strong> Phenotypes + markers &rarr; mixed models (sommer; A-matrix; per year) &rarr; BLUPs and h&sup2; &rarr; QTL &rarr; meta-QTL with external studies.</p><ul><li>Mermaid renders on slide entry &mdash; give it a beat.</li></ul></aside>
         </section>
 
-        <section class="bg-apple aligncenter slide-name" slide_name="populations-map">
-          <span class="background ddark" style="background-image:url('../static/images/qtl/cnj02_montage.png')"></span>
+<section data-minutes="1" class="bg-apple aligncenter slide-name" slide_name="plot-traits-pics">
+          <!--.wrap = container (width: 95%) -->
           <div class="wrap">
-            <div class="grid">
-              <div class="column content-left">
-                <div class="flex-content">
-                    <h3 class="text-landing"><strong>Populations</strong></h3>
+            <div class="grid trait-panels">
+              <div class="content-left column">
+                <div class="flex-content panel-head">
+                    <h3><strong>Upright Traits</strong> <small>n = 21</small></h3>
                 </div>
-                <div class="flex-content">
-                      <ul class="description">
-                        <li><h4><strong class="text-label-wide">Name</strong>CNJ02</h4></li>
-                        <li><h4><strong class="text-label-wide">Parents</strong>MQ x CQ</h4></li>
-                        <li><h4><strong class="text-label-wide">Size</strong>168</h4></li>
-                        <li><h4><strong class="text-label-wide">Years</strong>2011-2013</h4></li>
-                      </ul>
+                <div class="flex-content figbox">
+                    <img src="../static/images/ch2/upright.jpeg" alt="Cranberry upright bearing berries">
                 </div>
-                <div class="flex-content">
-                      <ul class="description">
-                        <li><h4><strong class="text-label-wide">Name</strong>CNJ04</h4></li>
-                        <li><h4><strong class="text-label-wide">Parents</strong>MQ x ST</h4></li>
-                        <li><h4><strong class="text-label-wide">Size</strong>67</h4></li>
-                        <li><h4><strong class="text-label-wide">Years</strong>2011-2012,2014</h4></li>
-                      </ul>
-                </div>
-                <!-- .end .flex-content -->
               </div>
-              <!-- .end .column -->
-              <div class="column content-left">
-                <div class="flex-content">
-                    <h3 class="text-landing"><strong>Genetic Map</strong></h3>
+              <div class="content-left column">
+                <div class="flex-content panel-head">
+                    <h3><strong>Plot Traits</strong> <small>n = 8</small></h3>
                 </div>
-                <div class="flex-content">
-                    <ul class="description">
-                    <li><h4><strong class="text-label-wide">Map Type</strong>Composite Linkage Map</h4></li>
-                    <li><h4><strong class="text-label-wide">Marker Types</strong>SNPs and SSRs</h4></li>
-                    <li><h4><strong class="text-label-wide">No. LGs</strong>12</h4></li>
-                    <li><h4><strong class="text-label-wide">No. Bins</strong>1560</h4></li>
-                    </ul>
+                <div class="flex-content figbox">
+                    <img src="../static/images/ch2/plot.jpeg" alt="Quadrat and harvest box on a cranberry bed">
                 </div>
-                <!-- .end .flex-content -->
               </div>
-              <!-- .end .column -->
+              <div class="content-left column">
+                <div class="flex-content panel-head">
+                    <h3><strong>Derived Traits</strong> <small>n = 11</small></h3>
+                </div>
+                <div class="flex-content figbox schematic figure-white">
+                    <img src="../static/images/ch2/derived_narrow.png" alt="Berry-shape to composite-chimera pipeline">
+                </div>
+              </div>
             </div>
-            <!-- .end grid -->
           </div>
-          <!-- .end .wrap -->
+
+          <aside class="notes"><p>21 upright, 8 plot, 11 derived. <strong>Say why:</strong> this is what breeders had been measuring by hand for a century &mdash; the ground truth any image trait has to earn its place against.</p><ul><li>Right panel reads left to right: berry shape &rarr; template &rarr; distance transform &rarr; composite &rarr; chimera. One sentence, then move on.</li></ul></aside>
+        </section>
+
+        <section class="bg-apple slide-name" slide_name="ch2-h2-corr" data-minutes="1">
+          <div class="wrap" style="width:100%">
+            <h2 class="aligncenter"><strong>Heritabilities and correlations</strong></h2>
+            <div class="grid">
+              <div class="column aligncenter">
+                <img class="fit-img figure-white" src="../static/images/ch2/heritabilities.png" alt="Trait heritabilities">
+                <h5>High h&sup2; for berry roundness (LvW) and TAcy = easy selection targets; modest total-yield h&sup2; = limited room</h5>
+              </div>
+              <div class="column aligncenter">
+                <img class="fit-img figure-white" src="../static/images/ch2/correlations_landscape.png" alt="Trait correlations CNJ02 and CNJ04">
+                <h5>Upright berry weight tracks plot berry weight; TAcy vs. fruit-rot trade-off</h5>
+              </div>
+            </div>
+          </div>
+          <aside class="notes"><p><strong>One takeaway sentence per panel</strong> (they are printed under each figure). Do not read either figure.</p><ul><li>Left: high heritability in roundness and TAcy; modest total-yield heritability.</li><li>Right: upright and plot berry weight tightly correlated; TAcy vs. percent rot trade-off.</li><li><em>TODO:</em> if the two panels are illegible side by side at 1080p, drop back to the two full-bleed originals (both kept in the Backup section, still on white).</li></ul></aside>
+        </section>
+
+        <section class="bg-apple slide-name" slide_name="ch2-metaqtl-concept" data-minutes="1.25">
+          <div class="wrap">
+            <h2 class="aligncenter"><strong>What counts as a &ldquo;stable&rdquo; QTL?</strong></h2>
+            <div class="grid">
+              <div class="column card-dark">
+                <p><i class="fa-solid fa-calendar-days fa-2x"></i></p>
+                <h3><strong>Across years</strong></h3>
+                <h4>Same trait, same population, co-locating QTL in &ge; 2 seasons</h4>
+                <h5>temporal stability</h5>
+              </div>
+              <div class="column card-dark">
+                <p><i class="fa-solid fa-layer-group fa-2x"></i></p>
+                <h3><strong>Across traits</strong></h3>
+                <h4>Related traits (e.g. upright &amp; plot berry weight) sharing an interval</h4>
+                <h5>semantic stability</h5>
+              </div>
+              <div class="column card-dark">
+                <p><i class="fa-solid fa-book-open fa-2x"></i></p>
+                <h3><strong>Across studies &amp; populations</strong></h3>
+                <h4>Consensus with published QTL projected onto one composite map</h4>
+                <h5>the meta-QTL</h5>
+              </div>
+            </div>
+            <h4 class="aligncenter"><em>Consensus, not p-values, is what a breeder can act on.</em></h4>
+          </div>
+          <aside class="notes"><p><strong>The one method slide in this block.</strong> Multi-year, multi-trait, multi-study/population consensus &mdash; and what "stable" means in each.</p><ul><li>This is the transferable idea: VitisGen1&ndash;3 have a decade of QTL across populations waiting for the same synthesis (say it on the takeaways slide).</li></ul></aside>
+        </section>
+
+        <section class="bg-apple slide-name" slide_name="ch2-results" data-minutes="0.75">
+          <div class="wrap">
+            <h2 class="aligncenter"><strong>Results</strong></h2>
+            <div class="grid numbers">
+              <div class="column aligncenter">
+                <h1><strong>1,542</strong></h1>
+                <h4>QTL mapped<br><small>470 major (PVE &gt; 10%)</small></h4>
+              </div>
+              <div class="column aligncenter">
+                <h1><strong>9 + 4</strong></h1>
+                <h4>multi-year<br><small>CNJ02 + CNJ04</small></h4>
+              </div>
+              <div class="column aligncenter">
+                <h1><strong>7 + 1</strong></h1>
+                <h4>multi-trait<br><small>within study</small></h4>
+              </div>
+              <div class="column aligncenter">
+                <h1><strong>22</strong></h1>
+                <h4>cross-study meta-QTL<br><small>8 digital shape/size &middot; 2 digital color &middot; 12 three-study</small></h4>
+              </div>
+            </div>
+          </div>
+          <aside class="notes"><p><strong>One number per column; land on 22.</strong> Yield/quality QTL are everywhere; stable ones are rare &mdash; that is the point.</p><ul><li><em>Verified against Maule et al. 2024 (10 Sep):</em> 1,542 = 385 scanone + 702 stepwiseqtl (CNJ02) + 90 + 365 (CNJ04); 470 major = 170 + 150 + 69 + 81 (marker PVE &ge; 10%). Multi-year: 9 (CNJ02) + 4 (CNJ04). Multi-trait: 7 (CNJ02) + 1 (CNJ04) + 1 combined. 22 cross-study meta-QTL = 8 digital shape/size + 2 digital color + 12 three-study. The thesis seminar's 92 (29 multi-trait / 63 single-trait) counted single-study projections &mdash; if asked, say the published 22 is the strict cross-study consensus. Both thesis summary slides are in the Backup section.</li></ul></aside>
+        </section>
+
+        <section class="bg-apple slide-name" slide_name="ch2-why" data-minutes="0.75">
+          <span class="background-contain background-right dark" style="background-image:url('../static/images/qtl/circos_qtl_background.svg')"></span>
+          <div class="wrap">
+            <div class="content-left">
+              <h2><strong>Why this matters to a breeder</strong></h2>
+              <ul>
+                <li><h4>The meta-QTL <strong>anchored image-derived traits to traditional upright traits</strong> &mdash; high-throughput phenotyping validated against what breeders already trust</h4></li>
+                <li><h4>Markers deposited to <strong>vaccinium.org / VacCAP</strong>; code public (GitHub CNJ0x-Trait-Mapping)</h4></li>
+                <li><h4>The <strong>method</strong> is crop-agnostic: any set of populations + a composite map</h4></li>
+              </ul>
+              <h5 class="cite">Posting objective 4: transfer germplasm, information and tools to breeders</h5>
+            </div>
+          </div>
+          <aside class="notes"><p>This is posting objective 4 made concrete. Luis Diaz-Garcia is a co-author &mdash; acknowledge the lineage (GiNA image phenotyping &rarr; BerryPortraits &rarr; UAV) as an example of how a lab's tools compound. Don't oversell to him.</p></aside>
+        </section>
+
+        <section class="bg-apple slide-name" slide_name="ch2-flexseq" data-minutes="1">
+          <div class="wrap">
+            <h5 class="kicker">Clare et al. 2026 &middot; <em>The Plant Genome</em> 19:e70153</h5>
+            <h2><strong>From QTL to a community genotyping platform</strong></h2>
+            <div class="grid vertical-align">
+              <div class="column" style="flex:1.9">
+                <ul class="oldschool">
+                  <li><h4>GBS markers don&rsquo;t transfer between populations &mdash; grape solved it with <strong>rhAmpSeq</strong> (VitisGen, 2020); cranberry with <strong>Flex-Seq</strong> (VacciniumCAP, 2026)</h4></li>
+                  <li><h4><strong>17,502 loci</strong> &middot; 99.8% recovery &middot; microhaplotypes, not just SNPs &middot; presence/absence-variable genes &mdash; where resistance genes concentrate &mdash; kept in proportion</h4></li>
+                  <li><h4><strong>160</strong> of our QTL-peak SNPs went in as <em>a priori</em> targets; <strong>36</strong> survived winnowing &mdash; the panel is built to be re-spun</h4></li>
+                  <li><h4>Same populations, same pipeline: fruit-rot resistance <strong>1 &rarr; 4 QTL</strong>; trio check traced 5 of 9 failures to one landrace parent &mdash; the clonal-crop problem grape shares</h4></li>
+                </ul>
+              </div>
+              <div class="column card-dark aligncenter">
+                <p><i class="fa-solid fa-dna fa-3x"></i></p>
+                <h4><strong>My role</strong></h4>
+                <h5>formal analysis &middot; validation</h5>
+                <hr>
+                <h5>USDA-ARS Corvallis (Bassil) &middot; WSU &middot; ARS Chatsworth &middot; Rutgers &middot; MSU &middot; NCSU &middot; UW&ndash;Madison</h5>
+              </div>
+            </div>
+          </div>
+          <aside class="notes"><p><strong>The non-first-author paper, and the cleanest objective-4 story you have:</strong> stable QTL from the meta-QTL paper became design targets for the first targeted, transferable genotyping platform in cranberry. One number: <strong>17,502 loci, 99.8% recovery</strong>. ~60 s.</p><ul><li><strong>Grape first, cranberry second.</strong> "This is cranberry's rhAmpSeq moment, six years later. Lance's platform is the reason I can propose a grape meta-QTL as a year-one deliverable &mdash; the transferable markers already exist."</li><li><strong>The tiering line</strong> (this is the Cadle-Davidson connection): VitisGen3 is moving rhAmpSeq discovery into cheap KASP markers for routine selection; cranberry did the same with Flex-Seq for discovery and the public DArTag panel for routine work, with the two designed to cross-relate. "I've worked inside one of these tiered architectures and know what makes the hand-off work."</li><li><strong>Deference, unprompted:</strong> rhAmpSeq's 91.9% recovery is <em>across the genus</em>, on interspecific families; 99.8% is within one species. Never put the two numbers side by side &mdash; theirs is the harder problem.</li><li><strong>Do NOT</strong> suggest rhAmpSeq misses R genes. Wilkerson / Villwock / Zou / Cadle-Davidson / Sun already do haplotype-diversity and marker work <em>at</em> the resistance loci (Rpv3 etc.). Frame the accessory-gene point as "pangenome-aware panel design plugs into that work", not as a gap.</li><li><strong>Bullet 3 is resolved:</strong> Table S2 of the paper is literally the <code>Zalapa_QTL_30OCT24</code> sheet &mdash; CNJ02 / CNJ04 / GRYG QTL-peak SNPs for the upright / yield traits (UBL, UNS, UKLvW, MFM&hellip;) from the composite map. 160 supplied &rarr; 112 in the 46K pilot &rarr; 36 in the final 17,502. Winnowing was on recovery, within-locus consistency and read uniformity; that is the argument for a targeted re-spin.</li><li><strong>Trio result:</strong> say "SNP and haplotype data" (the paper doesn't split it); name McFarlin only if asked. The point is germplasm identity in a clonally propagated crop moved as cuttings &mdash; the grape story too.</li><li>Multi-institution SCRI (VacciniumCAP) &mdash; the same shape as VitisGen3. Cadle-Davidson co-leads one; Brown's NGRA funds the grape equivalent.</li><li><em>If asked "would you build this for grape?"</em> &mdash; no; rhAmpSeq exists and works across the genus. The real question is whether a higher-density microhaplotype layer earns its cost for fine-mapping or germplasm forensics on specific populations. Comparison table is in Backup (press <strong>o</strong>, "rhAmpSeq").</li></ul></aside>
+        </section>
+
+<section data-minutes="0.5" class="bg-apple slide-center slide-name" slide_name="ch2-takeaways">
+          <span class="background-contain background-left dark" style="background-image:url('../static/images/qtl/circos_qtl_background.svg')"></span>
+          <div class="wrap alignright">
+            <div class="alignleft content-right">
+              <h2><strong>Takeaways</strong></h2>
+              <ul>
+               <li><h4>over 1,500 QTL for upright and plot Traits (yield & quality)</h4></li>
+               <li><h4>13 temporally stable mQTL (~50/50)</h4></li>
+               <li><h4>8 semantically stable, within-study mQTL (~50/50)</h4></li>
+               <li><h4>22 stable, cross-study / cross-population meta-QTL</h4></li>
+               <li><h4><em>VitisGen has produced QTL across many populations with rhAmpSeq &mdash; the same synthesis is possible in grape.</em></h4></li>
+              </ul>
+            </div>
+          </div>
+        
+          <aside class="notes"><p><strong>The forward-looking line is the last bullet.</strong> Lance built rhAmpSeq and VitisGen; this is the first time you say his tools by name. Then move on &mdash; block C must end by minute 16.</p><ul><li>Tally verified 10 Sep: 13 = 9 + 4 multi-year; 8 = 7 + 1 within-population multi-trait (plus 1 in the combined CNJ0x analysis); 22 cross-study (published abstract).</li></ul></aside>
         </section>
 </ws-section>
 
-
-        <section class="bg-apple slide-bottom slide-name" slide_name="history-past">
-          <span class="background llight" style="background-image:url('../static/images/Mnookin_cranberry22_upright.jpg')"></span>
-          <div class="wrap">
-            <h1 class="text-landing alignright"><strong>The<br>Upright</strong></h1>
+        <!-- ================= D. UAV phenomics & the LMI — under review (11 min) ================= -->
+<ws-section name="D. UAV phenomics & the LMI — under review" minutes="11">
+        <section data-minutes="0.25" class="bg-apple aligncenter slide-name" slide_name="ch3-title">
+          <span class="background background-right bg-white ddark" style="background-image:url('../static/images/ch3/manuscript/fig11_plot_grid_gryg_dark.png')"></span>
+          <div class="wrap aligncenter">
+            <h2><strong>Modeling Spring Greening Patterns</strong></h2> 
+            <h2><strong>among</strong></h2>
+            <h2><strong>Cranberry Genotypes</strong></h2>
+            <h2><strong>via</strong></h2>
+            <h2><strong>Aerial Imaging of Leaf Color</strong></h2>
+            <h5 class="cite">Maule et al. &middot; under review for <em>Smart Agricultural Technology</em></h5>
           </div>
+        
+          <aside class="notes"><p>Section divider. "Is LMI heritable, and where does it live?" Status: manuscript in preparation for G3.</p></aside>
+        </section>
+        <section data-minutes="0.5" class="bg-apple aligncenter slide-name" slide_name="ch3-video">
+          <div class="embed cover background"> 
+              <video autoplay loop muted playsinline>
+                  <source src="../static/videos/season_slideshow_dormancy_spring.mp4">
+              </video>
+          </div>
+        
+          <aside class="notes"><p><strong>20 seconds, no narration</strong> beyond: "This is what dormancy exit looks like from 30 m."</p><ul><li><em>Pause for the video.</em></li></ul></aside>
         </section>
 
-        <section class="bg-white aligncenter slide-name" slide_name="manual-phenotyping-upright">
-          <span class="background" style="background-image:url('../static/images/qtl/cranberry_phenotyping_montage.png')"></span>
+        <section class="bg-apple slide-name" slide_name="ch3-biology" data-minutes="1">
+          <span class="background background-right bg-white ddark" style="background-image:url('../static/images/ch3/manuscript/fig11_plot_grid_gryg_dark.png')"></span>
+          <div class="card-20">
+            <div class="flex-content alignleft">
+              <h2><strong>The biology in one slide</strong></h2>
+              <ul>
+                <li><h4>Evergreen leaves turn <span class="t-red"><strong>red</strong></span> (anthocyanin) in winter, <span class="t-green"><strong>green</strong></span> in spring</h4></li>
+                <li><h4>The <span class="t-red">red</span>&rarr;<span class="t-green">green</span> transition is a visible proxy for <strong>dormancy exit</strong></h4></li>
+                <li><h4>Cold hardiness loss occurs <strong><em>within and between</em></strong> bud morphology changes</h4></li>
+                <li><h4>Leaf <span class="t-red">color</span> <span class="t-green">transitions</span> <strong><em>coincide with</em></strong> bud morphology changes</h4></li>
+                <li><h4>So a camera can potentially <strong><em>see the trait</em></strong> a breeder wants to select on</h4></li>
+              </ul>
+              <h5 class="cite">B.A.A. Workmaster, J.P. Palta, <em>J. Am. Soc. Hortic. Sci.</em> 131, 327&ndash;337 (2006).</h5>
+            </div>
+             <figure>
+               <img class="figure-white" src="../static/images/ch3/progress_calendar.png">
+             </figure>
+          </div>
+          <aside class="notes"><p>Grape translation, said out loud: "In grape the same window is deacclimation to budbreak &mdash; the window Jason's model predicts and Silvas measures in the growth chamber. In cranberry we can see it from the air."</p><ul><li><em>Verified (10 Sep):</em> Workmaster &amp; Palta 2006, <em>J. Am. Soc. Hortic. Sci.</em> 131(3):327&ndash;337, doi 10.21273/JASHS.131.3.327 &mdash; manuscript ref. [21]. The manuscript also leans on Workmaster 2001 (thesis) and Workmaster &amp; Palta 2009 (UW frost-hardiness guide) for the hardiness thresholds.</li></ul></aside>
         </section>
 
-        <section class="bg-apple aligncenter slide-top slide-name" slide_name="plot-traits-pics">
-          <!--.wrap = container (width: 95%) -->
-          <div class="wrap">
-            <div class="grid">
-              <div class="content-left column">
-                <div class="flex-content">
-                    <h3><strong>Upright Traits</strong><h3>
-                </div>
-                <div class="flex-content" style="height:100%;overflow:hidden">
-                    <img style="object-fit:cover;height:100%" src="../static/images/ch2/upright.jpeg"></img>
-                </div>
+        <section data-minutes="0.75" class="bg-apple slide-center slide-name" slide_name="ch3-objectives">
+          <span class="background background-right bg-white ddark" style="background-image:url('../static/images/ch3/manuscript/fig11_plot_grid_gryg_dark.png')"></span>
+          <div class="card-20">
+            <div class="flex-content alignleft">
+              <h2><strong>Objectives</strong></h2>
+              <h5 class="cite">Maule et al. &middot; <em>Modeling spring greening patterns among cranberry genotypes via aerial imaging of leaf color</em> &middot; under review, Smart Agricultural Technology</h5>
+              <ul>
+               <li><h4>Use low-cost UAV as efficient phenotyping tool</h4></li>
+               <li><h4>Monitor spring greening patterns in breeding populations</h4></li> <!-- hypothesis is that selecting for late but accelerated maturity genotypes using leaf color transitions as proxy -->
+               <li><h4>Build predictive models for leaf anthocyanin levels from UAV image indices</h4></li>
+               <li><h4>Build an index favoring <strong><span class="t-red">late</span> but <span class="t-green">rapid</span></strong> greeners (the leaf maturity index, LMI)</h4></li> 
+               <li><h4>Lower management costs through genetics</h4></li> 
+              </ul>
+            </div>
+             <figure>
+               <img class="figure-white" src="../static/images/ch3/progress_calendar.png">
+             </figure>
+          </div>
+        
+          <aside class="notes"><p>Four objectives. The hypothesis in one sentence: <strong>select for genotypes that stay dormant late, then green up fast</strong> &mdash; frost avoidance without losing the season.</p><ul><li>Use "leaf maturity index" everywhere (not "late maturity index").</li></ul></aside>
+        </section>
+
+        <section class="bg-apple slide-name" slide_name="ch3-parameters" data-minutes="1">
+          <div class="wrap" style="width:100%">
+            <h2 class="aligncenter"><strong>Experimental parameters</strong></h2>
+            <div class="grid vertical-align">
+              <div class="column" style="flex:1.4">
+                <img class="fit-img figure-white" src="../static/images/ch3/manuscript/fig01_population_weatherstation_map.png" alt="Populations, sites and weather stations">
               </div>
-              <div class="content-left column">
-                <div class="flex-content">
-                    <h3><strong>Plot Traits</strong></h3>
-                </div>
-                <div class="flex-content" style="height:100%;overflow:hidden">
-                  <img style="object-fit:cover;height:100%" src="../static/images/ch2/plot.jpeg"></img>
-                </div>
-              </div>
-              <div class="content-left column">
-                <div class="flex-content">
-                    <h3><strong>Derived Traits</strong></h3>
-                </div>
-                <div class="flex-content" style="height:100%;overflow:hidden">
-                    <img style="object-fit:cover;height:100%" src="../static/images/ch2/derived_narrow.png"></img>
-                </div>
+              <div class="column">
+                <ul class="description">
+                  <li><h4><strong class="text-label-wide-wide">Populations</strong>CNJ02, CNJ04, GRYG</h4></li>
+                  <li><h4><strong class="text-label-wide-wide">Sites</strong>2 (Necedah, Tomah WI)</h4></li>
+                  <li><h4><strong class="text-label-wide-wide">Flights</strong>8 dates, 2018&ndash;2019</h4></li>
+                  <li><h4><strong class="text-label-wide-wide">Sessions</strong>multiple per date (repeated measures)</h4></li>
+                  <li><h4><strong class="text-label-wide-wide">Ground truth</strong>~10% of plots per date: A535 anthocyanin, chlorophyll</h4></li>
+                  <li><h4><strong class="text-label-wide-wide">Sensor</strong>consumer RGB (DJI P4P)</h4></li>
+                </ul>
               </div>
             </div>
           </div>
+          <aside class="notes"><p>The engineering point: repeated sessions per date are <strong>deliberate</strong> &mdash; they let you measure whether a phenotype is stable when the drone flies again, which becomes the CV metric three slides from now.</p><ul><li><em>Verified against the manuscript methods (10 Sep):</em> 8 datasets = 8 capture dates (2018: 4/28, 5/7, 5/16, 5/22&ndash;23, 5/31; 2019: 4/20, 5/15, 5/26, 6/3); multiple sessions per date; ground truth = ~16 uprights from 30&ndash;40 plots per session (~10% of the population); n = 168 (CNJ02) + 67 (CNJ04) + 362 (GRYG, 494 plots) = 597 genotypes. GRYG was flown in 2018 only. The population/dataset/session hierarchy figure (fig02) is in Backup if asked.</li></ul></aside>
         </section>
 
-        <section class="bg-apple aligncenter slide-top slide-name" slide_name="plot-traits-text">
+        <section class="bg-apple slide-name" slide_name="ch3-pipeline" data-minutes="1">
+          <div class="wrap" style="width:100%">
+            <h2 class="aligncenter"><strong>Pipeline: flights &rarr; orthomosaic &rarr; plots &rarr; 23 indices</strong></h2>
+            <img class="fit-img figure-white" style="max-height:52vh" src="../static/images/phenotyping/Image_Analysis_Pipeline_complete.png" alt="UAV image analysis pipeline">
+            <h4 class="aligncenter">Automated plot identification &middot; semantic segmentation &middot; 23 vegetation indices per plot per session &middot; reproducible (Docker / HTCondor)</h4>
+          </div>
+          <aside class="notes"><p><strong>One sentence on the engineering:</strong> automated plot identification, semantic segmentation, reproducible containerised runs. This is what an avionics engineer brings that a plant scientist usually does not.</p><ul><li>Bridge to Lance: "This is the whole-vine, field-scale complement to BlackBird's leaf-scale imaging."</li><li><em>Checked (10 Sep):</em> the manuscript has no processing-pipeline figure &mdash; its Fig. 2 is the population &rarr; dataset (date) &rarr; session data hierarchy (in Backup). This thesis-era pipeline figure carries no numbers, so it stays. The "23 indices" is the manuscript count (Table 1); 19 remain after dropping egi, g, A and ngrdi as redundant.</li></ul></aside>
+        </section>
+
+        <section data-minutes="1" class="bg-apple slide-center slide-name" slide_name="ch3-indices">
+          <div class="wrap aligncenter">
+            <h2><strong>Which indices carry the signal</strong></h2>
+            <img class="fit-img figure-white" style="max-height:70vh" src="../static/images/ch3/manuscript/fig03_vi_correlations.png" alt="Manuscript Fig. 3: vegetation index correlations with GDD (A), A535 (B) and each other (C)">
+          </div>
+        
+          <aside class="notes"><p><strong>Which indices carry signal.</strong> GDD &harr; index relationships match pigment optics: anthocyanin absorbs green, chlorophyll absorbs blue/red. That is why RGB works at all.</p><ul><li>Manuscript Fig. 3 (swapped in 10 Sep; the old montage was the thesis version labelled CDD and missing H). Numbers if asked: A535 vs ac.cb r &asymp; 0.93, gli &minus;0.90, egri &minus;0.88, cive 0.84, ebi 0.84; GDD vs A535 r &asymp; &minus;0.81; strongest GDD covariate is cive (&minus;0.93). egi, g, A, ngrdi were dropped as redundant (|r| &gt; 0.99) before model fitting.</li></ul></aside>
+        </section>
+
+        <section class="bg-apple slide-name" slide_name="ch3-models" data-minutes="1.25">
+          <div class="wrap" style="width:100%">
+            <h2 class="aligncenter"><strong>Model comparison: random forest wins on accuracy <em>and</em> stability</strong></h2>
+            <div class="grid vertical-align">
+              <div class="column">
+                <img class="fit-img figure-white" src="../static/images/ch3/manuscript/fig04_model_resamples.png" alt="OLS, ridge, PCR, PLSR, RF on 50 resamples">
+                <h5>50 resamples of 80:20 splits</h5>
+              </div>
+              <div class="column">
+                <img class="fit-img figure-white" src="../static/images/ch3/manuscript/fig06_prediction_cv.png" alt="Prediction CV across repeated sessions">
+                <h5>CV of predictions across repeated views of the same plot</h5>
+              </div>
+            </div>
+            <div class="grid numbers-inline aligncenter">
+              <h3><strong>R&sup2; = 0.95</strong></h3><h3><strong>RMSE &lt; 0.15</strong></h3><h3><strong>median CV &asymp; 3.9%</strong> <small>vs &ge; 6% linear</small></h3>
+            </div>
+          </div>
+          <aside class="notes"><p><strong>Say why you care about the CV metric:</strong> "A phenotype that changes when the drone changes angle is not a breeding phenotype." Stability across repeated views is the criterion breeders should demand of any HTP trait.</p><ul><li>Numbers are the <strong>manuscript</strong> numbers (random forest, R&sup2; = 0.95, median CV 3.9%, n = 597 genotypes). The thesis said simulated annealing / R&sup2; = 0.886 &mdash; do not say that.</li><li><em>Verified against manuscript Figs. 4 and 6 (10 Sep):</em> RFR test R&sup2; median &asymp; 0.945 (linear models &asymp; 0.90); RFR RMSE median &asymp; 0.148 vs &gt; 0.20 for LR/PCR/PLSR/RR; MAE &asymp; 0.085 vs &asymp; 0.13. Median CV: RFR 3.88%, PCR 6.14, PLSR 6.26, LR 6.32, RR 6.33 (n = 10,489 plot&times;date sets; Friedman p &ll; 0.001, Holm-adjusted groups). 19 predictors after dropping 4 redundant VIs; 500 trees; 50 resamples of an 80:20 split.</li></ul></aside>
+        </section>
+
+        <section class="bg-apple slide-name" slide_name="ch3-importance" data-minutes="0.5">
+          <div class="wrap" style="width:100%">
+            <h2 class="aligncenter"><strong>Predictor importance: parsimony is a feature</strong></h2>
+            <img class="fit-img figure-white" src="../static/images/ch3/manuscript/fig05_predictor_importance.png" alt="Random forest predictor importance">
+            <h4 class="aligncenter">GLI dominates &mdash; a single green-leaf index carries most of the anthocyanin signal</h4>
+          </div>
+          <aside class="notes"><p>Twenty seconds. "GLI dominates; a cheap camera and one index get you most of the way. Multispectral would add nutrient and water status, not more of this."</p></aside>
+        </section>
+
+        <section class="bg-apple slide-name" slide_name="ch3-quantiles" data-minutes="0.75">
+          <div class="wrap" style="width:100%">
+            <h2 class="aligncenter"><strong>Predicted A535nm visual progression</strong></h2>
+            <img class="fit-img figure-white" src="../static/images/ch3/manuscript/fig08_quantiles.png" alt="Plot images by predicted A535 quantile">
+            <h5 class="aligncenter">Top &middot; Q75 &middot; median &middot; Q25 &middot; bottom of random-forest-predicted A535 &mdash; two plot images per quantile, three populations (manuscript Fig. 8)</h5>
+          </div>
+          <aside class="notes"><p>The predictions look like what the eye sees &mdash; this is the "visual consistency" takeaway in one picture.</p></aside>
+        </section>
+
+
+        <section class="bg-apple slide-name" slide_name="ch3-lmi" data-minutes="1.5">
+          <div class="wrap" style="width:100%">
+            <h2 class="aligncenter"><strong>From a time series to a selectable index: the LMI</strong></h2>
+            <div class="grid vertical-align">
+              <div class="column" style="flex:1.3">
+                <div class="figure-white"><svg class="lmi-svg" viewBox="0 0 640 360" role="img" aria-label="Leaf maturity index concept">
+                  <defs>
+                    <linearGradient id="lmiRed" x1="0" x2="1"><stop offset="0" stop-color="#c0392b"/><stop offset="1" stop-color="#e67e22"/></linearGradient>
+                  </defs>
+                  <!-- axes -->
+                  <line x1="60" y1="300" x2="610" y2="300" stroke="#333" stroke-width="2"/>
+                  <line x1="60" y1="300" x2="60" y2="30" stroke="#333" stroke-width="2"/>
+                  <text x="335" y="340" text-anchor="middle" font-size="18" fill="#333">growing degree days (GDD)</text>
+                  <text x="22" y="170" text-anchor="middle" font-size="18" fill="#333" transform="rotate(-90 22 170)">predicted anthocyanin (A535)</text>
+                  <!-- inflection at 200 GDD -->
+                  <line x1="300" y1="300" x2="300" y2="40" stroke="#888" stroke-width="2" stroke-dasharray="8 6"/>
+                  <text x="300" y="30" text-anchor="middle" font-size="16" fill="#555">sign flip at ~200 GDD</text>
+                  <!-- population curve P and late-and-fast genotype G, both through the sign-flip point (300,195).
+                       Yellow = G above P before the flip (positive LMI); blue = G below P after the flip (negative LMI). -->
+                  <path d="M80,58 C190,62 255,80 300,195 C240,150 170,90 80,62 Z" fill="#f1c40f" fill-opacity="0.5"/>
+                  <path d="M300,195 C360,235 450,270 600,285 L600,297 C360,280 320,245 300,195 Z" fill="#2e86de" fill-opacity="0.35"/>
+                  <!-- population curve -->
+                  <path d="M80,62 C170,90 240,150 300,195 C360,235 450,270 600,285" fill="none" stroke="#333" stroke-width="4"/>
+                  <!-- late-and-fast genotype: holds colour (delayed), then decays steeply through the flip and undershoots -->
+                  <path d="M80,58 C190,62 255,80 300,195 C320,245 360,280 600,297" fill="none" stroke="url(#lmiRed)" stroke-width="5"/>
+                  <!-- legend -->
+                  <line x1="350" y1="70" x2="390" y2="70" stroke="#333" stroke-width="4"/><text x="398" y="76" font-size="16" fill="#333">population trajectory</text>
+                  <line x1="350" y1="98" x2="390" y2="98" stroke="#c0392b" stroke-width="5"/><text x="398" y="104" font-size="16" fill="#333">late-and-fast genotype</text>
+                  <rect x="350" y="116" width="40" height="14" fill="#f1c40f" fill-opacity="0.5"/><text x="398" y="128" font-size="16" fill="#333">LMI = positive accumulation</text>
+                  <rect x="350" y="142" width="40" height="14" fill="#2e86de" fill-opacity="0.35"/><text x="398" y="154" font-size="16" fill="#333">LMI = negative accumulation</text>
+                </svg></div>
+              </div>
+              <div class="column">
+                <ul class="oldschool">
+                  <li><h4>Fit a per-genotype exponential decay of predicted A535 vs GDD</h4></li>
+                  <li><h4>The population curve is the reference</h4></li>
+                  <li><h4><strong>LMI</strong> = signed area between genotype and population curves, <strong>sign flipped at the inflection</strong> (~200 GDD)</h4></li>
+                  <li><h4>Stays red late <em>and</em> greens fast &rarr; high LMI</h4></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <aside class="notes"><p><strong>SLOW DOWN. This is the idea you are bringing to Geneva:</strong> convert a time series into a single selectable scalar that encodes a breeding ideotype.</p><ul><li>Late-and-fast genotypes score high: they avoid the early frost window and still fill the season.</li><li>Generalise it in one sentence: "The same construction works for budbreak, veraison, fall acclimation, canopy fill &mdash; and disease progression curves."</li><li><em>Checked (10 Sep):</em> the manuscript has no standalone decay-curve figure; the genotype-vs-population curves are column A of Figs. 9&ndash;11 (Backup: CNJ02 2018/2019, GRYG). The sketch matches the real data: three-parameter exponential decay of predicted A535 vs GDD, population curve dashed, sign flip at x<sub>c</sub> = 200 GDD (last week of May &asymp; frost probability below 30%; the GDD at which Stevens buds lose all frost hardiness). Manuscript Eq. 3.</li></ul></aside>
+        </section>
+
+        <section class="bg-apple slide-name" slide_name="ch3-validation" data-minutes="0.75">
+          <div class="wrap" style="width:100%">
+            <h2 class="aligncenter"><strong>Visual validation: top vs bottom LMI genotypes through the season</strong></h2>
+            <img class="fit-img figure-white" src="../static/images/ch3/manuscript/fig11_plot_grid_gryg.png" alt="GRYG top vs bottom LMI genotypes across flight dates">
+            <h5 class="aligncenter">GRYG &middot; P40 (high LMI) vs P150 (low LMI) &middot; each column is a flight date</h5>
+          </div>
+          <aside class="notes"><p><strong>Audiences believe pictures.</strong> Top row stays red longer then catches up; bottom row greens early. The CNJ02 2018/2019 grids are in Backup.</p></aside>
+        </section>
+
+        <section data-minutes="1" class="bg-apple slide-center slide-name" slide_name="ch3-takeaways">
+          <span class="background-contain background-left ddark" style="background-image:url('../static/images/ch3/flyover.jpg')"></span>
+          <div class="wrap alignright">
+            <div class="alignleft content-right">
+              <h2><strong>Takeaways</strong></h2>
+              <ul>
+               <li><h4>Random forest: accurate (R&sup2; = 0.95) <em>and</em> stable across repeated views (CV 3.9%)</h4></li>
+               <li><h4>Parsimonious: one index (GLI) carries most of the signal</h4></li>
+               <li><h4>A novel, general selection index (LMI) for late-but-rapid dormancy exit</h4></li>
+               <li><h4><strong>Honest limits:</strong> RGB spectral resolution; need denser sampling in the 75&ndash;150 GDD window</h4></li>
+               <li><h4><strong>Honest limits:</strong> mixed models did not converge for CNJ04 / GRYG (small n + sparse sampling)</h4></li>
+              </ul>
+            </div>
+          </div>
+        
+          <aside class="notes"><p><strong>Say the limits yourself.</strong> It pre-empts the sharpest Q&amp;A question and it is what reviewers respect.</p><ul><li>Design lesson, already built into how you would fly grape: dense sampling in the segregation window.</li></ul></aside>
+        </section>
+</ws-section>
+
+        <!-- ================= E. Genetics of the LMI — in preparation (7 min) ================= -->
+<ws-section name="E. Genetics of the LMI — in preparation" minutes="7">
+<section data-minutes="0.25" class="bg-apple aligncenter slide-name" slide_name="ch4-title">
+          <span class="background background-right bg-white ddark" style="background-image:url('../static/images/ch4/qtl_collated.png')"></span>
+          <div class="wrap aligncenter">
+            <h2><strong>Mapping the Genetic Basis</strong></h2> 
+            <h2><strong>of Temporal Segregation</strong></h2>
+            <h2><strong>of Spring Greening in Cranberry</strong></h2>
+            <h5 class="cite">Maule et al. &middot; in preparation for <em>G3</em></h5>
+          </div>
+        
+          <aside class="notes"><p>Section divider. "Is LMI heritable, and where does it live?" Status: manuscript in preparation for G3.</p></aside>
+        </section>
+
+<section data-minutes="0.75" class="bg-apple slide-center slide-name" slide_name="ch4-objectives">
+          <span class="background background-right bg-white ddark" style="background-image:url('../static/images/ch4/qtl_collated.png')"></span>
+          <div class="wrap aligncenter">
+            <div class="alignleft content-left">
+              <h2><strong>Objectives</strong></h2>
+              <ul>
+               <li><h4>Characterize genetic basis of LMI in 3 populations</h4></li>
+               <li><h4>Map QTL for LMI</h4></li>
+               <li><h4>Develop genetic markers for spring frost resilience</h4></li>
+               <li><h4>Perform candidate gene analysis of QTL</h4></li>
+              </ul>
+            </div>
+          </div>
+        
+          <aside class="notes"><p>Four objectives. The third &mdash; markers for spring frost resilience &mdash; is the breeder deliverable; the fourth is the hook for Zhong (editing targets) and Londo (dormancy biology).</p></aside>
+        </section>
+
+        <section class="bg-apple slide-name" slide_name="ch4-dist-blups" data-minutes="1">
+          <div class="wrap" style="width:100%">
+            <h2 class="aligncenter"><strong>LMI segregates in CNJ02 &middot; genomic h&sup2; = 0.74</strong></h2>
+            <div class="grid vertical-align">
+              <div class="column">
+                <img class="fit-img figure-white" src="../static/images/ch4/scores.dataset_population_session_pid_datetime_rep.A535nmMean.reps.s1.reduced.ncdd.nna.distributions.qqplots.png" alt="LMI distributions">
+                <h5>LMI distributions and Q&ndash;Q plots</h5>
+              </div>
+              <div class="column">
+                <img class="fit-img figure-white" src="../static/images/ch4/blups_collated.density.png" alt="CNJ02 BLUPs">
+                <h5>CNJ02 BLUPs</h5>
+              </div>
+            </div>
+          </div>
+          <aside class="notes"><p><strong>One number: h&sup2; = 0.74.</strong> CNJ02 segregates; CNJ04 and GRYG did not converge (already said). Genomic heritability from GBLUP &mdash; additive, marker-based.</p><ul><li><em>Provenance (10 Sep):</em> the Ch. IV LMI phenotypes are the thesis-era values (anthocyanin predicted by the simulated-annealing model; CNJ02 range &minus;60.5 to 66.8, top genotype CNJ02-1-70). The spring-greening manuscript re-predicted anthocyanin with random forest, so its LMI scale differs (CNJ02-1-70 = 93.6). If someone puts the two side by side: same index, different anthocyanin predictor; the QTL work has not yet been re-run on the RFR-based LMI. 6,073 SNP + SSR map; mixed model with spatial effects + genomic relationship.</li></ul></aside>
+        </section>
+
+        <section class="bg-apple slide-name" slide_name="ch4-qtl" data-minutes="1">
+          <div class="wrap" style="width:100%">
+            <h2 class="aligncenter"><strong>11 LMI QTL on LG 6&ndash;12, each 1.8&ndash;9.1% of genetic variance</strong></h2>
+            <img class="fit-img figure-white" src="../static/images/ch4/qtl_collated.png" alt="CNJ02 LMI QTL">
+            <h5 class="aligncenter">Mapped on GBLUPs, so effect sizes are conservatively shrunk &middot; polygenic architecture</h5>
+          </div>
+          <aside class="notes"><p><strong>Polygenic, no major QTL &mdash; and that is expected</strong> for a developmental-timing trait. Mapping on GBLUPs shrinks effects, so these are conservative.</p><ul><li>The QTL table is in Backup if anyone wants intervals and LOD.</li></ul></aside>
+        </section>
+
+        <section class="bg-apple slide-name" slide_name="ch4-genes" data-minutes="1.25">
+          <div class="wrap" style="width:100%">
+            <h2 class="aligncenter"><strong>Candidate genes: the dormancy regulators you would expect</strong></h2>
+            <div class="grid vertical-align">
+              <div class="column">
+                <ul class="description">
+                  <li><h4><strong class="text-label-wide-wide">Clock</strong><em>LHY</em>, <em>PRR95</em></h4></li>
+                  <li><h4><strong class="text-label-wide-wide">Photoperiod</strong><em>CRY1</em>, <em>COL12</em></h4></li>
+                  <li><h4><strong class="text-label-wide-wide">Dormancy MADS</strong><em>SVP</em>, <em>AGL24</em></h4></li>
+                  <li><h4><strong class="text-label-wide-wide">Flowering</strong><em>SPL15</em>, <em>FTIP1/3</em></h4></li>
+                </ul>
+                <hr>
+                <h4><strong>Grape translation:</strong> the same families &mdash; <em>DAM</em>/<em>SVP</em>-like MADS and clock genes &mdash; sit at the centre of grapevine bud-dormancy literature.</h4>
+              </div>
+              <div class="column">
+                <img class="fit-img figure-white" src="../static/images/ch4/genes1.png" alt="Candidate genes under LMI QTL">
+              </div>
+            </div>
+          </div>
+          <aside class="notes"><p>Then the grape translation, out loud. This is your strongest intellectual bridge to Londo and to Povilus (evo-devo): comparative <em>Vaccinium</em>&ndash;<em>Vitis</em> dormancy biology is a real niche.</p><ul><li>Say "preliminary" once: candidate genes are hypotheses for functional work, which is where Gan-Yuan's editing platform comes in.</li><li>genes2/genes3 panels are in Backup.</li></ul></aside>
+        </section>
+
+        <section class="bg-apple slide-name" slide_name="ch4-breeder" data-minutes="1">
+          <span class="background-contain background-right dark" style="background-image:url('../static/images/ch4/qtl_collated.png')"></span>
+          <div class="wrap">
+            <div class="content-left">
+              <h2><strong>What a breeder does with this</strong></h2>
+              <ul>
+                <li><h4>LMI does <strong>not</strong> correlate with harvest window &rarr; select for frost resilience <em>without</em> pushing ripening later</h4></li>
+                <li><h4>Small-effect architecture &rarr; <strong>genomic prediction, not MAS</strong>, is the path</h4></li>
+                <li><h4>QTL and candidates prioritise functional work: editing targets, stress physiology</h4></li>
+              </ul>
+            </div>
+          </div>
+          <aside class="notes"><p><strong>Say "genomic prediction, not MAS" here</strong> so it does not look like a Q&amp;A gotcha. You already wrote this in the thesis conclusions.</p><ul><li>Zhong hook: validated candidates are the input to non-transgenic editing. Kirubakaran hook: physiology of the top/bottom genotypes in controlled environments.</li></ul></aside>
+        </section>
+
+<section data-minutes="0.5" class="bg-apple slide-center slide-name" slide_name="ch4-takeaways">
+          <span class="background background-left bg-white ddark" style="background-image:url('../static/images/ch4/qtl_collated.png')"></span>
+          <div class="wrap alignright">
+            <div class="alignleft content-right">
+              <h2><strong>Takeaways</strong></h2>
+              <ul>
+               <li><h4>genetic signature only found in CNJ02</h4></li>
+               <li><h4>LMI additive genomic heritability is reasonably high (h<sup>2</sup>=0.74)</h4></li>
+               <li><h4>11 QTL found, none major</h4></li>
+               <li><h4>Evidence suggests that LMI does not correlate with harvest window</h4></li>
+               <li><h4>Preliminary gene analysis indicates genes tied to circadian rhythms, photoperiod sensing, vernalization, and floral induction</h4></li>
+               <li><h4><em>Same gene families as grapevine bud dormancy &rarr; the biology transfers</em></h4></li>
+              </ul>
+            </div>
+          </div>
+        
+          <aside class="notes"><p>Half a minute. Last bullet is the pivot line into the vision: "the biology transfers &mdash; here is how the program would."</p></aside>
+        </section>
+</ws-section>
+
+        <!-- ================= F. Vision for GGRU (9 min) ================= -->
+<ws-section name="F. Vision for GGRU" minutes="9">
+        <section class="bg-apple slide-name" slide_name="vision-headline" data-minutes="1">
+          <div class="embed cover background ddark">
+              <video autoplay loop muted playsinline>
+                  <source src="../static/videos/GRYG Semantic Composite Short.slow.mp4">
+              </video>
+          </div>
+          <div class="wrap aligncenter">
+            <h5 class="kicker">What I would bring to Geneva</h5>
+            <h1><strong>A field-scale, temporal phenomics &rarr; quantitative genetics program<br>for vine growth, architecture and phenology</strong></h1>
+            <h3>The growth-and-development trait engine the position describes</h3>
+          </div>
+          <aside class="notes"><p><strong>Switch crops in real time.</strong> From here on say "vine" and "grape" as often as you said "cranberry" before.</p><ul><li>Headline in one breath: whole-vine, whole-season, whole-population measurement, turned into heritable traits and markers.</li><li>Be honest before they ask: no vineyard experience yet; no rhAmpSeq or VitisGen track record; LMI QTL are small-effect and in one population. Answer to all three: the method is crop-agnostic, the unit has the germplasm and markers, and year one is flying <em>their</em> populations and re-analysing <em>their</em> data.</li></ul></aside>
+        </section>
+
+        <section class="bg-apple slide-name" slide_name="vision-fit" data-minutes="1.5">
+          <div class="wrap">
+            <h2 class="aligncenter"><strong>Where it fits in the unit</strong></h2>
+            <div class="unit-map">
+              <div class="cell"><h5>Cadle-Davidson</h5><p>disease phenomics &middot; leaf-scale robots (BlackBird, PhytoPatholoBot) &middot; rhAmpSeq &middot; VitisGen3</p></div>
+              <div class="cell"><h5>Kirubakaran</h5><p>abiotic stress genetics &middot; freezing, drought, nutrient &middot; controlled environment</p></div>
+              <div class="cell"><h5>Zhong</h5><p>fruit quality &middot; vine architecture &middot; non-transgenic editing (<em>VviBR6OX1</em> dwarf)</p></div>
+              <div class="cell"><h5>Londo / Cornell</h5><p>cold hardiness physiology &middot; deacclimation &middot; NYUS.1 budbreak model</p></div>
+              <div class="cell me"><h4><strong>Whole-vine &middot; whole-season &middot; whole-population</strong></h4><p>UAV / ground time series &rarr; heritable growth, architecture &amp; phenology traits &rarr; QTL, GWAS, genomic prediction &rarr; markers to breeders</p></div>
+              <div class="cell"><h5>PGRU (Povilus)</h5><p><em>Vitis</em> germplasm collection on site &middot; diversity panels &middot; data deposition</p></div>
+              <div class="cell"><h5>NGRA / industry (Brown)</h5><p>VitiGEM (G&times;E&times;M - Oravec) &middot; robotic pruning &amp; labor (Bates)&middot; drought-tolerant rootstocks (Diaz-Garcia) &middot; climate resilience</p></div>
+              <div class="cell"><h5>Breeding Insight / Efficient Vineyard</h5><p>data pipelines &middot; production-scale sensing (Bates)</p></div>
+              <div class="cell"><h5>Extension &amp; growers</h5><p>genotype-specific frost-risk phenology &middot; grower-facing outputs</p></div>
+            </div>
+          </div>
+          <aside class="notes"><p><strong>Make the complementarity visual, then say it:</strong> disease at leaf scale (Lance), stress in the chamber (Silvas), fruit and architecture genes (Gan-Yuan), hardiness physiology (Jason), germplasm (Rebecca), industry priorities (Donnell). The middle box is the gap.</p><ul><li>Name each person by their work, not by flattery. One clause each.</li><li><em>TODO:</em> confirm names/affiliations on the committee list and whether Londo is now Cornell faculty; adjust the cell labels if the room has changed.</li></ul></aside>
+        </section>
+
+        <section class="bg-apple slide-name" slide_name="vision-aim1" data-minutes="1.25">
+          <div class="wrap">
+            <h5 class="kicker">Aim 1</h5>
+            <h2><strong>Phenology and dormancy-exit genetics in <em>Vitis</em></strong></h2>
+            <ul>
+              <li><h4>LMI-style temporal indices for <strong>budbreak timing, deacclimation, canopy green-up and fall acclimation</strong> from UAV RGB / multispectral time series</h4></li>
+              <li><h4>Over VitisGen / GGRU mapping populations <em>and</em> the PGRU collection (diversity panel &rarr; GWAS)</h4></li>
+              <li><h4>QTL, GWAS and genomic prediction on the resulting traits</h4></li>
+              <li><h4>Ties to Londo's NYUS.1 model (physiology) and Kirubakaran's freezing work (controlled environment)</h4></li>
+            </ul>
+            <h5 class="cite">Posting objectives 1, 2 &middot; NGRA climate resilience &middot; VitiGEM</h5>
+          </div>
+          <aside class="notes"><p>The direct transfer of the spring-greening and LMI-genetics papers. Say "phenology&ndash;temperature mismatch" once more (the Campos-Arguedas / Kovaleski / Londo term): this aim is how a breeding program gets a crop out of it.</p><ul><li>Povilus hook: "the collection is a diversity panel waiting to be flown."</li></ul></aside>
+        </section>
+
+        <section class="bg-apple slide-name" slide_name="vision-aim2" data-minutes="1.25">
+          <div class="wrap">
+            <h5 class="kicker">Aim 2</h5>
+            <h2><strong>Vine architecture and light interception for mechanization</strong></h2>
+            <ul>
+              <li><h4>UAV and ground photogrammetry (structure-from-motion, LiDAR) to quantify <strong>canopy volume, porosity, shoot number, internode length, trunk/cordon geometry</strong> at population scale</h4></li>
+              <li><h4>Map the QTL; feed Zhong's architecture gene work (<em>VviBR6OX1</em> dwarf) with quantitative field targets</h4></li>
+              <li><h4>Directly serves NGRA's <strong>robotic-pruning / labor</strong> priority</h4></li>
+              <li><h4>Nutrient dynamics via canopy spectral indices</h4></li>
+            </ul>
+            <h5 class="cite">Posting objectives 1, 3 &middot; NGRA robotic pruning &amp; labor</h5>
+          </div>
+          <aside class="notes"><p>The clearest hook to "production efficiency and mechanization" in the posting. Mention Gan-Yuan's dwarf-mutant paper by name.</p><ul><li>Nobody at Geneva is doing population-scale quantitative architecture phenotyping. Say that carefully: "as far as I can tell from the public record".</li></ul></aside>
+        </section>
+
+        <section class="bg-apple slide-name" slide_name="vision-aim3" data-minutes="1">
+          <div class="wrap">
+            <h5 class="kicker">Aim 3</h5>
+            <h2><strong>Meta-QTL / consensus synthesis of existing grape data</strong></h2>
+            <ul>
+              <li><h4>VitisGen1&ndash;3 and GGRU rhAmpSeq populations already hold a decade of QTL for growth, phenology and quality &mdash; on <strong>fixed, transferable markers</strong>, the precondition cranberry only got in 2026</h4></li>
+              <li><h4>Cross-population meta-analysis &mdash; what I did in cranberry &mdash; yields the <strong>stable markers breeders can actually use</strong></h4></li>
+              <li><h4><strong>Low cost, high return, fast first paper.</strong> Doing more with existing data.</h4></li>
+              <li><h4>A service to every breeder in VitisGen</h4></li>
+            </ul>
+            <h5 class="cite">Posting objectives 2, 4</h5>
+          </div>
+          <aside class="notes"><p>This is the year-one deliverable that needs no new field season. It positions you as a service to the community and it uses Lance's markers and Breeding Insight's pipelines from day one.</p><ul><li>Close the loop from Block C in one breath: a cross-population meta-QTL needs markers that mean the same thing in every population. rhAmpSeq gave grape that in 2020; Flex-Seq gave cranberry that in 2026 &mdash; so grape is <em>ahead</em>, and the synthesis is overdue.</li></ul></aside>
+        </section>
+
+        <section class="bg-apple slide-name" slide_name="vision-how" data-minutes="1">
+          <div class="wrap">
+            <h2 class="aligncenter"><strong>How: open, reproducible, deposited</strong></h2>
+            <div class="grid">
+              <div class="column card-dark">
+                <p><i class="fa-solid fa-code-branch fa-2x"></i></p>
+                <h4><strong>Pipelines</strong></h4>
+                <h5>R / Python &middot; Docker &middot; HTCondor &middot; WDL &middot; public GitHub</h5>
+              </div>
+              <div class="column card-dark">
+                <p><i class="fa-solid fa-chart-line fa-2x"></i></p>
+                <h4><strong>Models</strong></h4>
+                <h5>GBLUP mixed models with spatial terms &middot; random forest / deep learning for trait extraction</h5>
+              </div>
+              <div class="column card-dark">
+                <p><i class="fa-solid fa-database fa-2x"></i></p>
+                <h4><strong>Data stewardship</strong></h4>
+                <h5>vaccinium.org / VacCAP in cranberry &rarr; VitisGen- and Breeding Insight-compatible formats in grape</h5>
+              </div>
+            </div>
+            <h4 class="aligncenter"><em>Engineering-grade reproducibility is a research output, not overhead.</em></h4>
+          </div>
+          <aside class="notes"><p>ARS units are increasingly judged on reproducibility and data stewardship; this also answers the "government efficiency" theme in the USAJobs essays.</p><ul><li><em>TODO:</em> <strong>confirm which database / data standard the unit actually uses</strong> (Breeding Insight / BrAPI? GRIN-Global for PGRU? a VitisGen database?) before you name one on this slide.</li></ul></aside>
+        </section>
+
+        <section class="bg-apple slide-name" slide_name="vision-deliverables" data-minutes="1">
+          <div class="wrap">
+            <h2 class="aligncenter"><strong>Five-year deliverables</strong></h2>
+            <ul class="deliverables">
+              <li><h4><span class="num">1</span> A validated UAV phenology + architecture pipeline running on GGRU and Cornell populations</h4></li>
+              <li><h4><span class="num">2</span> The first <em>Vitis</em> meta-QTL resource for growth and phenology traits</h4></li>
+              <li><h4><span class="num">3</span> QTL and candidate genes for dormancy-exit timing and canopy architecture, delivered to breeders as markers</h4></li>
+              <li><h4><span class="num">4</span> A grower-facing output: genotype-specific frost-risk phenology with NGRA / extension (VitiGEM alignment)</h4></li>
+            </ul>
+            <h5 class="cite">Year one: fly existing populations spring and fall &middot; meta-QTL on VitisGen data &middot; stand up the data pipeline &middot; talk to growers</h5>
+          </div>
+          <aside class="notes"><p>Simple and concrete. The footer line is the answer to "what will you do in year one?" &mdash; say it here so the Q&amp;A version is a callback.</p></aside>
+        </section>
+</ws-section>
+
+        <!-- ================= G. Close (2 min) ================= -->
+<ws-section name="G. Close" minutes="2">
+        <section class="bg-apple slide-name" slide_name="summary" data-minutes="0.75">
+          <div class="wrap">
+            <h2 class="aligncenter"><strong>Summary</strong></h2>
+            <div class="grid summary-grid">
+              <div class="column card-dark">
+                <h5 class="kicker">Four papers</h5>
+                <h4>Meta-QTL synthesis &middot; a genotyping platform built on it &middot; UAV phenomics and the LMI &middot; genetics of dormancy exit</h4>
+              </div>
+              <div class="column card-dark">
+                <h5 class="kicker">Four posting objectives</h5>
+                <h4>Traits &middot; genetic control &middot; tools &middot; transfer &mdash; each already done once, in a similar crop</h4>
+              </div>
+              <div class="column card-dark">
+                <h5 class="kicker">Three aims</h5>
+                <h4>Phenology &amp; dormancy genetics &middot; architecture for mechanization &middot; grape meta-QTL</h4>
+              </div>
+            </div>
+            <h3 class="aligncenter"><em>Cranberry was the case study. The method is the program.</em></h3>
+          </div>
+          <aside class="notes"><p>Thirty seconds. Land the last line and stop talking.</p></aside>
+        </section>
+
+<section data-minutes="0.5" class="bg-apple slide-center slide-name" slide_name="acks">
+          <div class="wrap aligncenter">
+            <img class="figure-white" style="max-height:70vh;max-width:100%" src="../static/images/acks/acks-editable.svg" alt="Acknowledgments">
+            <h4 class="aligncenter" style="margin-top:1.2rem">With thanks to the search committee and GGRU for the invitation</h4>
+          </div>
+        
+          <aside class="notes"><p>Zalapa, Digman, committee, growers, funders &mdash; and the GGRU committee for the invitation.</p><ul><li>Acks image now sits on a white panel over the dark theme so the transition from Summary and into Questions stays dark.</li></ul></aside>
+        </section>
+
+<section data-minutes="0.75" class="bg-apple aligncenter slice-center slide-name" slide_name="questions">
+          <span class="background background-center ddark" style="background-image:url('../static/images/phenotyping/DJI_Session_01_02_252_1093.labeled.PNG')"></span>
+          <div class="wrap aligncenter">
+            <h2><strong>Questions?</strong></h2>
+          </div>
+        
+          <aside class="notes"><p><strong>Q&amp;A prep (plan &sect;7):</strong></p><ul><li>Why would cranberry transfer? &mdash; method is crop-agnostic; both woody perennials with dormancy biology; overlapping gene families; grape has better resources, so easier not harder.</li><li>RGB vs multispectral? &mdash; deliberate low-cost choice; pipeline is sensor-agnostic; in grape add multispectral/thermal for nutrient and water status.</li><li>Small-effect QTL, so what? &mdash; expected for timing traits; deliverable is the phenotype + genomic prediction; QTL prioritise functional work.</li><li>Why did CNJ04/GRYG fail? &mdash; small n and sparse sampling in the 75&ndash;150 GDD window; design lesson already applied.</li><li>Year one? &mdash; fly existing populations, meta-QTL on VitisGen data, pipeline, growers.</li><li>Genome editing? &mdash; not my core tool; my QTL/candidates are its input.</li><li>Rootstocks? &mdash; architecture/vigor are rootstock-mediated; UAV over rootstock trials; scion&times;rootstock G&times;E within VitiGEM.</li><li>Press <strong>o</strong> for the outline to jump to any backup slide.</li></ul></aside>
+        </section>
+</ws-section>
+
+        <!-- ================= BACKUP (no budget; excluded from the 45 min) ================= -->
+<ws-section name="Backup — Q&amp;A">
+        <section class="bg-apple slide-name" slide_name="backup-title">
+          <div class="wrap aligncenter">
+            <h1><strong>Backup</strong></h1>
+            <h3>Slides for Q&amp;A &mdash; not part of the 45 minutes</h3>
+            <h5 class="cite">rhAmpSeq vs Flex-Seq &middot; Composite map &middot; mixed model &middot; ground truth &middot; vegetation indices &middot; thesis meta-QTL figures &middot; LMI rankings &middot; QTL table &middot; candidate-gene panels</h5>
+          </div>
+          <aside class="notes"><p>Still to build for the backup set (plan &sect;5): LMI equation (Eq. 3); BerryPortraits (YOLOv8); fonio (if asked about orphan crops / ARS mission). The rhAmpSeq / Flex-Seq comparison is the next slide.</p></aside>
+        </section>
+
+        <section class="bg-apple slide-name" slide_name="backup-rhampseq-flexseq">
+          <div class="wrap">
+            <h5 class="kicker">Backup &middot; Zou et al. 2020, <em>Nat. Commun.</em> 11:413 &middot; Clare et al. 2026, <em>Plant Genome</em> 19:e70153</h5>
+            <h2 class="aligncenter"><strong>rhAmpSeq and Flex-Seq: two answers to marker transferability</strong></h2>
+            <table class="map-table cmp-table">
+              <thead>
+                <tr><th style="width:18%"></th><th style="width:41%">rhAmpSeq &middot; <em>Vitis</em></th><th>Flex-Seq &middot; cranberry</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Design target</td><td>Collinear core genome &mdash; 39.8 Mb, ~8.7% of the genome, syntenic across 10 <em>Vitis</em> assemblies</td><td>Whole genome, uniform ~27 kb spacing, from an 11-accession single-species pangenome</td></tr>
+                <tr><td>Design goal</td><td><strong>Transferability across the genus</strong> &mdash; wild species carry the resistance loci</td><td><strong>Within-species density</strong> &mdash; fine-mapping, GWAS, germplasm forensics</td></tr>
+                <tr><td>Markers</td><td>2,000 amplicons (270&ndash;330 bp)</td><td>17,502 amplicons (219 bp &plusmn; 109)</td></tr>
+                <tr><td>Marker type</td><td>Multi-allelic haplotypes &middot; 5.7 alleles / marker from 7 parents</td><td>Multi-allelic microhaplotypes &middot; 6.1 / locus from 192 accessions</td></tr>
+                <tr><td>Validation</td><td>91.9% of markers recovered across 4 diverse interspecific families</td><td>99.8% of loci recovered in &ge;90% of a single-species panel</td></tr>
+                <tr><td>Deployment</td><td>&gt;80,000 vines genotyped; feeds KASP markers for routine MAS (VitisGen3)</td><td>New (2026); pairs with the public DArTag panel (3,059 loci) for routine work</td></tr>
+              </tbody>
+            </table>
+            <h5 class="cite">The two recovery figures are not comparable &mdash; across a genus is the harder test. And &ldquo;core&rdquo; means different things: collinear across species (rhAmpSeq) vs present in every accession (pangenome).</h5>
+          </div>
+          <aside class="notes"><p><strong>Q&amp;A only.</strong> Use if asked "would you build a Flex-Seq panel for grape?" or "how does this relate to rhAmpSeq?"</p><ul><li>Same class of technology (targeted amplicon sequencing, reference-anchored panel, haplotype calls). The difference that matters is not chemistry but <strong>what fraction of the genome was targeted, and why</strong>: rhAmpSeq deliberately gave up ~91% of the genome to work in <em>V. vinifera</em>, <em>riparia</em>, <em>rupestris</em>, <em>cinerea</em>, muscadine and every hybrid between them; cranberry could afford whole-genome density because it is one species with a narrow gene pool &mdash; and paid for it with 45% missing SNP data in <em>V. oxycoccos</em>.</li><li><strong>Nearly the same alleles per marker</strong> (5.7 vs 6.1) from a 27&times; difference in sampling (14 vs 384 chromosomes) &mdash; that is <em>Vitis</em> interspecific diversity vs cranberry's post-1800s bottleneck, not a platform difference.</li><li><strong>Answer to "would you build it":</strong> no &mdash; rhAmpSeq exists, is validated at scale, and is already tiered into KASP. The open question is whether a higher-density, microhaplotype layer earns its per-sample cost for specific jobs: fine-mapping in a target population, or germplasm identity / clonal-purity audits. That would be a conversation with Lance, not a proposal.</li><li><strong>Terminology trap:</strong> if you say "core", specify which sense. rhAmpSeq's "collinear core genome" is about synteny across species; Flex-Seq's "core genes" is pangenome occupancy (Yocca et al. 2023). A gene can be one without the other.</li><li>Chemistry, one sentence if pushed: rhAmpSeq gates primer extension enzymatically (RNase H2); Flex-Seq uses two flanking probes; DArTag a single MIP-style oligo. Stop there.</li></ul></aside>
+        </section>
+
+<section class="bg-white aligncenter slide-name" slide_name="manual-phenotyping-upright">
+          <span class="background" style="background-image:url('../static/images/qtl/cranberry_phenotyping_montage.png')"></span>
+        </section>
+
+<section class="bg-apple aligncenter slide-top slide-name" slide_name="plot-traits-text">
           <span class="background bg-white ddark" style="background-size:75%;background-image:url('../static/images/ch2/upright_measure.png')"></span>
           <div class="wrap">
             <div class="grid">
@@ -398,7 +1205,7 @@
           </div>
         </section>
 
-      <section class="bg-apple aligncenter slide-name" slide_name="ch2-workflow-trait-correlations">
+<section class="bg-apple aligncenter slide-name" slide_name="ch2-workflow-trait-correlations">
         <div class="wrap" style="width:100%">
           <h1 class="text-landing aligncenter"><strong>Trait Correlations</strong></h1>
             <div class="aligncenter bg-white mermaid">
@@ -456,7 +1263,7 @@
           </div>
         </section>
 
-        <section class="bg-apple aligncenter slide-top slide-name" slide_name="ch2-trait-correlations">
+<section class="bg-apple aligncenter slide-top slide-name" slide_name="ch2-trait-correlations">
           <div class="wrap" style="width:100%">
             <h1 class="text-landing aligncenter"><strong>Trait Correlations</strong></h1>
             <div class="grid">
@@ -475,73 +1282,7 @@
         </div>
         </section>
 
-        <!-- <span class="background-center background-center bg-white" style="background-image:url('../static/images/ch2/workflow.png')"></span> -->
-        <!--
-        - BV are the additive genetic effect that an individual, or genotype, contributes to a given trait.
-        - They are predicted using a mixed model solver, using a genotype covariance matrix derived from the molecular markers
-        - Heritability is the ratio of the additive genetic variance over the total phenotypic variance in a trait, and represents
-        -   the predictive power of a population's genetics in determining a given trait
-        -->
-        <section class="bg-apple aligncenter slide-name" slide_name="ch2-models-bv-h2-workflow">
-          <!--.wrap = container (width: 95%) -->
-          <div class="wrap">
-            <h1><strong>Predict BVs and Estimate Heritabilities</strong></h1>
-            <div class="aligncenter bg-white mermaid">
-               flowchart LR
-                pop(["Populations"])
-                map(["Genetic<br>Map"])
-                subgraph startw [" "]
-                  direction LR
-                  trait([Trait Phenotypes])
-                  lm([Genotype Markers])
-                end
-                corr(["Trait&lt;br&gt;Correlations"])
-                mm(["Mixed&lt;br&gt;Models"])
-                bvs(["Breeding Values&lt;br&gt;&lpar;BLUPs&rpar;"])
-                h2([h&lt;sup&gt;2&lt;/sup&gt;])
-                qtl([QTL Mapping])
-                qtlext(["External&lt;br&gt;Study&lt;br&gt;QTL"])
-                meta([metaQTL Discovery])
-
-                pop-->trait
-                trait-->corr
-                corr-->meta
-                map-->lm
-                trait-->mm
-                lm-->mm
-                mm-->h2
-                mm-->bvs
-                bvs-->qtl
-                qtl-->meta
-                qtlext-->meta
-
-                classDef default fill:ghostwhite,stroke:black,stroke-width:1,opacity:0.3
-                classDef active opacity:1
-                classDef empty fill:transparent,stroke-width:0
-                classDef t fill:honeydew
-                classDef g1 fill:mintcream,stroke-width:1
-                classDef g2 fill:lavenderblush,stroke-width:1
-                classDef q fill:lavender,stroke-width:1
-                classDef mq fill:lightcyan,stroke-width:1
-               
-                class startw empty
-                class corr q
-                class lm t
-                class trait t
-                class mm g1
-                class mm active
-                class h2 g2
-                class h2 active
-                class bvs g2
-                class bvs active
-                class qtl q
-                class qtlext q
-                class meta mq
-            </div>
-          </div>
-        </section>
-
-        <section class="bg-apple aligncenter slide-name" slide_name="ch2-models-bv-h2">
+<section class="bg-apple aligncenter slide-name" slide_name="ch2-models-bv-h2">
           <div class="wrap">
             <h1><strong>Predict BVs and Estimate Heritabilities</strong></h1>
             <hr>
@@ -579,11 +1320,11 @@
           </div>
         </section>
 
-        <section class="bg-white aligncenter slide-top slide-name" slide_name="ch2-trait-heritabilities">
+<section class="bg-white aligncenter slide-top slide-name" slide_name="ch2-trait-heritabilities">
           <span class="background-contain background-center" style="background-image:url('../static/images/ch2/heritabilities.png')"></span>
         </section>
 
-        <section class="bg-apple aligncenter slide-name" slide_name="ch2-metaqtl-across-model-workflow">
+<section class="bg-apple aligncenter slide-name" slide_name="ch2-metaqtl-across-model-workflow">
           <div class="wrap">
             <h1><strong>metaQTL</strong></h1>
             <div class="aligncenter bg-white mermaid">
@@ -642,73 +1383,19 @@
           </div>
         </section>
 
-        <section class="bg-apple aligncenter slide-name" slide_name="ch2-metaqtl-across-model-all-title">
-          <span class="background-contain background-center ddark" style="background-image:url('../static/images/ch2/across_model_metaqtl.jpeg')"></span>
-          <div class="wrap">
-            <h1><strong>Across Year metaQTL</strong></h1>
-          </div>
-        </section>
-        
-        <section class="bg-white aligncenter slide-name" slide_name="ch2-metaqtl-across-model-all">
+<section class="bg-white aligncenter slide-name" slide_name="ch2-metaqtl-across-model-all">
           <span class="background-contain background-center" style="background-image:url('../static/images/ch2/across_model_metaqtl.jpeg')"></span>
         </section>
 
-        <section class="bg-apple aligncenter slide-name" slide_name="ch2-metaqtl-multitrait-all-title">
-          <span class="background-contain background-center ddark" style="background-image:url('../static/images/ch2/multitrait_metaqtl.wide.png')"></span>
-          <div class="wrap">
-            <h1><strong>Multi-trait metaQTL</strong></h1>
-          </div>
-        </section>
-        
-        <section class="bg-white aligncenter slide-name" slide_name="ch2-metaqtl-multitrait-all">
+<section class="bg-white aligncenter slide-name" slide_name="ch2-metaqtl-multitrait-all">
           <span class="background-contain background-center" style="background-image:url('../static/images/ch2/multitrait_metaqtl.wide.png')"></span>
         </section>
 
-        <section class="bg-apple aligncenter slide-name" slide_name="ch2-metaqtl-multistudy-all-title">
-          <span class="background-contain background-center ddark" style="background-image:url('../static/images/ch2/multistudy_metaqtl.original.jpeg')"></span>
-          <div class="wrap">
-            <h1><strong>Multi-study metaQTL</strong></h1>
-          </div>
-          <footer class="alignright">
-            <p class="alignright" style="line-height:1rem">
-              <font size="-1">
-                <em><strong>Schlautman et al. 2015.</strong> G3 Genes|Genomes|Genetics 7, 1177–1189. doi: 10.1534/g3.116.037556</em>
-              </font>
-            </p>
-            <br>
-            <p class="alignright" style="line-height:1rem">
-              <font size="-1">
-                <em><strong>Diaz-Garcia et al. 2018.</strong> PeerJ 6, e5461. doi: 10.7717/peerj.5461</em>
-              </font>
-            </p>
-            <br>
-            <p class="alignright" style="line-height:1rem">
-              <font size="-1">
-                <em><strong>Diaz-Garcia et al. 2018.</strong> Mol. Genet. Genomics 293, 1379–1392. doi: 10.1007/s00438-018-1464-z</em>
-              </font>
-            </p>
-          </footer>
-        </section>
-        
-        <section class="bg-white aligncenter slide-name" slide_name="ch2-metaqtl-multistudy-all">
+<section class="bg-white aligncenter slide-name" slide_name="ch2-metaqtl-multistudy-all">
           <span class="background-contain background-center" style="background-image:url('../static/images/ch2/multistudy_metaqtl.original.jpeg')"></span>
         </section>
-<!--
-1542 single QTL, 470 QTL major (PVE ≥ 0.1)	
 
-Figure 4: Stable-QTL this study = 13 QTL
-CNJ02 = 9 QTL  2shape, 1size, 3 fruitWeight, 1 rot, 1 yield, 1 Tacy 
-CNJ04 = 4 QTL 1Pac, 1 Fruit Weight, 1 size, 1 shape 		
-
-Figure 5: Multi-trait-QTL = 8QTL
-CNJ02  = 7QTL (2shape, 2Fruitwt, 1 Tacy, 1 yield)
-CNJ04 = 1 QTL (1shape)	
-
-Figure 6: Meta-QTL
-All Zalapa lab studies 29 multi-trait QTLS, and 63 single-trait-Meta-QTL 
-                  <i class="fa-light fa-disease fa-2xl" style="color: #000000;"></i>
-      -->
-        <section class="bg-apple slide-center slide-name" slide_name="ch2-summary-single">
+<section class="bg-apple slide-center slide-name" slide_name="ch2-summary-single">
           <span class="background-contain background-right ddark" style="background-image:url('../static/images/qtl/circos_qtl_background.svg')"></span>
           <div class="wrap">
             <div class="content-left">
@@ -722,7 +1409,7 @@ All Zalapa lab studies 29 multi-trait QTLS, and 63 single-trait-Meta-QTL
           </div>
         </section>
 
-        <section class="bg-apple aligncenter fullscreen slide-name" slide_name="ch2-summary">
+<section class="bg-apple aligncenter fullscreen slide-name" slide_name="ch2-summary">
           <div class="wrap bg-white">
             <h1><strong>metaQTL Summaries</strong></h1>
             <div class="grid vertical-align">
@@ -781,7 +1468,7 @@ All Zalapa lab studies 29 multi-trait QTLS, and 63 single-trait-Meta-QTL
             </div>
           </section>
 
-        <section class="bg-apple slide-center slide-name" slide_name="ch2-summary-single">
+<section class="bg-apple slide-center slide-name" slide_name="ch2-summary-single">
           <span class="background-contain background-right ddark" style="background-image:url('../static/images/qtl/circos_qtl_background.svg')"></span>
           <div class="wrap">
             <div class="align content-left">
@@ -795,307 +1482,121 @@ All Zalapa lab studies 29 multi-trait QTLS, and 63 single-trait-Meta-QTL
           </div>
         </section>
 
-        <section class="bg-apple slide-center slide-name" slide_name="ch2-takeaways">
-          <span class="background-contain background-left dark" style="background-image:url('../static/images/qtl/circos_qtl_background.svg')"></span>
-          <div class="wrap alignright">
-            <div class="alignleft content-right">
-              <h2><strong>Takeaways</strong></h2>
-              <ul>
-               <li><h4>over 1,500 QTL for upright and plot Traits (yield & quality)</h4></li>
-               <li><h4>13 temporally stable mQTL (~50/50)</h4></li>
-               <li><h4>8 semantically stable, within-study mQTL (~50/50)</h4></li>
-               <li><h4>92 semantically stable, across-study mQTL (29 multi-trait, 63 single-trait)</h4></li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-        <!--
-        -- CranSchool Summary
-        Mean berry weight is tightly correlated between upright traits and plot traits
-        Tacy vs. Percent Fruit Rot tradeoff
-        High heritability in LvW (roundness) and Tacy = easy targets for selection
-        Modest TY heritability = room for limited yield improvement
-        Berry roundness parameters and mean fruit weight have stable genetic associations on chromosomes 2, 11, and 12
-        Durable TY genetic associations are limited, but chromosome 11 has a promising target
-        Mean performance >> marker-based selection, but gap is shrinking
-        -->
-
-        <section class="bg-apple aligncenter slide-name" slide_name="ch3-title">
-          <div class="embed cover background"> 
-              <video autoplay loop>
-                  <source src="../static/videos/season_slideshow.mp4">
-              </video>
-          </div>
-        </section>
-
-        <section class="bg-apple aligncenter slide-name" slide_name="ch3-title">
-          <div class="embed cover background ddark"> 
-              <video autoplay loop>
-                  <source src="../static/videos/GRYG Semantic Composite Short.slow.mp4">
-              </video>
-          </div>
-          <div class="wrap aligncenter">
-            <h2><strong>Modeling Spring Greening Patterns<br>among Cranberry Genotypes</strong></h2>
-            <h3><strong>via Aerial Imaging of Leaf Color</strong></h3>
-          </div>
-        </section>
-        <section class="bg-white slide-center slide-name" slide_name="ch3-objectives">
-          <div class="card-20">
-            <div class="flex-content alignleft">
-              <h2><strong>Objectives</strong></h2>
-              <ul>
-               <li><h4>Use low-cost UAV as efficient phenotyping tool</h4></li>
-               <li><h4>Monitor spring greening patterns in breeding populations</h4></li> <!-- hypothesis is that selecting for late but accelerated maturity genotypes using leaf color transitions as proxy -->
-               <li><h4>Build predictive models for leaf anthocyanin levels from UAV image indices</h4></li>
-               <li><h4>Develop new index identifying late maturing, accelerated growth genotypes</h4></li> 
-               <li><h4>Lower management costs through genetics</h4></li> 
-              </ul>
-            </div>
-              <figure>
-                <img class="bg-white" src="../static/images/ch3/progress_calendar.png">
-              </figure>
-          </div>
-        </section>
-
-        <section class="bg-apple slide-center slide-name" slide_name="ch3-populations-title">
-          <span class="background background-center ddark" style="background-image:url('../static/images/ch3/population_weatherstation_map.A535nm_CDD.A.png')"></span>
-          <div class="wrap aligncenter">
-            <h2><strong>Populations</strong></h2>
-          </div>
-        </section>
-        <section class="bg-apple slide-center slide-name" slide_name="ch3-populations-map">
-          <span class="background background-center" style="background-image:url('../static/images/ch3/population_weatherstation_map.A535nm_CDD.A.png')"></span>
-        </section>
-        <section class="bg-apple slide-center slide-name" slide_name="ch3-populations-map-cnj0x">
+<section class="bg-apple slide-center slide-name" slide_name="ch3-populations-map-cnj0x">
           <span class="background-contain background-center" style="background-image:url('../static/images/ch3/population_cnj0x.png')"></span>
         </section>
-        <section class="bg-apple slide-center slide-name" slide_name="ch3-populations-map-gryg">
+
+<section class="bg-apple slide-center slide-name" slide_name="ch3-populations-map-gryg">
           <span class="background-contain background-center" style="background-image:url('../static/images/ch3/population_gryg.png')"></span>
         </section>
-        
-        <section class="bg-white slide-center slide-name" slide_name="ch3-groundtruth-title">
-          <span class="background-contain background-center ddark" style="background-image:url('../static/images/ch3/gt1.png')"></span>
-          <div class="wrap aligncenter">
-            <h2><strong>Ground Truth Data</strong></h2>
-          </div>
-        </section>
-        <section class="bg-white slide-center slide-name" slide_name="ch3-groundtruth-1">
+
+<section class="bg-white slide-center slide-name" slide_name="ch3-groundtruth-1">
           <span class="background-contain background-center" style="background-image:url('../static/images/ch3/gt1.png')"></span>
         </section>
-        <section class="bg-white slide-center slide-name" slide_name="ch3-groundtruth-2">
+
+<section class="bg-white slide-center slide-name" slide_name="ch3-groundtruth-2">
           <span class="background-contain background-center" style="background-image:url('../static/images/ch3/gt2.png')"></span>
         </section>
-        <section class="bg-white slide-center slide-name" slide_name="ch3-groundtruth-2">
+
+<section class="bg-white slide-center slide-name" slide_name="ch3-groundtruth-2">
           <span class="background-contain background-center" style="background-image:url('../static/images/ch3/gt3.png')"></span>
         </section>
 
-        <section class="bg-white slide-center slide-name" slide_name="ch3-vis-title">
-          <span class="background-contain background-center ddark" style="background-image:url('../static/images/ch3/vis.png')"></span>
-          <div class="wrap aligncenter">
-            <h2><strong>Extract Image Features</strong></h2>
-          </div>
-        </section>
-        <section class="bg-white slide-center slide-name" slide_name="ch3-vis-1">
+<section class="bg-white slide-center slide-name" slide_name="ch3-vis-1">
           <span class="background-contain background-center" style="background-image:url('../static/images/ch3/vis.png')"></span>
         </section>
 
-        <section class="bg-white slide-center slide-name" slide_name="ch3-correlations-title">
-          <span class="background-contain background-center ddark" style="background-image:url('../static/images/ch3/A535nmMean_VI_correlations.montage.ABC.png')"></span>
-          <div class="wrap aligncenter">
-            <h2><strong>Characterize Image Features</strong></h2>
-          </div>
-        </section>
-        <section class="bg-white slide-center slide-name" slide_name="ch3-correlations-1">
-          <span class="background-contain background-center" style="background-image:url('../static/images/ch3/A535nmMean_VI_correlations.montage.ABC.png')"></span>
+<section class="bg-white slide-center slide-name" slide_name="ch3-regression-fits-1">
+          <span class="background-contain background-center" style="background-image:url('../static/images/ch3/manuscript/fig04_model_resamples.png')"></span>
+          <aside class="notes"><p>Manuscript Fig. 4 (replaces the thesis simulated-annealing panel): 50 resamples of an 80:20 split; RFR R&sup2; &asymp; 0.945, RMSE &asymp; 0.148, MAE &asymp; 0.085; the four linear models cluster at R&sup2; &asymp; 0.90, RMSE &asymp; 0.20, MAE &asymp; 0.13. m = predictors per model (19; 16 components for PCR/PLSR).</p></aside>
         </section>
 
-        <section class="bg-white slide-center slide-name" slide_name="ch3-regression-fits-title">
-          <span class="background-contain background-center ddark" style="background-image:url('../static/images/ch3/model.resamples.A535nmMean.reps.s1.reduced.ncdd.nna.png')"></span>
-          <div class="wrap aligncenter">
-            <h2><strong>Regression Fit</strong></h2>
-          </div>
-        </section>
-        <section class="bg-white slide-center slide-name" slide_name="ch3-regression-fits-1">
-          <span class="background-contain background-center" style="background-image:url('../static/images/ch3/model.resamples.A535nmMean.reps.s1.reduced.ncdd.nna.png')"></span>
+<section class="bg-white slide-center slide-name" slide_name="ch3-regression-cv-1">
+          <span class="background-contain background-center" style="background-image:url('../static/images/ch3/manuscript/fig06_prediction_cv.png')"></span>
+          <aside class="notes"><p>Manuscript Fig. 6 (replaces the thesis version, whose SA median was 5.91): CV of predicted A535 across repeated images of the same plot within a session. Medians: LR 6.32, PCR 6.14, PLSR 6.26, RR 6.33, RFR 3.88 (n = 10,489). Friedman p &ll; 0.001; Holm-adjusted groups a/b/a/c/d.</p></aside>
         </section>
 
-        <section class="bg-white slide-center slide-name" slide_name="ch3-regression-cv-title">
-          <span class="background-contain background-center ddark" style="background-image:url('../static/images/ch3/predicted.dataset_population_session_pid_datetime_rep.A535nmMean.s1.cv.model_type.reduced.ncdd.nna.1755357443.nosubtitle.png')"></span>
-          <div class="wrap aligncenter">
-            <h2><strong>Regression Model<br>Prediction Error Variance</strong></h2>
-          </div>
-        </section>
-        <section class="bg-white slide-center slide-name" slide_name="ch3-regression-cv-1">
-          <span class="background-contain background-center" style="background-image:url('../static/images/ch3/predicted.dataset_population_session_pid_datetime_rep.A535nmMean.s1.cv.model_type.reduced.ncdd.nna.1755357443.nosubtitle.png')"></span>
-        </section>
 
-        <section class="bg-white slide-center slide-name" slide_name="ch3-regression-prediction-progress-title">
-          <span class="background-contain background-center ddark" style="background-image:url('../static/images/ch3/quantiles.A535nmMean.sa.reps.1752981194.png')"></span>
-          <div class="wrap aligncenter">
-            <h2><strong>Regression Model<br>Prediction Progression</strong></h2>
-          </div>
-        </section>
-        <section class="bg-white slide-center slide-name" slide_name="ch3-regression-prediction-progress-1">
-          <span class="background-contain background-center" style="background-image:url('../static/images/ch3/quantiles.A535nmMean.sa.reps.1752981194.png')"></span>
-        </section>
 
-        <section class="bg-white slide-center slide-name" slide_name="ch3-regression-rank-gryg-title">
-          <span class="background-contain background-center ddark" style="background-image:url('../static/images/ch3/plotphenology_image_grid.gryg.P40_P97.png')"></span>
-          <div class="wrap aligncenter">
-            <h2><strong>LMI<br>high- and low-ranking<br>Genotypes</strong></h2>
-          </div>
-        </section>
-        <section class="bg-white slide-center slide-name" slide_name="ch3-regression-prediction-progress-both-1">
-          <span class="background-contain background-center" style="background-image:url('../static/images/ch3/plotphenology_image_grid.gryg.P40_P97.png')"></span>
-        </section>
-        <section class="bg-white slide-center slide-name" slide_name="ch3-regression-prediction-progress-top">
-          <span class="background-contain background-right" style="background-size:'150%';background-image:url('../static/images/ch3/plotphenology_image_grid.gryg.P40.png')"></span>
-        </section>
-        <section class="bg-white slide-center slide-name" slide_name="ch3-regression-prediction-progress-bottom">
-          <span class="background-contain background-right" style="background-size:'150%';background-image:url('../static/images/ch3/plotphenology_image_grid.gryg.P97.zoom.png')"></span>
-        </section>
-        <section class="bg-white slide-center slide-name" slide_name="ch3-regression-prediction-progress-both-2">
-          <span class="background-contain background-center" style="background-image:url('../static/images/ch3/plotphenology_image_grid.gryg.P40_P97.png')"></span>
-        </section>
 
-        <section class="bg-white slide-center slide-name" slide_name="ch3-regression-rank-gryg-title">
-          <span class="background-contain background-center ddark" style="background-image:url('../static/images/ch3/top.png')"></span>
-          <div class="wrap aligncenter">
-            <h2><strong>Top-ranking<br>Genotypes</strong></h2>
-          </div>
-        </section>
-        <section class="bg-white slide-center slide-name" slide_name="ch3-regression-prediction-progress-both-1">
-          <span class="background-contain background-center" style="background-image:url('../static/images/ch3/top.png')"></span>
-        </section>
-
-        <section class="bg-apple slide-center slide-name" slide_name="ch3-takeaways">
-          <span class="background-contain background-left ddark" style="background-image:url('../static/images/ch3/flyover.jpg')"></span>
-          <div class="wrap alignright">
-            <div class="alignleft content-right">
-              <h2><strong>Takeaways</strong></h2>
-              <ul>
-               <li><h3>Regression models have high accuracy and low variances.</h3></li>
-               <li><h3>Model parsimony</h3></li>
-               <li><h3>Predictions are visually consistent</h3></li>
-               <li><h3>Developed a novel selection index (LMI)</h3></li>
-               <li><h3>Need for higher temporal sampling for CDD range 100-175</h3></li>
-               <li><h3>Is there sufficient genetic variation?</h3></li>
-              </ul>
+<section class="bg-apple slide-name" slide_name="ch3-lmi-rankings">
+          <div class="wrap">
+            <h5 class="kicker">Backup &middot; spring-greening manuscript, Tables 3&ndash;4</h5>
+            <h2 class="aligncenter"><strong>LMI rankings: top and bottom 5% per population</strong></h2>
+            <div class="grid">
+              <div class="column">
+                <table class="map-table cmp-table lmi-table">
+                  <thead><tr><th colspan="6">Highest-scoring genotypes</th></tr><tr><th>GRYG</th><th>LMI</th><th>CNJ02</th><th>LMI</th><th>CNJ04</th><th>LMI</th></tr></thead>
+                  <tbody>
+                    <tr><td>P40</td><td>85.9</td><td>CNJ02-1-70</td><td>93.6</td><td>CNJ04-2-5</td><td>36.5</td></tr>
+                    <tr><td>P11</td><td>77.1</td><td>CNJ02-1-14</td><td>64.5</td><td>CNJ04-21-23</td><td>32.3</td></tr>
+                    <tr><td>P461</td><td>76.3</td><td>CNJ02-1-201</td><td>56.1</td><td>CNJ04-21-25</td><td>30.2</td></tr>
+                    <tr><td>P157</td><td>74.7</td><td>CNJ02-1-191</td><td>54.5</td><td></td><td></td></tr>
+                    <tr><td>P79</td><td>72.2</td><td>CNJ02-1-32</td><td>48.7</td><td></td><td></td></tr>
+                    <tr><td>P212</td><td>72.0</td><td>CNJ02-1-96</td><td>47.5</td><td></td><td></td></tr>
+                    <tr><td>P131</td><td>71.4</td><td>CNJ02-1-20</td><td>47.0</td><td></td><td></td></tr>
+                    <tr><td>P209</td><td>69.0</td><td>CNJ02-1-83</td><td>45.3</td><td></td><td></td></tr>
+                    <tr><td>P331</td><td>68.7</td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td>P235</td><td>68.5</td><td></td><td></td><td></td><td></td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="column">
+                <table class="map-table cmp-table lmi-table">
+                  <thead><tr><th colspan="6">Lowest-scoring genotypes</th></tr><tr><th>GRYG</th><th>LMI</th><th>CNJ02</th><th>LMI</th><th>CNJ04</th><th>LMI</th></tr></thead>
+                  <tbody>
+                    <tr><td>P150</td><td>&minus;58.7</td><td>CNJ02-1-51</td><td>&minus;62.6</td><td>CNJ04-2-20</td><td>&minus;38.9</td></tr>
+                    <tr><td>P35</td><td>&minus;47.3</td><td>CNJ02-1-67</td><td>&minus;51.5</td><td>CNJ04-21-28</td><td>&minus;36.7</td></tr>
+                    <tr><td>P97</td><td>&minus;47.1</td><td>CNJ02-1-140</td><td>&minus;51.1</td><td>CNJ04-21-8</td><td>&minus;32.6</td></tr>
+                    <tr><td>P22</td><td>&minus;42.6</td><td>CNJ02-1-42</td><td>&minus;50.3</td><td></td><td></td></tr>
+                    <tr><td>P451</td><td>&minus;42.4</td><td>CNJ02-1-77</td><td>&minus;49.9</td><td></td><td></td></tr>
+                    <tr><td>P94</td><td>&minus;39.5</td><td>CNJ02-1-3</td><td>&minus;47.2</td><td></td><td></td></tr>
+                    <tr><td>P258</td><td>&minus;38.7</td><td>CNJ02-1-78</td><td>&minus;47.0</td><td></td><td></td></tr>
+                    <tr><td>P367</td><td>&minus;38.3</td><td>CNJ02-1-148</td><td>&minus;44.3</td><td></td><td></td></tr>
+                    <tr><td>P20</td><td>&minus;38.2</td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td>P425</td><td>&minus;37.3</td><td></td><td></td><td></td><td></td></tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
+            <h5 class="cite">Top / bottom 5% (max 10) per population by LMI, random-forest anthocyanin predictions. LMI is population-relative &mdash; scores are not comparable across populations.</h5>
           </div>
+          <aside class="notes"><p><strong>Q&amp;A only.</strong> Manuscript Tables 3&ndash;4 (replaces the thesis-era ranking image, whose scores came from the simulated-annealing model: P40 72.2, CNJ02-1-70 66.8). The figure pairs are P40 vs P150 (GRYG, Fig. 11) and CNJ02-1-70 vs CNJ02-1-67 (Figs. 9&ndash;10).</p><ul><li>Note the manuscript's own inconsistency: the Results text still says 66.8 / &minus;57.6 for CNJ02-1-70 / -67 (thesis values) while Tables 3&ndash;4 and Fig. 9 say 93.6 / &minus;51.5. Fix the text before resubmission; quote the table values if asked.</li><li>Within-population only: LMI is the signed area against that population's own decay curve (manuscript limitation #2).</li></ul></aside>
         </section>
 
-        <section class="bg-apple aligncenter slide-name" slide_name="ch4-title">
-          <span class="background background-right ddark" style="background-image:url('../static/images/ch4/montage_comic.jpg')"></span>
-          <div class="wrap aligncenter">
-            <h2><strong>Mapping the Genetic Basis</strong></h2> 
-            <h2><strong>of Temporal Segregation</strong></h2>
-            <h2><strong>of Spring Greening in Cranberry</strong></h2>
-          </div>
-        </section>
-
-        <section class="bg-apple slide-center slide-name" slide_name="ch4-objectives">
-          <span class="background background-right bg-white ddark" style="background-image:url('../static/images/ch4/qtl_collated.png')"></span>
-          <div class="wrap aligncenter">
-            <div class="alignleft content-left">
-              <h2><strong>Objectives</strong></h2>
-              <ul>
-               <li><h4>Characterize genetic basis of LMI in 3 populations</h4></li>
-               <li><h4>Map QTL for LMI</h4></li>
-               <li><h4>Develop genetic markers for spring frost resilience</h4></li>
-               <li><h4>Perform candidate gene analysis of QTL</h4></li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-        <section class="bg-white slide-center slide-name" slide_name="ch4-distributions-title">
-          <span class="background-contain background-center ddark" style="background-image:url('../static/images/ch4/scores.dataset_population_session_pid_datetime_rep.A535nmMean.reps.s1.reduced.ncdd.nna.distributions.qqplots.png')"></span>
-          <div class="wrap aligncenter">
-            <h2><strong>LMI Distributions</strong></h2>
-          </div>
-        </section>
-        <section class="bg-white slide-center slide-name" slide_name="ch4-distributions-1">
-          <span class="background-contain background-center" style="background-image:url('../static/images/ch4/scores.dataset_population_session_pid_datetime_rep.A535nmMean.reps.s1.reduced.ncdd.nna.distributions.qqplots.png')"></span>
-        </section>
-
-        <section class="bg-white slide-center slide-name" slide_name="ch4-blups-title">
-          <span class="background-contain background-center ddark" style="background-image:url('../static/images/ch4/blups_collated.density.png')"></span>
-          <div class="wrap aligncenter">
-            <h2><strong>CNJ02 BLUPs</strong></h2>
-          </div>
-        </section>
-        <section class="bg-white slide-center slide-name" slide_name="ch4-blups-1">
-          <span class="background-contain background-center" style="background-image:url('../static/images/ch4/blups_collated.density.png')"></span>
-        </section>
-
-        <section class="bg-white slide-center slide-name" slide_name="ch4-qtl-table-title">
-          <span class="background-contain background-center ddark" style="background-image:url('../static/images/ch4/qtl_table.png')"></span>
-          <div class="wrap aligncenter">
-            <h2><strong>CNJ02 LMI QTL</strong></h2>
-          </div>
-        </section>
-        <section class="bg-white slide-center slide-name" slide_name="ch4-qtl-table-1">
+<section class="bg-white slide-center slide-name" slide_name="ch4-qtl-table-1">
           <span class="background-contain background-center" style="background-image:url('../static/images/ch4/qtl_table.png')"></span>
         </section>
 
-        <section class="bg-white slide-center slide-name" slide_name="ch4-qtl-plot-title">
-          <span class="background-contain background-center ddark" style="background-image:url('../static/images/ch4/qtl_collated.png')"></span>
-          <div class="wrap aligncenter">
-            <h2><strong>CNJ02 LMI QTL</strong></h2>
-          </div>
-        </section>
-        <section class="bg-white slide-center slide-name" slide_name="ch4-qtl-plot-1">
-          <span class="background-contain background-center" style="background-image:url('../static/images/ch4/qtl_collated.png')"></span>
-        </section>
-
-        <section class="bg-white slide-center slide-name" slide_name="ch4-genes-title">
-          <span class="background-contain background-center ddark" style="background-image:url('../static/images/ch4/genes1.png')"></span>
-          <div class="wrap aligncenter">
-            <h2><strong>CNJ02 LMI QTL</strong></h2>
-          </div>
-        </section>
-        <section class="bg-white slide-center slide-name" slide_name="ch4-genes-plot-1">
-          <span class="background-contain background-center" style="background-image:url('../static/images/ch4/genes1.png')"></span>
-        </section>
-        <section class="bg-white slide-center slide-name" slide_name="ch4-genes-plot-2">
+<section class="bg-white slide-center slide-name" slide_name="ch4-genes-plot-2">
           <span class="background-contain background-center" style="background-image:url('../static/images/ch4/genes2.png')"></span>
         </section>
-        <section class="bg-white slide-center slide-name" slide_name="ch4-genes-plot-3">
+
+<section class="bg-white slide-center slide-name" slide_name="ch4-genes-plot-3">
           <span class="background-contain background-center" style="background-image:url('../static/images/ch4/genes3.png')"></span>
         </section>
 
-        <section class="bg-apple slide-center slide-name" slide_name="ch4-takeaways">
-          <span class="background background-left bg-white ddark" style="background-image:url('../static/images/ch4/qtl_collated.png')"></span>
-          <div class="wrap alignright">
-            <div class="alignleft content-right">
-              <h2><strong>Takeaways</strong></h2>
-              <ul>
-               <li><h4>genetic signature only found in CNJ02</h4></li>
-               <li><h4>LMI additive genomic heritability is reasonably high (h<sup>2</sup>=0.74)</h4></li>
-               <li><h4>11 QTL found, none major</h4></li>
-               <li><h4>Evidence suggests that LMI does not correlate with harvest window</h4></li>
-               <li><h4>Preliminary gene analysis indicates genes tied to circadian rhythms, photoperiod sensing, vernalization, and floral induction</h4></li>
-              </ul>
-            </div>
-          </div>
+        <section class="bg-white slide-name" slide_name="bk-data-hierarchy">
+          <span class="background-contain background-center" style="background-image:url('../static/images/ch3/manuscript/fig02_uav_imaging_process_topology.png')"></span>
+          <aside class="notes"><p>Population &rarr; dataset (flight date) &rarr; session hierarchy from the manuscript.</p></aside>
         </section>
 
-        <section class="bg-white slide-center slide-name" slide_name="acks">
-          <span class="background-contain background-center" style="background-image:url('../static/images/acks/acks-all.png')"></span>
+        <section class="bg-white slide-name" slide_name="bk-cnj02-2018">
+          <span class="background-contain background-center" style="background-image:url('../static/images/ch3/manuscript/fig09_plot_grid_cnj02_2018.png')"></span>
+          <aside class="notes"><p>CNJ02 2018 (manuscript Fig. 9): row 2 CNJ02-1-70 (high LMI, score 93.6) vs row 3 CNJ02-1-67 (low LMI, &minus;51.5). Largest segregation at GDD 104 (5/7/2018).</p></aside>
         </section>
 
-        <section class="bg-apple aligncenter slice-center slide-name" slide_name="questions">
-          <div class="embed cover background dark"> 
-              <video autoplay loop>
-                  <source src="../static/videos/montage_series.mp4">
-              </video>
-          </div>
-          <div class="wrap aligncenter">
-            <h2><strong>Questions?</strong></h2>
-          </div>
+        <section class="bg-white slide-name" slide_name="bk-cnj02-2019">
+          <span class="background-contain background-center" style="background-image:url('../static/images/ch3/manuscript/fig10_plot_grid_cnj02_2019.png')"></span>
+          <aside class="notes"><p>CNJ02 2019 (manuscript Fig. 10): same pair, second season &mdash; CNJ02-1-70 high, CNJ02-1-67 low. Segregation is widest at GDD 139 (5/15/2019).</p></aside>
         </section>
+
+        <section class="bg-white slide-name" slide_name="bk-rf-fit-by-date">
+          <span class="background-contain background-center" style="background-image:url('../static/images/ch3/manuscript/fig07_lmi_decay_curves.png')"></span>
+          <aside class="notes"><p>Manuscript Fig. 7: random-forest fitted vs observed A535 by flight date (ellipses labelled with date and GDD) and population; CNJ0X 2018/2019, GRYG 2018 only. (File is named fig07_lmi_decay_curves.png but it is the fitted-vs-observed figure.)</p></aside>
+        </section>
+</ws-section>
+
       </article>
     </main>
     <!--main-->
