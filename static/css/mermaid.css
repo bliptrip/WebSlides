@@ -1,0 +1,22 @@
+.mermaid svg { 
+  max-width: 100%; 
+  font-weight:400;
+}
+
+.mermaid .subtitle {
+  fill:aliceblue;
+  font-weight:300;
+  font-size:small;
+  color:slategrey;
+  padding: 0px;
+}
+
+.mermaid .desc {
+  font-weight:250;
+  font-size:small;
+  color:darkslategray;
+  font-style: italic;
+  padding: 0px;
+}
+
+svg[id^="mermaid-"] {max-width: 100%; width: 100%; height: auto;}

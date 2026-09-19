@@ -1,5 +1,6 @@
 import AutoSlide from './autoslide';
 import ClickNav from './click-nav';
+import Dummy from './dummy';
 import Grid from './grid';
 import Hash from './hash';
 import Keyboard from './keyboard';
@@ -13,6 +14,7 @@ import Zoom from './zoom';
 export default {
   AutoSlide,
   ClickNav,
+  Dummy,
   Grid,
   Hash,
   Keyboard,

@@ -1,0 +1,25 @@
+[class*="filltb-"] {
+  display: flex;
+  flex-direction: column;
+}
+
+.filltb-top {
+    justify-content:start;
+}
+
+.filltb-bottom {
+    justify-content: end;
+}
+
+.filltb-center {
+    justify-content: center;
+}
+
+ul.oldschool li {
+    padding-left: 3ch;
+    list-style:square;
+}
+
+li.ulnest {
+    list-style:none;
+}
